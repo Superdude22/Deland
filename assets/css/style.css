@@ -4145,6 +4145,11 @@ H1, H2, H3, H4, H5 P STYLES
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none; }
 
+h1, .h1 {
+  font-size: 66px;
+  color: blue;
+  font-family: "Candal", sans-serif; }
+
 /*********************
 HEADER STYLES
 *********************/
