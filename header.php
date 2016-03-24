@@ -37,6 +37,18 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
+		<?php if ( is_front_page() ) { ?>
+
+					<section class="section-intro row align-middle" id="section-intro">
+						<div class="large-4 column">
+							<h1>SKYDIVE DELAND INTRO</h1>
+						</div>
+					</section>
+
+					
+
+					<?php } ?>
+
 
 		<div class="off-canvas-wrapper">
 			
@@ -45,6 +57,11 @@
 				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 				
 				<div class="off-canvas-content" data-off-canvas-content>
+				
+					<?php if ( is_front_page() ) { ?>
+						<div id="all-wrap" class="all-wrap">
+
+					<?php }else{ ?>
 					
 					<header class="header" role="banner">
 							
@@ -53,3 +70,5 @@
 						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 		 	
 					</header> <!-- end .header -->
+
+					<?php } ?>

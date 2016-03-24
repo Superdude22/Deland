@@ -7,6 +7,10 @@ Stylesheet: Main Stylesheet
 /*********************
 GENERAL STYLES
 *********************/
+.all-wrap{
+	height:100%;
+	//background-color:red;
+}
 
 /*********************
 LINK STYLES
@@ -62,6 +66,21 @@ HEADER STYLES
 		list-style: none;
 	}
 }
+
+/*********************
+HEADER STYLES
+*********************/
+.section-intro{
+  height:100%;
+   background: url(http://lorempixel.com/400/200/sports/1) no-repeat 70% 50%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
     
 /*********************
 NAVIGATION STYLES
