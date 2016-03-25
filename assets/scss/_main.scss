@@ -40,8 +40,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
 	font-size:66px;
-	color:blue;
+	color: $blue;
 	font-family: $candal;
+	@include text-shadow(2px, 2px, 7px, rgba(0,0,0,.3));
+	.highlight{
+		color:$yellow;
+	}
+	.highlight2{
+		color:$light-gray;
+	}
 
 }
 

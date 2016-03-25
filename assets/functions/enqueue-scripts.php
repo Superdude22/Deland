@@ -10,6 +10,9 @@ function site_scripts() {
     
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), '', true );
+
+    //slabText
+    wp_enqueue_script( 'slabText', get_template_directory_uri() . '/assets/js/jquery.slabtext.min.js', array( 'jquery' ), '', true );
    
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
