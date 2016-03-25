@@ -2,15 +2,16 @@
 
 <div id="sticky-wrap">
 	<div data-sticky-container>
-	<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="sticky-wrap" data-btm-anchor="sticky-wrap:bottom">
-	    <nav data-magellan>
-	      <ul class="horizontal menu expanded">
-	      <h1><a href="#section-intro">First Arrival</a></h1>
-	      <h1><a href="#comments">Second Arrival</a></h1>
-	      <h1><a href="#comments">Third Arrival</a></h1>
-	      </ul>
-	    </nav>
-	</div>
+		<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="sticky-wrap" data-btm-anchor="sticky-wrap:bottom">
+		    <nav data-magellan>
+		      <ul class="horizontal menu expanded">
+		      <h1><a href="#section-intro">First Arrival</a></h1>
+		      <h1><a href="#comments">Second Arrival</a></h1>
+		      <h1><a href="#comments">Third Arrival</a></h1>
+		      </ul>
+		    </nav>
+		     <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+		</div>
 	</div>	
 	
 	<div id="content">
