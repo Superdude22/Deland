@@ -22,10 +22,10 @@ TOOLS
 /*********************
 COLORS
 *********************/
-$yellow: #FFE300;
-$dk-yellow: #BA970F;
-$dk-blue: #000B4F;
-$blue: #0807D8;
+$yellow: rgba(255, 227, 0, 1);
+$dk-yellow: rgba(186, 151, 15, 1);
+$dk-blue: rgba(0, 11, 79, 1);
+$blue: rgba(8, 7, 216, 1);
 
 
 /*********************
@@ -90,4 +90,38 @@ CSS3 GRADIENTS.
 	background-image: linear-gradient(to bottom, $from, $to);
 }
 
+
+/*Opacity*/
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+/*Plane Styles*/
+@mixin otter-stripe(){
+    height: 1.8rem;
+    background:repeating-linear-gradient(
+      0deg,
+      $dk-blue,
+      $dk-blue 0.6rem,
+      $white 0.6rem,
+      $white 0.8rem,
+      $yellow 0.8rem,
+      $yellow 1rem,
+      $white 1rem,
+      $white 1.2rem,
+      $dk-blue 1.2rem,
+      $dk-blue 1.8rem,
+      $white 1.8rem,
+      $white 2.0rem,
+      $dk-yellow 2rem,
+      $dk-yellow 2.2rem,
+      $white 2.2rem,
+      $white 2.4rem,
+      $dk-blue 2.4rem,
+      $dk-blue 3rem
+    );
+    opacity:1;
+}
 

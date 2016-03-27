@@ -37,12 +37,6 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-		<?php if ( is_front_page() ) { ?>
-
-					
-				<?php } ?>
-
-
 		<div class="off-canvas-wrapper">
 			
 			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -54,8 +48,8 @@
 					<?php if ( is_front_page() ) { ?>
 					<section class="section-intro" id="section-intro">
 						<div class="intro row align-middle">
-							<div class="medium-6 medium-offset-6 column">
-							<h1>SKYDIVE<br><span class="highlight">DELAND</span><br><span class="highlight2">INTRO</span></h1><hr>
+							<div class="medium-6 medium-offset-4 column text-right">
+							<h1><span class="slabtext">SKYDIVE</span> <span class="highlight">DELAND</span></h1><hr>
 							<h4>Home of Such and such</h4>
 							</div>
 						</div>	
