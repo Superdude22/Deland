@@ -125,8 +125,20 @@
 						</div>
 					</div>
 				</section>
+				<section class="about">
+					<h1>About Deland</h1>
+					
+				</section>
+				<section class="contact">
+					<h1>Contact Deland / Map</h1>
+				</section>
+				<section class="photostream">
+					<h1>Photos</h1>
+					<p>Should this be instagram or hosted images? Videos?</p>
+					
+				</section>
 				<aside class="promo">
-					<p>Promo</p>
+					<p>Promo Banner</p>
 				</aside>
 
 

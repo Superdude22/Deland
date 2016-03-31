@@ -3,7 +3,6 @@ jQuery(document).foundation();
 Main Functions
 */
 
-
 /*	Skrollr */
 
 /*! viewportSize | Author: Tyson Matanich, 2013 | License: MIT */
@@ -71,6 +70,7 @@ Main Functions
 	}
 		
 } )( jQuery );
+
 /* 
 These functions make sure WordPress 
 and Foundation play nice together.
