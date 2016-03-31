@@ -2,40 +2,32 @@
 
 <div id="sticky-wrap">
 	<div class="nav-pos" data-sticky-container>
-		<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="sticky-wrap" data-btm-anchor="sticky-wrap:bottom">
-			<div class="logo-bar row align-spaced">
-				<div class="small-2 medium-2 columns align-middle">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+		<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="logo-bar" data-btm-anchor="sticky-wrap:bottom">
+			
+			<div class="logo-bar" id="logo-bar">
+				<div class="row logo align-bottom expanded">
+					<div class="small-1 column">
+						</div>
+					<div class="small-2 column">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+					</div>
+					<div class="column">
+						</div>
+					<div class="small-3 column">
+						<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+					</div>
+					<div class="small-1 column">
+					</div>					
 				</div>
-				<div class="small-4 medium-6 columns text-right align-bottom">
-					<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
-				</div>
-
-				<div class="small-expand columns nav-bar row">
-					<div class="small-expand columns">
+				<div class="row expanded nav-bar">
+					<div class="small-1 column">
+						</div>
+					<div class="columns">
 						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 					</div>
-					  
-					  	<div class="small-3 columns">
-					  		<h3>Current Weather</h3>
-					  		<div class="row align-bottom">
-					  			<div class="weather-icon small-3 columns">
-					  				<i class="fa fa-sun-o fa-fw"></i>
-					  			</div>
-					  			<div class="columns">
-					  				<div class="temp">
-							  			<p>77</p>
-							  		</div>
-							  		<div class="wind">
-							  			<p>27</p>
-							  		</div>
-					  			</div>
-					  		</div>				  		
-					  		
-					  	</div>
-		
+					<div class="small-1 column">
+						</div>
 				</div>
-
 			</div>
 		  
 		</div>
@@ -67,7 +59,7 @@
 					<div class="inner expanded">
 						<div class="row">
 							<div class="column">
-								<h1 class="highlight">Something Promotional</h1>
+								<h1>Something Promotional</h1>
 							</div>	
 						</div>
 						<div class="row">
