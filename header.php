@@ -36,7 +36,7 @@
 	
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
-	<body <?php body_class('loading'); ?>>
+	<body <?php body_class(); ?>>
 		<div class="off-canvas-wrapper">
 			
 			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -46,25 +46,15 @@
 				<div class="off-canvas-content" data-off-canvas-content>
 				
 					<?php if ( is_front_page() ) { ?>
-					<section id="slide-1" class="homeSlide">
-			        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
-				        	<div class="hsContainer">				    	
-					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#slide-1 h1">
-									<div class="row expanded align-right">
-										<div class="small-4 large-8 column text-right">
-											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight">To FLY!</span></h1><hr>
-											<h4>Home of Such and such</h4>
-										</div>
-										<div class="small-1 column">
-										</div>
-									</div>
-									
-					    		</div>
-				        	</div>
-			        	</div>
-				    </section>
-
-					<div id="all-wrap" class="all-wrap">
+					<section class="section-intro" id="section-intro">
+						<div class="intro row align-middle">
+							<div class="medium-6 medium-offset-4 column text-right">
+							<h1><span class="slabtext">SKYDIVE</span> <span class="highlight">DELAND</span></h1><hr>
+							<h4>Home of Such and such</h4>
+							</div>
+						</div>	
+					</section>
+						<div id="all-wrap" class="all-wrap">
 
 					<?php }else{ ?>
 					

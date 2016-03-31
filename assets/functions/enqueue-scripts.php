@@ -9,7 +9,7 @@ function site_scripts() {
     wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/assets/js/foundation.js', array( 'jquery' ), '6.2', true );
     
     //slabText
-    wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/assets/js/imagesloaded.js', array( 'jquery' ), '', true );
+    wp_enqueue_script( 'slabText', get_template_directory_uri() . '/assets/js/imagesloaded.js', array( 'jquery' ), '', true );
 
     //skrollr
     wp_enqueue_script( 'skrollr', get_template_directory_uri() . '/assets/js/skrollr.min.js', array( 'jquery' ), '', true );
