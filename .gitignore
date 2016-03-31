@@ -3,3 +3,8 @@ assets/scss/.sass-cache/*
 node_modules/
 bower_components/
 npm-debug.log
+prepros.cfg
+prepros.cfg
+assets/css/style.min.css
+assets/css/style.min.css.map
+assets/css/style.css
