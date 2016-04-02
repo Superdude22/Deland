@@ -6,9 +6,9 @@
 			
 			<div class="logo-bar" id="logo-bar">
 				<div class="row logo align-bottom expanded">
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 						</div>
-					<div class="small-2 column">
+					<div class="medium-2 column show-for-medium">
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
 					</div>
 					<div class="column">
@@ -29,16 +29,16 @@
 					  			</div>
 					  		</div>
 					</div>
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 					</div>					
 				</div>
 				<div class="row expanded nav-bar">
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 						</div>
 					<div class="columns">
 						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 					</div>
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 						</div>
 				</div>
 			</div>
@@ -53,7 +53,7 @@
 		    <main id="main" class="small-12 columns" role="main">
 
 				<section class="about row expanded" id="about">
-						<div class="small-1 column">
+						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns small-6">
 								<h1>About Deland</h1>
@@ -64,7 +64,7 @@
 						<div class="columns small-4">	
 								<img class="" src="http://lorempixel.com/400/200/animals/8" alt="">
 						</div>
-						<div class="small-1 column">
+						<div class="medium-1 column show-for-medium">
 						</div>					
 				</section>
 				<section class="disciplines " id="disciplines">
@@ -85,7 +85,7 @@
 				</section>
 				<section class="pac-wing row expanded some-content">
 					<div class="inner expanded row">
-						<div class="small-1 column">
+						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="row column small-10">
 							<div class="row expanded">
@@ -114,38 +114,38 @@
 
 
 						</div>
-						<div class="small-1 column">
+						<div class="medium-1 column show-for-medium">
 						</div>
 					</div>
 				</section>
 				
 				<section class="contact row expanded">
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 						</div>
 					<div class="row expanded small-10 columns">
 						<h1>Contact Deland / Map</h1>
 						<div class="row small-12 expanded columns">
 							<div class="small-6 columns contact-links align-middle">
-							<ul class="no-bullet">
-								<li>
-									<p><i class="fa fa-facebook-square fa-fw"></i>&nbsp;Facebook</p>
-								</li>
-								<li>
-									<p><i class="fa fa-twitter-square fa-fw"></i>&nbsp;Twitter</p>
-								</li>
-								<li>
-									<p><i class="fa fa-instagram fa-fw"></i>&nbsp;Instagram</p>
-								</li>
-								<li>
-									<p><i class="fa fa-youtube-square fa-fw"></i>&nbsp;YouTube</p>
-								</li>
-								<li>
-									<p><i class="fa fa-envelope fa-fw"></i>&nbsp;Email</p>
-								</li>
-								<li>
-									<p><i class="fa fa-map-marker fa-fw"></i>&nbsp;Location</p>
-								</li>
-							</ul>
+								<ul class="no-bullet">
+									<li>
+										<p><i class="fa fa-facebook-square fa-fw"></i>&nbsp;Facebook</p>
+									</li>
+									<li>
+										<p><i class="fa fa-twitter-square fa-fw"></i>&nbsp;Twitter</p>
+									</li>
+									<li>
+										<p><i class="fa fa-instagram fa-fw"></i>&nbsp;Instagram</p>
+									</li>
+									<li>
+										<p><i class="fa fa-youtube-square fa-fw"></i>&nbsp;YouTube</p>
+									</li>
+									<li>
+										<p><i class="fa fa-envelope fa-fw"></i>&nbsp;Email</p>
+									</li>
+									<li>
+										<p><i class="fa fa-map-marker fa-fw"></i>&nbsp;Location</p>
+									</li>
+								</ul>
 							</div>
 							<div class="small-6 columns g-map">
 								<img src="http://lorempixel.com/400/200/animals/8" alt="">
@@ -153,7 +153,7 @@
 						</div>
 						
 					</div>
-					<div class="small-1 column">
+					<div class="medium-1 column show-for-medium">
 						</div>
 				</section>
 				<section class="photostream">

@@ -5249,7 +5249,6 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 }
 
 h1, .h1 {
-  font-size: 66px;
   color: #000b4f;
   font-family: "Candal", sans-serif;
 }
@@ -5263,7 +5262,13 @@ h1, .h1 {
 }
 
 p.phone {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 40em) {
+  p.phone {
+    font-size: 1.8rem;
+  }
 }
 
 p.blockquote {
@@ -5299,6 +5304,16 @@ HEADER STYLES
 
 .section-intro .intro h1 {
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.intro-info {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 10rem;
+}
+
+.intro-info img {
+  width: 40%;
+  opacity: 0.5;
 }
 
 /* CSS */
@@ -5371,11 +5386,6 @@ NAVIGATION STYLES
   top: -1.5rem;
   opacity: 0.8;
   filter: alpha(opacity=80);
-}
-
-.logo-bar .phone {
-  position: relative;
-  top: 1.5rem;
 }
 
 .nav-bar {
@@ -5544,13 +5554,17 @@ Section STYLES
   position: relative;
   top: -6rem;
   height: 30rem;
-  -webkit-filter: blur(2px) grayscale(0.9);
   overflow: hidden;
   z-index: 0;
 }
 
-.disciplines img.discipline:hover {
-  -webkit-filter: none;
+@media screen and (min-width: 40em) {
+  .disciplines img.discipline {
+    -webkit-filter: blur(2px) grayscale(0.9);
+  }
+  .disciplines img.discipline:hover {
+    -webkit-filter: none;
+  }
 }
 
 .pac-wing .picture img {

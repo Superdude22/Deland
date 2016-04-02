@@ -39,7 +39,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size:66px;
 	color: $dk-blue;
 	font-family: $candal;
 }
@@ -68,7 +67,11 @@ h5, .h5 {
 }
 
 p.phone{
-	font-size:1.8rem;
+	font-size:1.4rem;
+	@include breakpoint(medium){
+		font-size:1.8rem;
+	}
+	
 }
 
 p.blockquote{
@@ -111,11 +114,20 @@ HEADER STYLES
   	position: relative;
   	height:100%;
   	h1{
-  		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,.3));
+  		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
   	}
-  }
 
+  }
 }
+
+.intro-info{
+  		background-color:rgba(0,0,0,0.3);
+		padding-top:10rem;
+		img{
+			width:40%;
+			opacity: 0.5;
+		}
+ }
 
 /* CSS */
 .hsContainer {
@@ -190,10 +202,6 @@ NAVIGATION STYLES
 		height:1rem;
 		top:-1.5rem;
 		@include opacity(0.8);
-	}
-	.phone{
-		position: relative;
-		top:1.5rem;
 	}
 }
 
@@ -366,13 +374,16 @@ Section STYLES
 		position: relative;
 		top:-6rem;
 		height: 30rem;
-		-webkit-filter: blur(2px) grayscale(0.9);
 		overflow: hidden;
 		z-index:0;
-	  &:hover{
-	  	-webkit-filter: none;
-
-	  }
+		
+		@include breakpoint(medium up) {
+			-webkit-filter: blur(2px) grayscale(0.9);
+			 &:hover{
+		  	-webkit-filter: none;
+		  	}
+		}
+	 
 
 	}
 }
