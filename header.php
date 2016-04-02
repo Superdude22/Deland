@@ -46,14 +46,15 @@
 				<div class="off-canvas-content" data-off-canvas-content>
 				
 					<?php if ( is_front_page() ) { ?>
-					<section id="slide-1" class="homeSlide">
-			        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+					<section id="intro" class="homeSlide">
+			        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro">
 				        	<div class="hsContainer">				    	
-					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#slide-1 h1">
+					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right">
 										<div class="small-4 large-8 column text-right">
 											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
+											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
 										</div>
 										<div class="small-1 column">
 										</div>

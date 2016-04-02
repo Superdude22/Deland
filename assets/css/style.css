@@ -38,6 +38,7 @@ span.amp {
 }
 
 /* @include stroke(2px,$yellow); */
+/* @include text-shadow( 2px,2px, 5px, $yellow ); */
 /*********************
 CSS3 GRADIENTS.
 *********************/
@@ -5265,6 +5266,22 @@ p.phone {
   font-size: 1.8rem;
 }
 
+p.blockquote {
+  border-left: 0.5rem solid #ccc;
+  margin: 1.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  quotes: "“" "”" "‘" "’";
+}
+
+p.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -5318,8 +5335,8 @@ HEADER STYLES
   width: 100%;
 }
 
-/* Slide 1 */
-#slide-1 .bcg {
+/* Intro */
+#intro .bcg {
   background-image: url(../images/tandem_cloud.jpg);
 }
 
@@ -5371,6 +5388,11 @@ NAVIGATION STYLES
   filter: alpha(opacity=80);
 }
 
+.nav-pos {
+  position: relative;
+  z-index: 20;
+}
+
 .nav-pos .is-stuck {
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -5380,7 +5402,7 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 #content #inner-content {
-  padding: 1rem 0rem;
+  padding: 0rem 0rem;
 }
 
 .page-title .vcard {
@@ -5477,7 +5499,7 @@ Section STYLES
 .disciplines .pos-adjust {
   position: relative;
   top: 1.6rem;
-  z-index: 10;
+  z-index: 1;
 }
 
 .disciplines h1 {
@@ -5533,6 +5555,43 @@ Section STYLES
 
 .pac-wing .picture img {
   width: 100%;
+}
+
+.about {
+  overflow: hidden;
+  background: #e6e6e6;
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #fefefe 100%);
+  background: -linear-gradient(top, #e6e6e6 0%, #fefefe 100%);
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #fefefe 100%);
+}
+
+.about img {
+  width: 100%;
+}
+
+.contact {
+  background-color: #000b4f;
+}
+
+.contact h1 {
+  color: #fefefe;
+  text-shadow: 4px 3px 0px #ba970f;
+}
+
+.contact .contact-links {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+.contact .contact-links ul li {
+  color: #ba970f;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.contact .contact-links i {
+  color: #ba970f;
 }
 
 /*********************
@@ -5759,6 +5818,41 @@ PLANE STYLES
   border-style: double;
   border-width: 1rem;
   border-color: #ffe300;
+}
+
+.cloud {
+  width: 200px;
+  height: 60px;
+  background: #f2f2f2;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  position: relative;
+}
+
+.cloud:before, .cloud:after {
+  content: '';
+  position: absolute;
+  background: #f2f2f2;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+  width: 120px;
+  height: 120px;
+  top: -55px;
+  left: auto;
+  right: 15px;
 }
 
 /*********************

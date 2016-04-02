@@ -14,7 +14,20 @@
 					<div class="column">
 						</div>
 					<div class="small-3 column">
-						<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+						<h3>Current Weather</h3>
+					  		<div class="row align-bottom">
+					  			<div class="weather-icon small-3 columns">
+					  				<i class="fa fa-sun-o fa-fw"></i>
+					  			</div>
+					  			<div class="columns">
+					  				<div class="temp">
+							  			<p>77</p>
+							  		</div>
+							  		<div class="wind">
+							  			<p>27</p>
+							  		</div>
+					  			</div>
+					  		</div>
 					</div>
 					<div class="small-1 column">
 					</div>					
@@ -39,6 +52,21 @@
 	
 		    <main id="main" class="small-12 columns" role="main">
 
+				<section class="about row expanded" id="about">
+						<div class="small-1 column">
+						</div>
+						<div class="columns small-6">
+								<h1>About Deland</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
+								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
+						</div>
+						<div class="columns small-4">	
+								<img class="" src="http://lorempixel.com/400/200/animals/8" alt="">
+						</div>
+						<div class="small-1 column">
+						</div>					
+				</section>
 				<section class="disciplines " id="disciplines">
 					<div class="row expanded align-middle pos-adjust">
 						<div class="small-1 column otter-stripe">
@@ -56,76 +84,80 @@
 						<div class="columns medium-4"><h3>Experienced Jumpers<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/3" alt=""></div></div>
 				</section>
 				<section class="pac-wing row expanded some-content">
-					<div class="inner expanded">
-						<div class="row">
-							<div class="column">
+					<div class="inner expanded row">
+						<div class="small-1 column">
+						</div>
+						<div class="row column small-10">
+							<div class="row expanded">
 								<h1>Something Promotional</h1>
-							</div>	
+							</div>
+							<div class="row expanded">
+								<div class="column words">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
+									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
+									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
+
+									<ul>
+										<li>Lorem ipsum dolor sit.</li>
+										<li>Tempore dolore sit molestias?</li>
+										<li>Earum vitae quod veritatis!</li>
+									</ul>
+
+								</div>
+								<div class="column picture">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tandem cutout.jpg" alt="">							
+									<img src="http://lorempixel.com/400/200/animals/3" alt="">
+
+								</div>
+							</div>
+						<div class="cloud"></div>
+
+
 						</div>
-						<div class="row">
-							<div class="small-6 small-offset-1 column words">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
-								<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
-								<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
-
-								<ul>
-									<li>Lorem ipsum dolor sit.</li>
-									<li>Tempore dolore sit molestias?</li>
-									<li>Earum vitae quod veritatis!</li>
-								</ul>
-
-							</div>
-							<div class="small-5 column picture">
-								<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tandem cutout.jpg" alt="">							
-								<img src="http://lorempixel.com/400/200/animals/3" alt="">
-
-							</div>
-						</div>
-						<div class="row image-grid">
-							<div class="row column small-7 images small-up-6 collapse">
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt="http://lorempixel.com/400/200/animals"></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
-							</div>
+						<div class="small-1 column">
 						</div>
 					</div>
 				</section>
-				<section class="about">
-					<h1>About Deland</h1>
-					
-				</section>
-				<section class="contact">
-					<h1>Contact Deland / Map</h1>
+				
+				<section class="contact row expanded">
+					<div class="small-1 column">
+						</div>
+					<div class="row expanded small-10 columns">
+						<h1>Contact Deland / Map</h1>
+						<div class="row small-12 expanded columns">
+							<div class="small-6 columns contact-links align-middle">
+							<ul class="no-bullet">
+								<li>
+									<p><i class="fa fa-facebook-square fa-fw"></i>&nbsp;Facebook</p>
+								</li>
+								<li>
+									<p><i class="fa fa-twitter-square fa-fw"></i>&nbsp;Twitter</p>
+								</li>
+								<li>
+									<p><i class="fa fa-instagram fa-fw"></i>&nbsp;Instagram</p>
+								</li>
+								<li>
+									<p><i class="fa fa-youtube-square fa-fw"></i>&nbsp;YouTube</p>
+								</li>
+								<li>
+									<p><i class="fa fa-envelope fa-fw"></i>&nbsp;Email</p>
+								</li>
+								<li>
+									<p><i class="fa fa-map-marker fa-fw"></i>&nbsp;Location</p>
+								</li>
+							</ul>
+							</div>
+							<div class="small-6 columns g-map">
+								<img src="http://lorempixel.com/400/200/animals/8" alt="">
+							</div>
+						</div>
+						
+					</div>
+					<div class="small-1 column">
+						</div>
 				</section>
 				<section class="photostream">
-					<h1>Photos</h1>
+					<h1>Photostream</h1>
 					<p>Should this be instagram or hosted images? Videos?</p>
 					
 				</section>

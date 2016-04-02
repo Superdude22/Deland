@@ -71,6 +71,22 @@ p.phone{
 	font-size:1.8rem;
 }
 
+p.blockquote{
+	border-left: 0.5rem solid #ccc;
+	margin: 1.5rem 0.5rem;
+	padding: 0.5rem 0.5rem;
+	quotes: "\201C""\201D""\2018""\2019";
+  &:before{
+	  color: #ccc;
+	  content: open-quote;
+	  font-size: 4em;
+	  line-height: 0.1em;
+	  margin-right: 0.25em;
+	  vertical-align: -0.4em;
+  }
+
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -131,10 +147,11 @@ HEADER STYLES
     height: 100%;
     width: 100%;
 }
-/* Slide 1 */
-#slide-1 .bcg {
+/* Intro */
+#intro .bcg {
 	background-image:url(../images/tandem_cloud.jpg)
 }
+
 
 
 
@@ -190,6 +207,8 @@ NAVIGATION STYLES
 }
 
 .nav-pos{
+	position: relative;
+	z-index:20;
 	.is-stuck{
 		@include opacity(0.5);
 
@@ -202,7 +221,7 @@ POSTS & CONTENT STYLES
 #content {
 
 	#inner-content {
-		padding: 1rem 0rem;
+		padding: 0rem 0rem;
 	}
 }
 
@@ -305,7 +324,7 @@ Section STYLES
 	.pos-adjust{
 		position: relative;
 		top:1.6rem;
-		z-index: 10;
+		z-index: 1;
 	}
 	h1{
 		letter-spacing: 0.2rem;
@@ -366,7 +385,42 @@ Section STYLES
 	}
 }
 
+.about{
+	//background-color: $light-gray;
+	overflow: hidden;
+	background: $light-gray;
+	background: -webkit-linear-gradient(top, $light-gray 0%, $white 100%);
+	background: -linear-gradient(top, $light-gray 0%, $white 100%);
+	background: -moz-linear-gradient(top, $light-gray 0%, $white 100%);
+	img{
+		width: 100%;
+	}
+}
 
+.contact{
+	background-color: $dk-blue;
+	h1{
+		color:$white;
+		@include text-shadow( 4px, 3px, 0px, $dk-yellow );
+	}
+
+	.contact-links{
+		-moz-column-count: 2;
+	    -webkit-column-count: 2;
+	    column-count: 2;
+		ul{
+			li{
+				color:$dk-yellow;
+				font-size: 1.3rem;
+				font-weight: 700;
+			}
+		}
+		i{
+			color:$dk-yellow;
+			//@include text-shadow( 2px, 2px, 0px, $white );
+		}
+	}
+}
 
 
 /*********************
@@ -723,6 +777,38 @@ PLANE STYLES
     	border-width: 1rem;
     	border-color: $yellow;
 	}
+}
+
+.cloud {
+	width: 200px; height: 60px;
+	background: $cloud-color;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: $cloud-color;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
 }
 
 /*********************
