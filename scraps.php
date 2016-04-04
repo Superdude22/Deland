@@ -11,19 +11,46 @@
 					</div>
 					  
 					  	<div class="small-3 columns">
-					  		<h3>Current Weather</h3>
-					  		<div class="row align-bottom">
-					  			<div class="weather-icon small-3 columns">
-					  				<i class="fa fa-sun-o fa-fw"></i>
-					  			</div>
-					  			<div class="columns">
-					  				<div class="temp">
-							  			<p>77</p>
-							  		</div>
-							  		<div class="wind">
-							  			<p>27</p>
-							  		</div>
-					  			</div>
-					  		</div>				  		
+					  						  		
 					  	</div>		
 				</div>
+
+
+
+
+
+
+				<div class="row image-grid">
+							<div class="row column small-7 images small-up-6 collapse">
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt="http://lorempixel.com/400/200/animals"></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
+							</div>
+						</div>
