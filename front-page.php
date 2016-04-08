@@ -56,7 +56,7 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns small-6">
-								<h1>About Deland</h1>
+								<h1><span class="sm-dec">About</span> Deland</h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
 								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
@@ -162,7 +162,7 @@
 					<div class="medium-1 column show-for-medium">
 						</div>
 					<div class="events-list medium-4 columns">
-					<h1>Events</h1>
+					<h1>Upcoming Events</h1>
 						<ul>
 							<li class="event">
 								<h1>Lorem ipsum dolor.</h1>
@@ -248,18 +248,6 @@
 				<aside class="promo">
 					<p>Promo Banner</p>
 				</aside>
-
-
-				
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-			    	<?php get_template_part( 'parts/loop', 'page' ); ?>
-			    
-			    <?php endwhile; endif; ?>
-
-			
-
-
 			    					
 			</main> <!-- end #main -->
 		    

@@ -41,6 +41,28 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	color: $dk-blue;
 	font-family: $candal;
+	font-size: 2.5rem;
+	.sm-dec{
+		position: relative;
+		top: -0.75rem;
+		display: inline-block;
+		vertical-align: bottom;
+		font-size: 1.6rem;
+		line-height: 2.3rem;
+		opacity: 0.8;
+		&:after{
+			position: absolute;
+			left:0;
+			bottom: 0.0rem;
+			content: '';
+			display: block;
+			width:100%;
+			height: 3px;
+			background: $dk-yellow;
+			opacity: 0.8;
+		}
+
+	}
 }
 
 .highlight{
@@ -236,29 +258,7 @@ POSTS & CONTENT STYLES
 	}
 }
 
-.bg-test{
-		position: relative;
-		overflow: hidden;
-		padding: 0 !important;
-		.inner{
-			position: absolute;
-			bottom:0;
-			width: 100%;
-			background-color: rgba(186, 151, 15, 0.5);
-		}
-		h2{
-    		position: relative;
-   			z-index: 2;
-			color:$white;
-		}	
-		img{
-			position: absolute;
-	    	left: 0;
-	    	top: 0;
-	    	opacity: 0.3;
-	    	//object-fit:cover
-		}
-}
+
 
 
 .single-title,
@@ -356,6 +356,7 @@ Section STYLES
 *********************/
 
 .disciplines{
+	//margin-top:-3.6rem;
 	.pos-adjust{
 		position: relative;
 		top:1.6rem;
@@ -426,12 +427,36 @@ Section STYLES
 .about{
 	//background-color: $light-gray;
 	overflow: hidden;
-	background: $light-gray;
-	background: -webkit-linear-gradient(top, $light-gray 0%, $white 100%);
-	background: -linear-gradient(top, $light-gray 0%, $white 100%);
-	background: -moz-linear-gradient(top, $light-gray 0%, $white 100%);
-	img{
-		width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(top,  $light-gray 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, $light-gray 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, $light-gray 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+	.bg-test{
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		.inner{
+			position: absolute;
+			bottom:0;
+			width: 100%;
+			background-color: rgba(186, 151, 15, 0.5);
+		}
+		h2{
+    		position: relative;
+   			z-index: 2;
+			color:$white;
+		}	
+		img{
+			width: 100%;
+			position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	opacity: 0.3;
+	    	object-fit:cover
+		}
 	}
 }
 
@@ -458,6 +483,34 @@ Section STYLES
 			//@include text-shadow( 2px, 2px, 0px, $white );
 		}
 	}
+}
+
+.some-content{
+	.words{
+		position: relative;
+	    //background: rgba(0, 11, 79, 0.1);
+	    overflow: hidden;
+	    &:before{
+	    	content: ' ';
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    z-index: 1;
+		    opacity: 0.1;
+		    background-image: url(../images/logo-circle.jpg);
+		    background-repeat: no-repeat;
+		    background-position: 50% 0;
+		    -ms-background-size: cover;
+		    -o-background-size: cover;
+		    -moz-background-size: cover;
+		    -webkit-background-size: cover;
+		    background-size: cover;
+	    }
+	}
+	
 }
 
 
