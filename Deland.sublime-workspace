@@ -1,0 +1,698 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"d",
+				"d	display: ${1:block};"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"click",
+				"clickclass"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"work",
+				"work_children"
+			],
+			[
+				"get_page_by",
+				"get_page_by_title"
+			],
+			[
+				"mg",
+				"mg_logo"
+			],
+			[
+				"mg_logo",
+				"mg_logo_contain"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"s",
+				"symbol"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"m",
+				"mr-a	margin-right: auto;"
+			],
+			[
+				"ma",
+				"m-a	margin: auto;"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"p",
+				"pos-a	position: absolute;"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"clc",
+				"clc_blue"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"Wo",
+				"Workshops"
+			],
+			[
+				"get",
+				"get_wk_list"
+			],
+			[
+				"jq",
+				"jQuery"
+			],
+			[
+				"add",
+				"add_action"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"W",
+				"WsForm"
+			],
+			[
+				"insert",
+				"insert_info"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"jqu",
+				"jqueryui"
+			],
+			[
+				"current",
+				"current_time"
+			],
+			[
+				"next",
+				"next_workshop"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"nex",
+				"next_workshop"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 7108,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 703.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/test.com/wp-content/themes/Deland"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/style.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/js/scripts/main.js",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_main.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/front-page.php",
+		"/C/Users/Mike/Downloads/JointsWP-master/JointsWP-master/style.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/scraps.php",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_JointsWP-master.zip/JointsWP-master/template-full-width.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/footer.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/page.php",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_JointsWP-master.zip/JointsWP-master/header.php",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_JointsWP-master.zip/JointsWP-master/parts/nav-offcanvas-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/header.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/parts/nav-offcanvas-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_settings.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/js/scripts.js",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_parallax-scroll-effect-1302.zip/parallax/js/main.js",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_parallax-scroll-effect-1302.zip/parallax/js/_main.js",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/parts/content-frontpage.php",
+		"/C/wamp/www/test.com/parallax/css/main.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_mixins.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/functions/enqueue-scripts.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/gulpfile.js",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/package.json",
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/functions.php",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/page.php",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.js",
+		"/C/wamp/www/test.com/wp-content/themes/jtest/parts/nav-offcanvas-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/parts/nav-offcanvas-topbar.php",
+		"/C/Users/Mike/Desktop/jtest/style.css",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_mixins.scss",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_settings.scss",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/functions/enqueue-scripts.php",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/parts/nav-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_slab.scss",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/style.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_slabText-master.zip/slabText-master/css/slabtext.css",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_slabText-master.zip/slabText-master/css/slabtext.css",
+		"/C/wamp/www/test.com/skrollr-master/examples/fixed-positioning.css",
+		"/C/wamp/www/test.com/skrollr-master/index.html",
+		"/C/wamp/www/test.com/parallax/index.html",
+		"/C/wamp/www/test.com/parallax/img/ico_loading.gif",
+		"/C/wamp/www/test.com/parallax/js/imagesloaded.js",
+		"/C/wamp/www/test.com/parallax/js/main.js",
+		"/C/wamp/www/test.com/parallax/js/_main.js",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/css/style.css",
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.min.js",
+		"/C/wamp/www/fly.com/Deland/index.html",
+		"/C/wamp/www/fly.com/index.html",
+		"/C/wamp/www/fly.com/test/index.html",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/orders.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/order_Item.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/checkStatus.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateOrder.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/order_consolidated.asp",
+		"/C/wamp/www/aero/checkStatus.asp",
+		"/C/wamp/www/aero/new stuff/checkStatus.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/checkStatus.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/orders.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/updateOrder.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/updateItem.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/newTools.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/RC4.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/sql_citrus.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/urls.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/interpreter.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateOrder.asp-no",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateItem.asp",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/page-resume.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/page-resume.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/resume.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/resume.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/page.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/main-responsive.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/page-work.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/wamp/www/this.com/index.html",
+		"/C/Users/Mike/Desktop/resume/readmore.min.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/resume.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/resume.css",
+		"/C/Users/Mike/Downloads/home168.svg",
+		"/C/Users/Mike/Desktop/resume/home.svg",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/main.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/portfolio.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/theme-scripts.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/blur.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/theme-styles.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/splash-page.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/wamp/www/this.com/scss/global.scss",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/portfolio.php",
+		"/C/Users/Mike/Desktop/resume/resume.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/travel.svg",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/main-responsive.css",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_MyIcons.zip/svg/alcohol18.svg",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/beer.svg",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_MyIcons.zip/svg/open84.svg",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/internet.svg",
+		"/C/Users/Mike/Desktop/resume/cd-icon-location.svg",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/index.html",
+		"/C/wamp/www/this.com/scss/_resume.scss",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/intro.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/splash-slider.php",
+		"/C/Users/Mike/Desktop/content-testimonials.php",
+		"/C/Users/Mike/Desktop/resume.css",
+		"/C/Users/Mike/Desktop/page-resume.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/the-onepage.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/pace.preloader.css",
+		"/C/Users/Mike/Desktop/logo.svg",
+		"/C/wamp/www/this.com/scss/_layout.scss",
+		"/C/wamp/www/this.com/scss/_bits.scss",
+		"/C/wamp/www/this.com/scss/_main.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/scss/style.scss",
+		"/C/wamp/www/this.com/js/main.js",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/partials/_variables.scss",
+		"/C/wamp/www/this.com/scss/_mixins.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/js/main.js",
+		"/C/wamp/www/this.com/css/style.css",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/partials/_mixins.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp2_vertical-timeline.zip/vertical-timeline/partials/_layout.scss",
+		"/C/wamp/www/this.com/scss/_normalize.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_vertical-timeline.zip/vertical-timeline/js/main.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"top bar",
+			"$body-background",
+			"header",
+			"header	",
+			"top bar",
+			"off-canvas",
+			"header",
+			"$header-color",
+			"$white",
+			"fefefe",
+			"top",
+			"11. Button",
+			"19. Forms",
+			"//  19. Forms",
+			".column:last-child:not(:first-child), .columns:last-child:not(:first-child)",
+			"phone",
+			"blue",
+			"before",
+			"promo",
+			"prom",
+			"h2",
+			"hsContent",
+			"top-bar",
+			"normal",
+			"blue",
+			"purchase_num",
+			"purchase_num__1",
+			"Serial Num",
+			"Serial",
+			"Order from stock",
+			"Order from",
+			"v5",
+			"v11",
+			"theStatus",
+			"hdist",
+			"v11",
+			"= \"pro",
+			"= \"vship",
+			"= \"vlab",
+			"= \"har",
+			"= \"cut\"",
+			"\"cut",
+			"\"vBOM\"",
+			"wdist",
+			"v4",
+			"validateItem",
+			"v1",
+			"v11",
+			"checkItemStatus",
+			"orders_line",
+			"checkItemStatus",
+			"senttohub",
+			"valid",
+			"checkItemStatus",
+			"hdist",
+			"checkItemStatus",
+			"senttohub",
+			"checkItemStatus",
+			"test",
+			"v11",
+			"v5",
+			"test",
+			"hdist",
+			"valid",
+			"hdist",
+			"form",
+			"checkStatusToChange",
+			"theStat",
+			"rsItemList",
+			"selected",
+			"orderst",
+			"orderStatus",
+			".add-bottom",
+			"pad-inn",
+			"pad-top",
+			"h3",
+			"portfolio.js",
+			"portfolio",
+			"cd-",
+			"cd",
+			"cd-timeline",
+			"timeline",
+			"cd-timeline",
+			" style=\"fill:#010002;\"",
+			"style=\"fill:#010002;\"",
+			"style=\"fill:#010002;",
+			"text-align: center !important;",
+			"center",
+			"text-align",
+			"font-size",
+			"cd-container",
+			".css",
+			"class=\"st0\"",
+			"blog",
+			"img",
+			".f-a-q",
+			".themeform",
+			"curl",
+			"searchform",
+			"sea",
+			"sideb",
+			"NewDate",
+			"curl",
+			"%5C"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"resume"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "front-page.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Deland.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inex.h",
+				"wp-content\\themes\\cramerlawcenter\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

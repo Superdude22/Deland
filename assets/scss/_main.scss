@@ -109,18 +109,21 @@ HEADER STYLES
 
   // background: url(../images/tandem_cloud.jpg) no-repeat 70% 50%; 
 
-
-  .intro{
-  	position: relative;
-  	height:100%;
+}
+.intro-large{
   	h1{
   		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
+  		@include breakpoint(xxlarge){
+  			font-size: 10rem;
+  			line-height: 8rem;
+  		}
+  		
   	}
 
   }
-}
 
-.intro-info{
+
+.intro-small{
   		background-color:rgba(0,0,0,0.3);
 		padding-top:10rem;
 		img{
@@ -161,7 +164,7 @@ HEADER STYLES
 }
 /* Intro */
 #intro .bcg {
-	background-image:url(../images/tandem_cloud.jpg)
+	background-image:url(../images/tandem_cloud.jpg);
 }
 
 
@@ -231,6 +234,30 @@ POSTS & CONTENT STYLES
 	#inner-content {
 		padding: 0rem 0rem;
 	}
+}
+
+.bg-test{
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		.inner{
+			position: absolute;
+			bottom:0;
+			width: 100%;
+			background-color: rgba(186, 151, 15, 0.5);
+		}
+		h2{
+    		position: relative;
+   			z-index: 2;
+			color:$white;
+		}	
+		img{
+			position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	opacity: 0.3;
+	    	//object-fit:cover
+		}
 }
 
 

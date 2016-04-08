@@ -51,7 +51,7 @@
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right align-middle">
-										<div class="small-10 column text-right align-right intro-info">
+										<div class="small-10 column text-right align-right intro-small">
 											<img class="align-right" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
 											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
@@ -66,7 +66,7 @@
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right">
-										<div class="medium-8 column text-right">
+										<div class="medium-8 column text-right intro-large">
 											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
 											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>

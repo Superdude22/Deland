@@ -61,8 +61,12 @@
 								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
 						</div>
-						<div class="columns small-4">	
-								<img class="" src="http://lorempixel.com/400/200/animals/8" alt="">
+						<div class="columns small-4 bg-test">	
+								<img class="" src="http://lorempixel.com/500/645/animals/8" alt="">
+								<div class="inner">
+									<h2>Different Font&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
+								</div>
+								
 						</div>
 						<div class="medium-1 column show-for-medium">
 						</div>					
@@ -122,7 +126,7 @@
 				<section class="contact row expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
-					<div class="row expanded small-10 columns">
+					<div class="row expanded small-11 columns">
 						<h1>Contact Deland / Map</h1>
 						<div class="row small-12 expanded columns">
 							<div class="small-6 columns contact-links align-middle">
@@ -153,8 +157,88 @@
 						</div>
 						
 					</div>
+				</section>
+				<section class="events row expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
+					<div class="events-list medium-4 columns">
+					<h1>Events</h1>
+						<ul>
+							<li class="event">
+								<h1>Lorem ipsum dolor.</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quis!</p>
+							</li>
+							<li class="event">
+								<h1>Ad numquam, placeat.</h1>
+								<p>Quas accusantium explicabo aliquam quibusdam, molestiae, sed! Quia, vel autem.</p>
+							</li>
+							<li class="event">
+								<h1>Est nihil, dolores.</h1>
+								<p>Soluta, rerum, ipsum! Veritatis impedit expedita perspiciatis cumque ratione, suscipit.</p>
+							</li>
+							<li class="event">
+								<h1>Tenetur, consectetur, consequatur?</h1>
+								<p>Soluta sit numquam necessitatibus, nam animi illo aliquam blanditiis officiis!</p>
+							</li>
+						</ul>
+					</div>
+					<div class="calendar medium-7 columns">
+						<h2>Calendar</h2>
+						<li class="row day-header small-unstack">
+							<div class="columns day"><span class="show-for-medium-up">Lorem ipsum.</span><span class="show-for-small-only">Lorem.</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Recusandae, eos.</span><span class="show-for-small-only">Inventore!</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Officiis, facilis.</span><span class="show-for-small-only">Odit.</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Repellat, labore!</span><span class="show-for-small-only">Voluptate.</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Quas, eveniet.</span><span class="show-for-small-only">Doloremque.</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Officiis, saepe.</span><span class="show-for-small-only">Harum.</span></div>
+							<div class="small-1 day"><span class="show-for-medium-up">Totam, atque!</span><span class="show-for-small-only">Sint.</span></div>
+						</li>
+						<li class="week row small-unstack">
+							<div class="columns day previous-month">1</div>
+							<div class="columns day">2</div>
+							<div class="columns day">3</div>
+							<div class="columns day">4</div>
+							<div class="columns day">5</div>
+							<div class="columns day">6</div>
+							<div class="columns day">7</div>
+						</li>
+						<li class="week row small-unstack">
+							<div class="columns day">3</div>
+							<div class="columns day">3</div>
+							<div class="columns day today">3</div>
+							<div class="columns day">3</div>
+							<div class="columns day">3</div>
+							<div class="columns day">3</div>
+							<div class="columns day">3</div>
+						</li>
+						<li class="week row small-unstack">
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+							<div class="columns day">12</div>
+						</li>
+						<li class="week row small-unstack">
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+							<div class="columns day">13</div>
+						</li>
+						<li class="week row small-unstack">
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+							<div class="columns day">5</div>
+						</li>
+					</div>
 				</section>
 				<section class="photostream">
 					<h1>Photostream</h1>
