@@ -5307,9 +5307,6 @@ HEADER STYLES
   width: 100%; }
 
 /* Intro */
-#intro .bcg {
-  background-image: url(../images/tandem_cloud.jpg); }
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -5490,8 +5487,9 @@ Section STYLES
     .about .bg-test .inner {
       position: absolute;
       bottom: 0;
-      width: 100%;
-      background-color: rgba(186, 151, 15, 0.5); }
+      width: 80%;
+      background-color: rgba(186, 151, 15, 0.5);
+      padding-left: 1em; }
     .about .bg-test h2 {
       position: relative;
       z-index: 2;
@@ -5503,6 +5501,8 @@ Section STYLES
       top: 0;
       opacity: 0.3;
       object-fit: cover; }
+  .about .words {
+    padding-bottom: 2em; }
 
 .contact {
   background-color: #000b4f; }
@@ -5539,9 +5539,47 @@ Section STYLES
     -ms-background-size: cover;
     background-size: cover; }
 
+.events-list ul, .events-list li, .faq-list ul, .faq-list li {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.events-list ul, .faq-list ul {
+  margin: 2em 0; }
+
+.events-list li, .faq-list li {
+  margin: 1em;
+  margin-left: 3em; }
+
+.events-list .event h1, .events-list .question h1, .faq-list .event h1, .faq-list .question h1 {
+  font-size: 1.5rem; }
+  .events-list .event h1:before, .events-list .question h1:before, .faq-list .event h1:before, .faq-list .question h1:before {
+    content: '\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9; }
+
+.events-list .event .date p, .events-list .question .date p, .faq-list .event .date p, .faq-list .question .date p {
+  display: inline-block; }
+
+.faq h1 {
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, -2px -2px 0 #000b4f, -1px -2px 0 #000b4f, 0px -2px 0 #000b4f, 1px -2px 0 #000b4f, 2px -2px 0 #000b4f, -2px -1px 0 #000b4f, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, 2px -1px 0 #000b4f, -2px 0px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, 2px 0px 0 #000b4f, -2px 1px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, 2px 1px 0 #000b4f, -2px 2px 0 #000b4f, -1px 2px 0 #000b4f, 0px 2px 0 #000b4f, 1px 2px 0 #000b4f, 2px 2px 0 #000b4f;
+  color: #ba970f; }
+
+.faq .question h1 {
+  letter-spacing: 0rem;
+  text-shadow: 0 0 0 transparent;
+  color: #000b4f; }
+
 /*********************
 IMAGE GALLERY STYLES
 *********************/
+.photostream {
+  overflow: hidden;
+  height: 30rem; }
+
 /*********************
 PAGE NAVI STYLES
 *********************/
@@ -5677,7 +5715,9 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; }
+  margin-top: 1em;
+  background-color: #8a8a8a;
+  height: 10rem; }
 
 /*********************
 FOUNDATION STYLES
@@ -5701,11 +5741,12 @@ PLANE STYLES
   background: #000b4f;
   overflow: hidden; }
   .pac-wing .inner {
-    margin: 1rem 1rem -1rem -1rem;
+    margin: 1rem 1rem 1rem -1rem;
     padding: 0 0 1rem 1rem;
     background: #fefefe;
     width: 100%;
     border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
     border-style: double;
     border-width: 1rem;
     border-color: #ffe300; }
@@ -5745,19 +5786,29 @@ PLANE STYLES
 /*********************
 Weather STYLES
 *********************/
+.weather h3 {
+  line-height: 0.8rem; }
+
+.weather p {
+  margin: 0;
+  line-height: 1rem;
+  font-weight: 700; }
+
 .weather-icon {
   font-size: 3rem;
   text-shadow: 3px 3px 0px rgba(186, 151, 15, 0.8), 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 .temp p {
   line-height: 0.8rem;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem; }
   .temp p:after {
     content: "\00b0 F"; }
 
 .wind p {
   line-height: 0.8rem;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem; }
   .wind p:after {
     content: "mph"; }
 

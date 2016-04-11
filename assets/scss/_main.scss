@@ -133,20 +133,20 @@ HEADER STYLES
 
 }
 .intro-large{
-  	h1{
-  		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
-  		@include breakpoint(xxlarge){
-  			font-size: 10rem;
-  			line-height: 8rem;
-  		}
-  		
-  	}
+	h1{
+		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
+		@include breakpoint(xxlarge){
+			font-size: 10rem;
+			line-height: 8rem;
+		}
+		
+	}
 
   }
 
 
 .intro-small{
-  		background-color:rgba(0,0,0,0.3);
+		background-color:rgba(0,0,0,0.3);
 		padding-top:10rem;
 		img{
 			width:40%;
@@ -156,43 +156,43 @@ HEADER STYLES
 
 /* CSS */
 .hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
 .hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    //vertical-align: middle;
-    color: #ebebeb;
-    padding: 0 8%;
-    position:relative;
-    @include breakpoint(medium up) {
+	max-width: 450px;
+	margin: -150px auto 0 auto;
+	display: table-cell;
+	//vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	position:relative;
+	@include breakpoint(medium up) {
 		top:10rem;
 	}
-    //text-align: center
+	//text-align: center
 }
 .bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 /* Intro */
 #intro .bcg {
-	background-image:url(../images/tandem_cloud.jpg);
+	//background-image:url(../images/tandem_cloud.jpg);
 }
 
 
 
 
-    
+	
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -408,8 +408,8 @@ Section STYLES
 		@include breakpoint(medium up) {
 			-webkit-filter: blur(2px) grayscale(0.9);
 			 &:hover{
-		  	-webkit-filter: none;
-		  	}
+			-webkit-filter: none;
+			}
 		}
 	 
 
@@ -441,22 +441,27 @@ Section STYLES
 		.inner{
 			position: absolute;
 			bottom:0;
-			width: 100%;
+			width: 80%;
 			background-color: rgba(186, 151, 15, 0.5);
+			padding-left:1em;
 		}
 		h2{
-    		position: relative;
-   			z-index: 2;
+			position: relative;
+			z-index: 2;
 			color:$white;
 		}	
 		img{
 			width: 100%;
 			position: absolute;
-	    	left: 0;
-	    	top: 0;
-	    	opacity: 0.3;
-	    	object-fit:cover
+			left: 0;
+			top: 0;
+			opacity: 0.3;
+			object-fit:cover
 		}
+	}
+
+	.words{
+		padding-bottom:2em;
 	}
 }
 
@@ -469,8 +474,8 @@ Section STYLES
 
 	.contact-links{
 		-moz-column-count: 2;
-	    -webkit-column-count: 2;
-	    column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
 		ul{
 			li{
 				color:$dk-yellow;
@@ -488,35 +493,92 @@ Section STYLES
 .some-content{
 	.words{
 		position: relative;
-	    //background: rgba(0, 11, 79, 0.1);
-	    overflow: hidden;
-	    &:before{
-	    	content: ' ';
-		    display: block;
-		    position: absolute;
-		    left: 0;
-		    top: 0;
-		    width: 100%;
-		    height: 100%;
-		    z-index: 1;
-		    opacity: 0.1;
-		    background-image: url(../images/logo-circle.jpg);
-		    background-repeat: no-repeat;
-		    background-position: 50% 0;
-		    -ms-background-size: cover;
-		    -o-background-size: cover;
-		    -moz-background-size: cover;
-		    -webkit-background-size: cover;
-		    background-size: cover;
-	    }
+		//background: rgba(0, 11, 79, 0.1);
+		overflow: hidden;
+		&:before{
+			content: ' ';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			opacity: 0.1;
+			background-image: url(../images/logo-circle.jpg);
+			background-repeat: no-repeat;
+			background-position: 50% 0;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
 	}
 	
 }
+
+.events-list, .faq-list{
+		ul,li {
+		  padding: 0;
+		  margin: 0;
+		  list-style: none;
+		}
+
+		ul {
+		  margin: 2em 0;
+		}
+
+		li {
+		  margin: 1em;
+		  margin-left: 3em;
+		}
+	.event, .question{
+		h1{
+			font-size: 1.5rem;
+			&:before {
+				content: '\f006';
+				font-family: 'FontAwesome';
+				float: left;
+				margin-left: -1.5em;
+				color: #0074D9;
+			}
+		}
+		.date{
+			p{
+			display: inline-block;
+			}
+		}
+	}
+}
+
+.faq{
+
+	h1{
+		letter-spacing: 0.2rem;
+		@include stroke(2px, $dk-blue);
+		color: $dk-yellow;
+	}
+
+	.question{
+		h1{
+			letter-spacing: 0rem;
+			@include stroke(0px, $dk-blue);
+			color: $dk-blue;
+		}
+	}
+}
+
 
 
 /*********************
 IMAGE GALLERY STYLES
 *********************/
+.photostream{
+	overflow:hidden;
+	height:30rem;
+}
+
 	.gallery {
 
 		dl {
@@ -748,7 +810,7 @@ COMMENT FORM STYLES
 				background-color: #f6e7eb;
 				-webkit-box-shadow: none;
 				   -moz-box-shadow: none;
-				    -ms-box-shadow: none;
+					-ms-box-shadow: none;
 						box-shadow: none;
 			}
 		}
@@ -832,6 +894,8 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+	background-color: $dark-gray;
+	height:10rem;
 }
 	
 /*********************
@@ -843,8 +907,8 @@ PLUGIN STYLES
 *********************/
 // Makes Gravity Forms play nice with Foundation Form styles
 .gform_body ul {
-    list-style: none outside none;
-    margin: 0;
+	list-style: none outside none;
+	margin: 0;
 }
 
 
@@ -859,14 +923,15 @@ PLANE STYLES
 	background:$dk-blue;
 	overflow:hidden;
 	.inner{
-		margin: 1rem 1rem -1rem -1rem;
+		margin: 1rem 1rem 1rem -1rem;
 		padding: 0 0 1rem 1rem;
 		background: $white;
 		width:100%;
 		border-top-right-radius: 3rem;
+		border-bottom-right-radius: 3rem;
 		border-style: double;
-    	border-width: 1rem;
-    	border-color: $yellow;
+		border-width: 1rem;
+		border-color: $yellow;
 	}
 }
 
@@ -905,6 +970,18 @@ PLANE STYLES
 /*********************
 Weather STYLES
 *********************/
+.weather{
+	h3{
+		line-height: 0.8rem;
+	}
+	p{
+		margin:0;
+		line-height: 1rem;
+		//color: $dk-yellow;
+		font-weight: 700;
+
+	}
+}
 .weather-icon{
 	font-size:3rem;
 	text-shadow:  3px 3px 0px rgba(186, 151, 15, 0.8), 9px 8px 0px rgba(0, 0, 0, 0.15);
@@ -914,6 +991,7 @@ Weather STYLES
 	p{
 		line-height: 0.8rem;
 		font-size: 1.2rem;
+		margin-bottom: 0.8rem;
 		&:after{
 			content:"\00b0 F";
 		}
@@ -924,6 +1002,7 @@ Weather STYLES
 	p{
 		line-height: 0.8rem;
 		font-size: 1.2rem;
+		margin-bottom: 0.8rem;
 		&:after{
 			content:"mph";
 		}

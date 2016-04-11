@@ -13,21 +13,21 @@
 					</div>
 					<div class="column">
 						</div>
-					<div class="small-3 column">
+					<div class="weather small-3 column">
 						<h3>Current Weather</h3>
-					  		<div class="row align-bottom">
-					  			<div class="weather-icon small-3 columns">
-					  				<i class="fa fa-sun-o fa-fw"></i>
-					  			</div>
-					  			<div class="columns">
-					  				<div class="temp">
-							  			<p>77</p>
-							  		</div>
-							  		<div class="wind">
-							  			<p>27</p>
-							  		</div>
-					  			</div>
-					  		</div>
+							<div class="row align-bottom">
+								<div class="weather-icon small-3 columns">
+									<i class="fa fa-sun-o fa-fw"></i>
+								</div>
+								<div class="columns">
+									<div class="temp">
+										<p>77</p>
+									</div>
+									<div class="wind">
+										<p>27</p>
+									</div>
+								</div>
+							</div>
 					</div>
 					<div class="medium-1 column show-for-medium">
 					</div>					
@@ -50,12 +50,12 @@
 	
 		<div id="inner-content" class="row expanded">
 	
-		    <main id="main" class="small-12 columns" role="main">
+			<main id="main" class="small-12 columns" role="main">
 
 				<section class="about row expanded" id="about">
 						<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="columns small-6">
+						<div class="columns small-6 words">
 								<h1><span class="sm-dec">About</span> Deland</h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
 								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
@@ -160,31 +160,51 @@
 				</section>
 				<section class="events row expanded">
 					<div class="medium-1 column show-for-medium">
-						</div>
-					<div class="events-list medium-4 columns">
-					<h1>Upcoming Events</h1>
-						<ul>
-							<li class="event">
-								<h1>Lorem ipsum dolor.</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quis!</p>
+					</div>
+					<div class="row columns">
+					<div class="small-11 columns">	
+						<h1>Upcoming Events</h1>
+					</div>
+					<div class="row small-11 columns">
+						<div class="events-list small-4 columns">
+								<ul class="accordion" data-accordion data-allow-all-closed="true">
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title">
+									<h1>Lorem ipsum dolor.</h1>
+									<div class="date">
+											<p class="start"><span class="time">8:45am</span> 4/15 - </p><p>4/17</p>
+									</div>
+								</a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
 							</li>
-							<li class="event">
-								<h1>Ad numquam, placeat.</h1>
-								<p>Quas accusantium explicabo aliquam quibusdam, molestiae, sed! Quia, vel autem.</p>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
 							</li>
-							<li class="event">
-								<h1>Est nihil, dolores.</h1>
-								<p>Soluta, rerum, ipsum! Veritatis impedit expedita perspiciatis cumque ratione, suscipit.</p>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
 							</li>
-							<li class="event">
-								<h1>Tenetur, consectetur, consequatur?</h1>
-								<p>Soluta sit numquam necessitatibus, nam animi illo aliquam blanditiis officiis!</p>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
 							</li>
 						</ul>
-					</div>
-					<div class="calendar medium-7 columns">
-						<h2>Calendar</h2>
-						<li class="row day-header small-unstack">
+						<div class="load-more">	
+							load more
+						</div>	
+						</div>	
+						<div class="calendar small-7 columns">	
+							<h2>Other Info</h2>
+							<li class="row day-header small-unstack">
 							<div class="columns day"><span class="show-for-medium-up">Lorem ipsum.</span><span class="show-for-small-only">Lorem.</span></div>
 							<div class="small-1 day"><span class="show-for-medium-up">Recusandae, eos.</span><span class="show-for-small-only">Inventore!</span></div>
 							<div class="small-1 day"><span class="show-for-medium-up">Officiis, facilis.</span><span class="show-for-small-only">Odit.</span></div>
@@ -238,19 +258,34 @@
 							<div class="columns day">5</div>
 							<div class="columns day">5</div>
 						</li>
+						</div>	
 					</div>
+							
+					</div>
+					
+					
+									
+					
 				</section>
 				<section class="photostream">
 					<h1>Photostream</h1>
 					<p>Should this be instagram or hosted images? Videos?</p>
+					<div class="row expanded small-collapse">
+						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+					</div>
+					
 					
 				</section>
 				<aside class="promo">
 					<p>Promo Banner</p>
 				</aside>
-			    					
+									
 			</main> <!-- end #main -->
-		    
+			
 		</div> <!-- end #inner-content -->
 
 	</div> <!-- end #content -->

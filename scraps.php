@@ -54,3 +54,51 @@
 								<div class="column"><img src="http://lorempixel.com/400/200/animals" alt=""></div>
 							</div>
 						</div>
+
+
+
+
+						<div class="row expanded">
+					<div class="events-list medium-4 columns">
+						<ul class="accordion" data-accordion data-allow-all-closed="true">
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title">
+									<h1>Lorem ipsum dolor.</h1>
+									<div class="date">
+											<p class="start"><span class="time">8:45am</span> 4/15 - </p><p>4/17</p>
+									</div>
+								</a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
+							</li>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
+							</li>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
+							</li>
+							<li class="event accordion-item" data-accordion-item>
+								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
+								<div class="accordion-content" data-tab-content>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
+								</div>
+							</li>
+						</ul>
+						<div class="load-more">	
+							load more
+						</div>
+					</div>
+
+					<div class="calendar medium-7 columns">
+						<h2>Calendar</h2>
+						
+					</div>	
+
+					</div>						
