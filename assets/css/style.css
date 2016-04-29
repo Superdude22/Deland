@@ -20,6 +20,7 @@ Mixins & Constants.
 TOOLS
 *********************/
 @import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,200,300,700,900,200italic,300italic,400italic,600italic,700italic|Exo+2|Noto+Sans:700,700italic|Orbitron:400,500,700,900);
 .image-replacement {
   text-indent: 100%;
   white-space: nowrap;
@@ -5255,6 +5256,18 @@ p.blockquote {
     margin-right: 0.25em;
     vertical-align: -0.4em; }
 
+.font-test .titillium {
+  font-family: "Titillium Web", sans-serif; }
+
+.font-test .exo {
+  font-family: "Exo 2", sans-serif; }
+
+.font-test .noto {
+  font-family: "Noto Sans", sans-serif; }
+
+.font-test .orbitron {
+  font-family: "Orbitron", sans-serif; }
+
 /*********************
 HEADER STYLES
 *********************/
@@ -5273,7 +5286,7 @@ HEADER STYLES
 
 .intro-small {
   background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 10rem; }
+  padding-top: 3rem; }
   .intro-small img {
     width: 40%;
     opacity: 0.5; }
@@ -5310,15 +5323,22 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar .title-area {
-  z-index: 1; }
-
 .off-canvas-list ul {
   margin-left: 0; }
   .off-canvas-list ul li a {
     border-bottom: 0px; }
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
+
+#thingy {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 20; }
+
+.at-top {
+  opacity: 0.7;
+  filter: alpha(opacity=70); }
 
 .logo-bar {
   background: #000b4f;
@@ -5505,7 +5525,9 @@ Section STYLES
     padding-bottom: 2em; }
 
 .contact {
-  background-color: #000b4f; }
+  background-color: #000b4f;
+  height: 30rem;
+  overflow: hidden; }
   .contact h1 {
     color: #fefefe;
     text-shadow: 4px 3px 0px #ba970f; }
@@ -5515,10 +5537,17 @@ Section STYLES
     column-count: 2; }
     .contact .contact-links ul li {
       color: #ba970f;
-      font-size: 1.3rem;
+      font-size: 2rem;
+      line-height: 20rem;
       font-weight: 700; }
     .contact .contact-links i {
       color: #ba970f; }
+  .contact .g-map {
+    position: relative;
+    overflow: hidden; }
+    .contact .g-map img {
+      height: 30rem;
+      overflow: hidden; }
 
 .some-content .words {
   position: relative;

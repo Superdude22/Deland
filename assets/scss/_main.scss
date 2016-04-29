@@ -112,6 +112,23 @@ p.blockquote{
 
 }
 
+.font-test{
+
+	.titillium{
+		font-family: $Titillium;
+	}
+	.exo{
+		font-family: $Exo;
+	}
+	.noto{
+		font-family: $Noto;
+	}
+	.orbitron{
+		font-family: $Orbitron;
+	}
+
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -124,14 +141,7 @@ HEADER STYLES
 /*********************
 HEADER STYLES
 *********************/
-.sticky-wrap{
-	//position:relative;
-}
-.section-intro{
 
-  // background: url(../images/tandem_cloud.jpg) no-repeat 70% 50%; 
-
-}
 .intro-large{
 	h1{
 		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
@@ -147,7 +157,7 @@ HEADER STYLES
 
 .intro-small{
 		background-color:rgba(0,0,0,0.3);
-		padding-top:10rem;
+		padding-top:3rem;
 		img{
 			width:40%;
 			opacity: 0.5;
@@ -197,12 +207,6 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 
-.top-bar {
-	.title-area {
-		z-index: 1;
-	}
-} 
-
 .off-canvas-list {
 	ul {
 		margin-left: 0;
@@ -217,6 +221,18 @@ NAVIGATION STYLES
 	}
 }
 
+#thingy{
+	position:relative;
+	top:0; 
+	width:100%;
+	z-index:20;
+
+}
+
+.at-top{
+	@include opacity(0.7);
+}
+
 .logo-bar{
 	background:$dk-blue;
 	position:relative;
@@ -227,6 +243,9 @@ NAVIGATION STYLES
 		height:1rem;
 		top:-1.5rem;
 		@include opacity(0.8);
+		a{
+			
+		}
 	}
 }
 
@@ -467,6 +486,8 @@ Section STYLES
 
 .contact{
 	background-color: $dk-blue;
+	height:30rem;
+	overflow:hidden;
 	h1{
 		color:$white;
 		@include text-shadow( 4px, 3px, 0px, $dk-yellow );
@@ -479,7 +500,8 @@ Section STYLES
 		ul{
 			li{
 				color:$dk-yellow;
-				font-size: 1.3rem;
+				font-size: 2rem;
+				line-height: 20rem;
 				font-weight: 700;
 			}
 		}
@@ -487,6 +509,14 @@ Section STYLES
 			color:$dk-yellow;
 			//@include text-shadow( 2px, 2px, 0px, $white );
 		}
+	}
+	.g-map{
+		img{
+			height:30rem;
+			overflow: hidden;
+		}
+		position: relative;
+		overflow: hidden;
 	}
 }
 

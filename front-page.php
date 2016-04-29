@@ -1,50 +1,4 @@
-<?php get_header(); ?>
-
-<div id="sticky-wrap">
-	<div class="nav-pos" data-sticky-container>
-		<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="logo-bar" data-btm-anchor="sticky-wrap:bottom">
-			
-			<div class="logo-bar" id="logo-bar">
-				<div class="row logo align-bottom expanded">
-					<div class="medium-1 column show-for-medium">
-						</div>
-					<div class="medium-2 column show-for-medium">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-					</div>
-					<div class="column">
-						</div>
-					<div class="weather small-3 column">
-						<h3>Current Weather</h3>
-							<div class="row align-bottom">
-								<div class="weather-icon small-3 columns">
-									<i class="fa fa-sun-o fa-fw"></i>
-								</div>
-								<div class="columns">
-									<div class="temp">
-										<p>77</p>
-									</div>
-									<div class="wind">
-										<p>27</p>
-									</div>
-								</div>
-							</div>
-					</div>
-					<div class="medium-1 column show-for-medium">
-					</div>					
-				</div>
-				<div class="row expanded nav-bar">
-					<div class="medium-1 column show-for-medium">
-						</div>
-					<div class="columns">
-						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-					</div>
-					<div class="medium-1 column show-for-medium">
-						</div>
-				</div>
-			</div>
-		  
-		</div>
-	</div>	
+<?php get_header(); ?>	
 	
 	<div id="content">
 	
@@ -129,7 +83,7 @@
 					<div class="row expanded small-11 columns">
 						<h1>Contact Deland / Map</h1>
 						<div class="row small-12 expanded columns">
-							<div class="small-6 columns contact-links align-middle">
+							<div class="small-5 columns contact-links align-middle">
 								<ul class="no-bullet">
 									<li>
 										<p><i class="fa fa-facebook-square fa-fw"></i>&nbsp;Facebook</p>
@@ -289,6 +243,5 @@
 		</div> <!-- end #inner-content -->
 
 	</div> <!-- end #content -->
-</div>
 
 <?php get_footer(); ?>

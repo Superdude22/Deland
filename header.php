@@ -144,3 +144,5 @@
 					</header> <!-- end .header -->
 
 					<?php } ?>
+
+					 <?php get_template_part( 'parts/nav', 'topbar' ); ?>

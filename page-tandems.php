@@ -1,51 +1,4 @@
 <?php get_header(); ?>
-
-<div id="sticky-wrap">
-	<div class="nav-pos" data-sticky-container>
-		<div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="logo-bar" data-btm-anchor="sticky-wrap:bottom">
-			
-			<div class="logo-bar" id="logo-bar">
-				<div class="row logo align-bottom expanded">
-					<div class="medium-1 column show-for-medium">
-						</div>
-					<div class="medium-2 column show-for-medium">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-					</div>
-					<div class="column">
-						</div>
-					<div class="weather small-3 column">
-						<h3>Current Weather</h3>
-						<p>We're Jumping!!</p>
-							<div class="row align-bottom">
-								<div class="weather-icon small-3 columns">
-									<i class="fa fa-sun-o fa-fw"></i>
-								</div>
-								<div class="columns">
-									<div class="temp">
-										<p>77</p>
-									</div>
-									<div class="wind">
-										<p>27</p>
-									</div>
-								</div>
-							</div>
-					</div>
-					<div class="medium-1 column show-for-medium">
-					</div>					
-				</div>
-				<div class="row expanded nav-bar">
-					<div class="medium-1 column show-for-medium">
-						</div>
-					<div class="columns">
-						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-					</div>
-					<div class="medium-1 column show-for-medium">
-						</div>
-				</div>
-			</div>
-		  
-		</div>
-	</div>	
 	
 	<div id="content">
 	
@@ -82,7 +35,7 @@
 								<h1>Something Promotional</h1>
 							</div>
 							<div class="row expanded">
-								<div class="column words">
+								<div class="column words font-test">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
 									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
 									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
@@ -92,6 +45,17 @@
 										<li>Tempore dolore sit molestias?</li>
 										<li>Earum vitae quod veritatis!</li>
 									</ul>
+
+									<h1 class="titillium">This Big Font</h1>
+									<p class="titillium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
+									<h1 class="exo">This Big Font</h1>
+									<p class="exo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
+									<h1 class="noto">This Big Font</h1>
+									<p class="noto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
+									<h1 class="orbitron">This Big Font</h1>
+									<p class="orbitron">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
+
+
 
 								</div>
 								<div class="column picture">
@@ -190,6 +154,5 @@
 		</div> <!-- end #inner-content -->
 
 	</div> <!-- end #content -->
-</div>
 
 <?php get_footer(); ?>

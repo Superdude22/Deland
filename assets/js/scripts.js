@@ -71,6 +71,24 @@ Main Functions
 		
 } )( jQuery );
 
+( function( $ ) {
+	 var sticky  = document.getElementById("thingy"),
+      sticky2 = sticky.cloneNode(true);
+
+  sticky2.style.position = "fixed";
+  sticky2.className += "at-top";
+  document.body.appendChild(sticky2);
+
+  function stickIt(){
+    sticky2.style.visibility = sticky.getBoundingClientRect().top<0 ? "visible" : "hidden";
+  }
+
+  stickIt();
+  window.addEventListener("scroll", stickIt, false );
+	
+		
+} )( jQuery );
+
 /* 
 These functions make sure WordPress 
 and Foundation play nice together.
