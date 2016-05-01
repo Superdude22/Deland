@@ -5237,6 +5237,9 @@ h1, .h1 {
 .highlight2 {
   color: #e6e6e6; }
 
+p {
+  font-family: "Titillium Web", sans-serif; }
+
 p.phone {
   font-size: 1.4rem; }
   @media screen and (min-width: 40em) {
@@ -5255,6 +5258,9 @@ p.blockquote {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em; }
+
+.font-test h1 {
+  font-weight: 700; }
 
 .font-test .titillium {
   font-family: "Titillium Web", sans-serif; }
