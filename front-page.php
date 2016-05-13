@@ -15,8 +15,10 @@
 								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
 						</div>
-						<div class="columns small-4 bg-test">	
-								<img class="" src="http://lorempixel.com/500/645/animals/8" alt="">
+						<div class="columns small-4 bg-test">
+								<img class="" src="<?php 
+								the_field('promo_image');
+								?>" alt="">
 								<div class="inner">
 									<h2>Different Font&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
@@ -37,7 +39,7 @@
 					</div>
 					
 					<div class="row expanded medium-collapse align-middle">
-						<div class="columns medium-4"><h3>Tandem<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/1" alt=""></div>
+						<div class="columns medium-4"><h3>Tandem<hr></h3><a href="/tandems"><img class="discipline" src="<?php echo get_the_post_thumbnail( 1828, 'full' ); ?>" alt=""></a></div>
 						<div class="columns medium-4"><h3>Learn to jump<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/2" alt=""></div>
 						<div class="columns medium-4"><h3>Experienced Jumpers<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/3" alt=""></div></div>
 				</section>
