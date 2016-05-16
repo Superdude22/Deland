@@ -72,7 +72,7 @@ Main Functions
 } )( jQuery );
 
 ( function( $ ) {
-	 var sticky  = document.getElementById("thingy"),
+	 var sticky  = document.getElementById("nav-top"),
       sticky2 = sticky.cloneNode(true);
 
   sticky2.style.position = "fixed";

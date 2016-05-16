@@ -16,13 +16,12 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
 						</div>
 						<div class="columns small-4 bg-test">
-								<img class="" src="<?php 
-								the_field('promo_image');
-								?>" alt="">
+								<a href="<?php 	the_field('promo_link'); ?>">
+								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
 								<div class="inner">
-									<h2>Different Font&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
+									<h2><?php the_field('promo_lang'); ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
-								
+								</a>
 						</div>
 						<div class="medium-1 column show-for-medium">
 						</div>					
@@ -39,10 +38,18 @@
 					</div>
 					
 					<div class="row expanded medium-collapse align-middle">
-						<div class="columns medium-4"><h3>Tandem<hr></h3><a href="/tandems"><img class="discipline" src="<?php echo get_the_post_thumbnail( 1828, 'full' ); ?>" alt=""></a></div>
-						<div class="columns medium-4"><h3>Learn to jump<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/2" alt=""></div>
-						<div class="columns medium-4"><h3>Experienced Jumpers<hr></h3><img class="discipline" src="http://lorempixel.com/400/200/animals/3" alt=""></div></div>
+						<?php $pages = get_pages( array( 'include' => '1846, 1828, 1855' ) ); ?> 
+						    <?php foreach ( $pages as $page ) : ?>
+							<div class="columns medium-4">
+								<h3><?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?><hr></h3>
+								<a href="<?php echo get_page_link( $page->ID ); ?>">
+									<img class="discipline" src="<?php echo get_the_post_thumbnail( $page->ID, 'full' ); ?>" alt="<?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?>">
+								</a>
+							</div>
+							<?php endforeach; ?>
+					</div>
 				</section>
+
 				<section class="pac-wing row expanded some-content">
 					<div class="inner expanded row">
 						<div class="medium-1 column show-for-medium">

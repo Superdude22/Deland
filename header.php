@@ -44,6 +44,9 @@
 				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 				
 				<div class="off-canvas-content" data-off-canvas-content>
+					<?php 
+					$site_data_post = 1864;
+					?>
 				
 					<?php if ( is_front_page() ) { ?>
 					<?php $post_image_id = get_post_thumbnail_id($post->ID);
@@ -105,9 +108,9 @@
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
 											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-											<h1>Tandem Promotion<br><span class="highlight">Special</span></h1><hr>
-											<h4>Great Deal only $900</h4>
-											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4>Great Deal only $189</h4>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 									</div>
 									
@@ -119,9 +122,9 @@
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left">
 										<div class="medium-8 column text-left intro-large">
-											<h1>Tandem Promotion<br><span class="highlight">Special</span></h1><hr>
-											<h4>Great Deal only $900</h4>
-											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4>Great Deal only $189</h4>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>
@@ -133,16 +136,46 @@
 				    </section>
 
 					<div id="all-wrap" class="all-wrap">
-					<?php }else{ ?>
+					<?php }elseif ( is_woocommerce()){ ?>
 					
-					<header class="header" role="banner">
-							
-						 <!-- This navs will be applied to the topbar, above all content 
-							  To see additional nav styles, visit the /parts directory -->
-						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-		 	
-					</header> <!-- end .header -->
+					<section id="intro" class="homeSlide">
+			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url('http://lorempixel.com/400/200/animals/');">
+				        	<div class="hsContainer">				    	
+					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
+									<div class="row expanded align-left align-middle">
+										<div class="small-10 column text-left align-left intro-small">
+											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4>Great Deal only $189</h4>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+										</div>
+									</div>
+									
+					    		</div>
+				        	</div>
+			        	</div>
+			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url('http://lorempixel.com/400/200/animals/');">
+				        	<div class="hsContainer">				    	
+					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
+									<div class="row expanded align-left">
+										<div class="medium-8 column text-left intro-large">
+											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4>Great Deal only $189</h4>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+										</div>
+										<div class="medium-1 column show-for-medium">
+										</div>
+									</div>
+									
+					    		</div>
+				        	</div>
+			        	</div>
+				    </section>
 
+					<div id="all-wrap" class="all-wrap">
+
+					<?php }else{ ?>
+						<p>Hello</p>
 					<?php } ?>
 
 					 <?php get_template_part( 'parts/nav', 'topbar' ); ?>

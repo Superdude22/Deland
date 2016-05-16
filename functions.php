@@ -43,3 +43,12 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 //Post Thumbnails
 add_theme_support( 'post-thumbnails' ); 
+
+//WooCommerce Support
+//don't use woo css.  
+define('WOOCOMMERCE_USE_CSS', false);
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}

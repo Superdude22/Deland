@@ -1,5 +1,23 @@
-<div id="thingy">
+<div id="nav-top">
 	<div class="logo-bar" id="logo-bar">
+
+			<?php if ( is_woocommerce() || is_cart() ) { ?>
+				<div class="row logo align-bottom expanded">
+										
+				</div>
+				<div class="row expanded nav-bar">
+					<div class="medium-1 column show-for-medium">
+						</div>
+					<div class="columns">
+						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+					</div>
+					<div class="medium-1 column show-for-medium">
+						</div>
+				</div>
+				
+
+			<?php }else{ ?>
+
 				<div class="row logo align-bottom expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
@@ -39,5 +57,6 @@
 					<div class="medium-1 column show-for-medium">
 						</div>
 				</div>
-			</div>
+			<?php } ?>
+	</div>	
 </div>

@@ -14,3 +14,7 @@ assets/css/style.min.css.map
 assets/css/style.css
 assets/css/style.min.css.map
 assets/css/style.min.css.map
+*.sublime-workspace
+Deland.sublime-workspace
+*.cfg
+prepros.cfg

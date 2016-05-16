@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php $site_data_post = 1864; ?>
 	
 	<div id="content">
 	
@@ -6,20 +7,23 @@
 	
 			<main id="main" class="small-12 columns" role="main">
 
+
 				<section class="about row expanded" id="about">
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns small-6 words">
-								<h1><span class="sm-dec">About</span> Tandems</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
-								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
+								<h1><span class="sm-dec">About</span> Tandem Skydiving</h1>
+								<p>The <strong>Tandem Skydive</strong> is currently used world wide and is the most popular way for first-time jumpers to experience the <em>thrill of the sport of skydiving.</em></p>
+								<p class="blockquote">The method of tandem skydive and the equipment was conceived and developed here in DeLand, Florida.</p>
+								<p>Through the tandem program you will jump with one of Skydive DeLand’s highly experienced instructors using a parachute system specially built for two. Your harness is connected to your instructor’s from start to finish.</p>
 						</div>
 						<div class="columns small-4 bg-test">	
-								<img class="" src="http://lorempixel.com/500/645/animals/8" alt="">
+								<a href="<?php 	the_field('promo_link'); ?>">
+								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
 								<div class="inner">
-									<h2>Different Font&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
+									<h2><?php the_field('promo_lang'); ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
+								</a>
 								
 						</div>
 						<div class="medium-1 column show-for-medium">
@@ -32,20 +36,16 @@
 						</div>
 						<div class="row column small-10">
 							<div class="row expanded">
-								<h1>Something Promotional</h1>
+								<h1>Ready, Set, Go. (Style This)</h1>
 							</div>
 							<div class="row expanded">
 								<div class="column words font-test">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
-									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
-									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
+									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-									<ul>
-										<li>Lorem ipsum dolor sit.</li>
-										<li>Tempore dolore sit molestias?</li>
-										<li>Earum vitae quod veritatis!</li>
-									</ul>
-
+			    					<?php the_content(); ?>
+			    
+			    					<?php endwhile; endif; ?>
+									
 									<h1 class="titillium">This Big Font</h1>
 									<p class="titillium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
 									<h1 class="exo">This Big Font</h1>
@@ -72,6 +72,67 @@
 						</div>
 					</div>
 				</section>
+				<section class="contact row expanded">
+					<div class="medium-1 column show-for-medium">
+						</div>
+					<div class="row expanded small-11 columns">
+						<h1>Prices:</h1>
+						<div class="row small-12 expanded columns">
+							<div class="small-12 medium-7 columns">
+								<table class="hover">
+									<thead>
+										<tr>
+											<th>
+												Tandem Skydive
+											</th>
+											<th>
+												Price:
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 - 3 people</td>
+											<td>$189 each</td>
+										</tr>
+										<tr>
+											<td>Video and Stills Package</td>
+											<td>+$90 each</td>
+										</tr>
+										<tr>
+											<td>4 - 6 people</td>
+											<td>$165 each</td>
+										</tr>
+										<tr>
+											<td>Video and Stills Package</td>
+											<td>+$90 each</td>
+										</tr>
+										<tr>
+											<td>7 or more people</td>
+											<td>$155 each</td>
+										</tr>
+										<tr>
+											<td>Video and Stills Package</td>
+											<td>+$90 each</td>
+										</tr>
+										<tr>
+											<td>
+												Steston, ERAU, FCU, and UCF students call for student discount price: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a>
+											</td>
+											<td></td>									
+										</tr>
+									</tbody>
+								</table>
+								<p>*All our advertised prices reflect a 5% cash and debit discount. Visa and Mastercard payments do not qualify for the cash discount.</p>
+								<p>*Proces subject to change without notice.</p>
+							</div>
+							<div class="small-12 medium-3 columns g-map">
+								<img src="http://lorempixel.com/400/200/animals/8" alt="">
+							</div>
+						</div>
+						
+					</div>
+				</section>
 				
 				
 				<section class="faq row expanded">
@@ -79,54 +140,52 @@
 						<div class="small-1 column otter-stripe">
 						</div>
 						<div class="column shrink">
-							<h1>Frequently Asked</h1>
+							<h1>Requirements and FAQs</h1>
 						</div>
 						<div class="columns otter-stripe">
 						</div>
 					</div>
 					<div class="row expanded small-12 columns">
-						<div class="small-7 small-offset-1 columns">
-							<div class="faq-list">
-							<ul class="accordion" data-accordion data-allow-all-closed="true">
-								<li class="question accordion-item" data-accordion-item>
-									<a href="#" class="accordion-title">
-										<h1>Lorem ipsum dolor.</h1>
-										<div class="date">
-												<p class="start"><span class="time">8:45am</span> 4/15 - </p><p>4/17</p>
-										</div>
-									</a>
-									<div class="accordion-content" data-tab-content>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-									</div>
-								</li>
-								<li class="question accordion-item" data-accordion-item>
-									<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-									<div class="accordion-content" data-tab-content>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-									</div>
-								</li>
-								<li class="question accordion-item" data-accordion-item>
-									<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-									<div class="accordion-content" data-tab-content>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-									</div>
-								</li>
-								<li class="question accordion-item" data-accordion-item>
-									<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-									<div class="accordion-content" data-tab-content>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-									</div>
-								</li>
+						<div class="small-5 small-offset-1 columns">
+							<h3>Requirements</h3>
+							<ul>
+								<li>Must be at least 18 years of age, no exceptions.</li>
+								<li>You must provide a valid government issued photo ID.</li>
+								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></li>
+								<li>Absolutely no alcohol or drugs consumption prior to skydiving!</li>
+								<li>Please allow three to four hours to complete the experience with us.</li>
+								<li>Safety is our number one priority and there may be some physical limitations that will require an evaluation from a Skydive DeLand Instructor.</li>
 							</ul>
-							<div class="load-more">	
-								load more
+
+							<h3>What to Wear:</h3>
+							<ul>
+								<li>Comfortable clothing according to the weather</li>
+								<li>Sneakers or tennis shoes</li>
+								<li>Long hair should be put in a pony tail</li>
+								<li>We recommend that you do not wear dangling jewelry, or anything valuable</li>
+							</ul>
+						</div>
+						<div class="small-5 columns">
+							<h3>Frequently Asked Questions</h3>
+							
+							<div class="faq-list">
+								<?php 
+									query_posts('post_type=tandem_faq' );
+								?>
+								<ul class="accordion" data-accordion data-allow-all-closed="true">
+
+									<?php while (have_posts()) : the_post(); ?>
+										<li class="question accordion-item" data-accordion-item>
+											<a href="#" class="accordion-title"><h1><?php the_field('question'); ?></h1></a>
+											<div class="accordion-content" data-tab-content>
+												<?php the_field('answer'); ?>
+											</div>
+										</li>						
+									<?php endwhile;?>
+								</ul>
 							</div>
 						</div>
-						<div class="small-4 columns">
-							<p>Something Decorative/Promotional</p>
-							<img src="http://lorempixel.com/400/200/animals/7" alt="">
-						</div>
-						</div>
+						
 					</div>
 
 						
