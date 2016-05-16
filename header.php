@@ -137,31 +137,40 @@
 
 					<div id="all-wrap" class="all-wrap">
 					<?php }elseif ( is_woocommerce()){ ?>
+						<?php 
+					    	$product_id = get_the_ID();
+					    	$product = new WC_product($product_id);
+							$image_id = $product->get_image_id();
+							$price = $product->price;
+							// $image_id = 0 if a product image has not been set.
+							$image_loc = wp_get_attachment_image_src( $image_id, 'full') ;					
+					    ?>
 					
-					<section id="intro" class="homeSlide">
-			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url('http://lorempixel.com/400/200/animals/');">
+					<section id="intro" class="homeSlide cartSlide">
+			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url('<?php echo $image_loc[0]; ?>');">
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
 											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
 											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4>Great Deal only $189</h4>
+											<h4>Great Deal only $<?php echo $price; ?></h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p><?php print_r($product);?></p>
 										</div>
 									</div>
 									
 					    		</div>
 				        	</div>
 			        	</div>
-			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url('http://lorempixel.com/400/200/animals/');">
+			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url('<?php echo $image_loc[0]; ?>');">
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left">
 										<div class="medium-8 column text-left intro-large">
-											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4>Great Deal only $189</h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<h1>Order Tandem Vouchers<span class="highlight"> Fly</span></h1><hr>
+											<h4>Great Deal only $<?php echo $price; ?></h4>
+											<p class="phone">Or, Call To Book:  <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>
@@ -175,7 +184,6 @@
 					<div id="all-wrap" class="all-wrap">
 
 					<?php }else{ ?>
-						<p>Hello</p>
 					<?php } ?>
 
 					 <?php get_template_part( 'parts/nav', 'topbar' ); ?>

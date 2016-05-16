@@ -23,6 +23,7 @@ Main Functions
 	// Setup variables
 	$window = $(window);
 	$slide = $('.homeSlide');
+	$cartSlide = $('.cartSlide');
 	$slideTall = $('.homeSlideTall');
 	$slideTall2 = $('.homeSlideTall2');
 	$body = $('body');
@@ -61,6 +62,7 @@ Main Functions
 	    
 	    // Resize our slides
 	    $slide.height(winH);
+	    $cartSlide.height(winH*.5);
 	    $slideTall.height(winH*2);
 	    $slideTall2.height(winH*3);
 	    
@@ -72,7 +74,7 @@ Main Functions
 } )( jQuery );
 
 ( function( $ ) {
-	 var sticky  = document.getElementById("nav-top"),
+	 var sticky  = document.getElementById("thingy"),
       sticky2 = sticky.cloneNode(true);
 
   sticky2.style.position = "fixed";

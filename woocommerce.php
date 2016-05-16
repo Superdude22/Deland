@@ -5,7 +5,9 @@
 		<div id="inner-content" class="row">
 	
 		    <main id="main" class="small-12 columns" role="main">
-		    	<h1>  Stuff Things  </h1>
+		    
+		   
+		    	<h1><?php the_title(); ?></h1>
 				
 				<?php woocommerce_content(); ?>							
 			    					

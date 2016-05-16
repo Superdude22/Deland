@@ -1,8 +1,24 @@
-<div id="nav-top">
+<div id="thingy">
 	<div class="logo-bar" id="logo-bar">
 
 			<?php if ( is_woocommerce() || is_cart() ) { ?>
 				<div class="row logo align-bottom expanded">
+				<?php if( is_woocommerce() ) { ?>
+
+					
+					<div class="column">
+						</div>
+					<div class="weather small-10 medium-2 column">
+							<div class="row align-bottom">
+								<a href="<?php echo home_url();?>">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+								</a>
+							</div>
+					</div>
+					<div class="medium-1 column show-for-medium">
+					</div>	
+
+				<?php } ?>
 										
 				</div>
 				<div class="row expanded nav-bar">
