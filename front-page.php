@@ -41,9 +41,12 @@
 						<?php $pages = get_pages( array( 'include' => '1846, 1828, 1855' ) ); ?> 
 						    <?php foreach ( $pages as $page ) : ?>
 							<div class="columns medium-4">
+								<?php	
+									$img_url = '';
+									$img_url = wp_get_attachment_url( get_post_thumbnail_id($page->ID), 'full' ); ?>
 								<h3><?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?><hr></h3>
 								<a href="<?php echo get_page_link( $page->ID ); ?>">
-									<img class="discipline" src="<?php echo get_the_post_thumbnail( $page->ID, 'full' ); ?>" alt="<?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?>">
+									<img class="discipline" src="<?php echo $img_url; ?>" alt="<?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?>">
 								</a>
 							</div>
 							<?php endforeach; ?>

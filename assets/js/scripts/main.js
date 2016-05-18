@@ -61,7 +61,7 @@ Main Functions
 	    
 	    // Resize our slides
 	    $slide.height(winH);
-	    $cartSlide.height(winH*.5);
+	    $cartSlide.height(winH*0.5);
 	    $slideTall.height(winH*2);
 	    $slideTall2.height(winH*3);
 	    
@@ -88,4 +88,16 @@ Main Functions
   window.addEventListener("scroll", stickIt, false );
 	
 		
+} )( jQuery );
+
+
+
+    
+( function( $ ) {
+	// Function to slabtext the H1 headings
+        $("h1").slabText({
+            // Don't slabtext the headers if the viewport is under 380px
+            "viewportBreakpoint":380
+        });
+
 } )( jQuery );
