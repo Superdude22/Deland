@@ -35,13 +35,11 @@ TYPOGRAPHY
 
 //Remove Unused Fonts
 @import url(https://fonts.googleapis.com/css?family=Candal);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,200,300,700,900,200italic,300italic,400italic,600italic,700italic|Exo+2|Noto+Sans:700,700italic|Orbitron:400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,200,300,700,900,200italic,300italic,400italic,600italic,700italic|Exo+2);
 	
 $candal: 'Candal', sans-serif;
 $Titillium: 'Titillium Web', sans-serif;
 $Exo: 'Exo 2', sans-serif;
-$Noto: 'Noto Sans', sans-serif;
-$Orbitron: 'Orbitron', sans-serif;
 
 //Use the best ampersand - http://simplebits.com/notebook/2008/08/14/ampersands-2/
 span.amp {

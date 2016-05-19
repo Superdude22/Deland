@@ -9,6 +9,7 @@ GENERAL STYLES
 *********************/
 html, body, .off-canvas-wrap, .off-canvas-wrapper-inner, .off-canvas-content, .all-wrap{
 	height:100%;
+	font-family: $Titillium;
 }
 
 .all-wrap{
@@ -19,7 +20,7 @@ html, body, .off-canvas-wrap, .off-canvas-wrapper-inner, .off-canvas-content, .a
 LINK STYLES
 *********************/
 a, a:visited {
-
+	font-weight:600;
 	// Mobile tap color
 	&:link {
 		//Highlight links on iOS, Similar to :hover for mobile devices.
@@ -41,7 +42,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	color: $dk-blue;
 	font-family: $candal;
-	font-size: 2.5rem;
+	//font-size: 2.5rem;
 	.sm-dec{
 		position: relative;
 		top: -0.75rem;
@@ -73,7 +74,7 @@ h1, .h1 {
 	}
 
 h2, .h2 {
-
+	font-family: $Titillium;
 }
 
 h3, .h3 {
@@ -88,10 +89,22 @@ h5, .h5 {
 
 }
 
+p, .p{
+	@include breakpoint(large up){
+		font-size: 1.2rem;
+	}
+}
+
+
 p.phone{
-	font-size:1.4rem;
+	a{
+	color: $dk-blue;	
+	}
+	font-size:1.2rem;
+	font-weight:600;
 	@include breakpoint(medium){
 		font-size:1.8rem;
+		font-weight: 400;
 	}
 	
 }
@@ -120,12 +133,6 @@ p.blockquote{
 	.exo{
 		font-family: $Exo;
 	}
-	.noto{
-		font-family: $Noto;
-	}
-	.orbitron{
-		font-family: $Orbitron;
-	}
 
 }
 
@@ -144,10 +151,16 @@ HEADER STYLES
 
 .intro-large{
 	h1{
+		font-size: 3rem;
 		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
+		@include breakpoint(large){
+			font-size: 5rem;
+			line-height: 6rem;
+		}
+
 		@include breakpoint(xxlarge){
 			font-size: 10rem;
-			line-height: 8rem;
+			line-height: 8.5rem;
 		}
 		
 	}
@@ -161,6 +174,9 @@ HEADER STYLES
 		img{
 			width:40%;
 			opacity: 0.5;
+		}
+		h1{
+			font-size: 2rem;
 		}
  }
 
@@ -266,6 +282,37 @@ NAVIGATION STYLES
 
 		}
 }
+
+.top-bar-right{
+	ul{
+		a{
+			color: $dk-blue;
+		}	
+		@include breakpoint(large) {
+			font-size:1.2rem;
+			a{
+				line-height:2rem;
+			}
+		}
+	}
+}
+
+.sd-deland{
+	a{
+	color: $dk-blue;
+	}
+	font-size:1.2rem;
+	font-family: $Exo;
+	text-shadow:  3px 3px 0px rgba(186, 151, 15, 0.8), 9px 8px 0px rgba(0, 0, 0, 0.05);
+	@include breakpoint(medium) {
+		font-size:2rem;
+	}
+	@include breakpoint(large) {
+		font-size:2rem;
+		line-height: 1.2rem;
+	}
+}
+
 
 /*********************
 POSTS & CONTENT STYLES
@@ -402,20 +449,29 @@ Section STYLES
 	}
 
 	h3{
-		margin-top: $global-padding;
+		margin-top: 2*$global-padding;
 		padding-left: $global-padding;
-		font: $candal;
 		font-weight: 700;
 		position: relative;
 		z-index: 1;
 		color: $light-gray;
 		width:80%;
+		line-height: 1rem;
 		@include text-shadow(2px, 4px, 0px, $dk-blue);
 		//@include stroke(1px, $dk-blue);
 		hr{
 			border-color: $dk-blue;
 		}
+		@include breakpoint(medium only) {
+		font-size:1.4rem;
+		}
+		@include breakpoint(large up) {
+		font-size:2rem;
+		}
+		 
+		}
 	}
+
 
 	img.discipline{
 		position: relative;
@@ -423,15 +479,19 @@ Section STYLES
 		height: 30rem;
 		overflow: hidden;
 		z-index:0;
-		
+		object-fit: cover;
 		@include breakpoint(medium up) {
+
 			-webkit-filter: blur(2px) grayscale(0.9);
-			 &:hover{
-			-webkit-filter: none;
-			}
 		}
 	 
 
+	}
+	a{
+		&:hover{
+		 	img.discipline{
+			-webkit-filter: none;
+			}
 	}
 }
 
@@ -451,12 +511,21 @@ Section STYLES
 	background: -webkit-linear-gradient(top, $light-gray 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, $light-gray 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-
+	
+	h1{
+		
+		@include breakpoint(small only){
+			padding-top: 1rem;
+			font-size: 2rem;
+		}
+	}
 
 	.bg-test{
 		position: relative;
-		overflow: hidden;
+		//overflow: hidden;
 		padding: 0 !important;
+		height: 10rem;
+
 		.inner{
 			position: absolute;
 			bottom:0;
@@ -470,13 +539,26 @@ Section STYLES
 			color:$white;
 		}	
 		img{
-			width: 100%;
+			width: auto;
+			height: 10rem;
 			position: absolute;
 			left: 0;
 			top: 0;
 			opacity: 0.3;
-			object-fit:cover
+			object-fit:cover;
 		}
+
+		@include breakpoint(medium){
+			height: 30rem;
+			img{
+				height: 30rem;
+			}
+		}
+		@include breakpoint(medium only){
+			background-position: right bottom;
+		}
+
+
 	}
 
 	.words{
@@ -494,16 +576,29 @@ Section STYLES
 	}
 
 	.contact-links{
-		-moz-column-count: 2;
-		-webkit-column-count: 2;
-		column-count: 2;
+		
 		ul{
+			-moz-column-count: 2;
+			-webkit-column-count: 2;
+			column-count: 2;
 			li{
-				color:$dk-yellow;
-				font-size: 2rem;
-				line-height: 20rem;
+				font-size: 1.5rem;
+				line-height: 3rem;
 				font-weight: 700;
+				@include breakpoint(medium){
+					font-size: 2rem; 
+					line-height: 4.5rem;
+				}
+				a{
+					color: rgba(8, 7, 216, 0.8);
+					opacity: 0.8;
+				 &:hover{
+				 	color: $dk-yellow;
+				 }
+				}					
+				
 			}
+			height: 20rem;
 		}
 		i{
 			color:$dk-yellow;
@@ -518,6 +613,7 @@ Section STYLES
 		position: relative;
 		overflow: hidden;
 	}
+	
 }
 
 .some-content{
@@ -547,6 +643,18 @@ Section STYLES
 	}
 	
 }
+
+.acf-map {
+		width: 100%;
+		height: 400px;
+		border: #ccc solid 1px;
+		margin: 20px 0;
+	}
+
+	/* fixes potential theme css conflict */
+	.acf-map img {
+	   max-width: inherit !important;
+	}
 
 .events-list, .faq-list{
 		ul,li {

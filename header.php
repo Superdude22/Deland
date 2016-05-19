@@ -26,7 +26,7 @@
 	    <?php } ?>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
+		
 		<?php wp_head(); ?>
 
 		<!-- Drop Google Analytics here -->
@@ -65,7 +65,7 @@
 											<img class="align-right" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
 											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
-											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 									</div>
 									
@@ -76,10 +76,10 @@
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right">
-										<div class="medium-8 column text-right intro-large">
+										<div class="medium-10 columns text-right intro-large">
 											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
-											<p class="phone"><a href="tel://1-555-555-5555"><i class="fa fa-phone fa-fw"></i>&nbsp; 1-800-555-5555</a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>
@@ -110,7 +110,7 @@
 											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
 											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Great Deal only $189</h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 									</div>
 									
@@ -124,7 +124,7 @@
 										<div class="medium-8 column text-left intro-large">
 											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Great Deal only $189</h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>
@@ -153,9 +153,9 @@
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
 											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Great Deal only $<?php echo $price; ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 											<p><?php print_r($product);?></p>
 										</div>
 									</div>

@@ -44,14 +44,14 @@
 					</div>
 					<div class="column">
 						</div>
-					<div class="weather small-10 medium-3 column">
+					<div class="weather small-10 medium-5 large-3 column text-right">
 						<h3>Current Weather</h3>
 						<p>We're Jumping!!</p>
-							<div class="row align-bottom">
-								<div class="weather-icon medium-3 columns">
+							<div class="row align-bottom ">
+								<div class="weather-icon columns align-right">
 									<i class="fa fa-sun-o fa-fw"></i>
 								</div>
-								<div class="columns">
+								<div class="shrink columns">
 									<div class="temp">
 										<p>77</p>
 									</div>
