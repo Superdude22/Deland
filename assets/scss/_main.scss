@@ -167,6 +167,22 @@ HEADER STYLES
 
   }
 
+ .tandems{
+ 	.intro-large{
+ 		h1{
+ 			@include breakpoint(large){
+			font-size: 3rem;
+			line-height: 3rem;
+		}
+
+		@include breakpoint(xxlarge){
+			font-size: 5rem;
+			line-height: 5rem;
+		}
+ 		}
+ 	}
+ }
+
 
 .intro-small{
 		background-color:rgba(0,0,0,0.3);
@@ -421,6 +437,8 @@ POSTS & CONTENT STYLES
 Section STYLES
 *********************/
 
+
+
 .disciplines{
 	//margin-top:-3.6rem;
 	.pos-adjust{
@@ -503,6 +521,7 @@ Section STYLES
 	}
 }
 
+
 .about{
 	//background-color: $light-gray;
 	overflow: hidden;
@@ -513,11 +532,18 @@ Section STYLES
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 	
 	h1{
-		
+		white-space: nowrap;
 		@include breakpoint(small only){
 			padding-top: 1rem;
 			font-size: 2rem;
 		}
+		@include breakpoint(medium){
+				font-size: 1.8rem
+			}
+		@include breakpoint(large){
+				font-size: 2.5rem;
+				line-height: 3rem;
+			}
 	}
 
 	.bg-test{
@@ -564,6 +590,12 @@ Section STYLES
 	.words{
 		padding-bottom:2em;
 	}
+}
+.tandems{
+	.intro-large{
+		font-size: 1.2rem;
+	}
+  
 }
 
 .contact{

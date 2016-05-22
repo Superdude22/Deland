@@ -1,30 +1,29 @@
 <?php get_header(); ?>
 <?php $site_data_post = 1864; ?>
 	
-	<div id="content">
+	<div id="content tandems">
 	
 		<div id="inner-content" class="row expanded">
 	
 			<main id="main" class="small-12 columns" role="main">
 
 
-				<section class="about row expanded" id="about">
+				<section class="about row expanded " id="about">
 						<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="columns small-6 words">
-								<h1><span class="sm-dec">About</span> Tandem Skydiving</h1>
+						<div class="columns medium-6 words">
+								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">Tandem Skydiving</h1>
 								<p>The <strong>Tandem Skydive</strong> is currently used world wide and is the most popular way for first-time jumpers to experience the <em>thrill of the sport of skydiving.</em></p>
 								<p class="blockquote">The method of tandem skydive and the equipment was conceived and developed here in DeLand, Florida.</p>
 								<p>Through the tandem program you will jump with one of Skydive DeLand’s highly experienced instructors using a parachute system specially built for two. Your harness is connected to your instructor’s from start to finish.</p>
 						</div>
-						<div class="columns small-4 bg-test">	
+						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
 								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
 								<div class="inner">
 									<h2><?php the_field('promo_lang'); ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
 								</a>
-								
 						</div>
 						<div class="medium-1 column show-for-medium">
 						</div>					
@@ -35,10 +34,10 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="row column small-10">
-							<div class="row expanded">
-								<h1>Ready, Set, Go. (Style This)</h1>
+							<div class="row expanded small-12 columns">
+								<h1 class="pic-bg"><span class='highlight2'>Ready,</span><br> Set, <br><span class='highlight'>Go</span></h1>
 							</div>
-							<div class="row expanded">
+							<div class="row expanded small-12 columns">
 								<div class="column words font-test">
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -50,17 +49,9 @@
 									<p class="titillium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
 									<h1 class="exo">This Big Font</h1>
 									<p class="exo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
-									<h1 class="noto">This Big Font</h1>
-									<p class="noto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
-									<h1 class="orbitron">This Big Font</h1>
-									<p class="orbitron">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis harum suscipit natus minima id fuga deleniti illo recusandae a hic.</p>
+									
 
 
-
-								</div>
-								<div class="column picture">
-									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tandem cutout.jpg" alt="">							
-									<img src="http://lorempixel.com/400/200/animals/3" alt="">
 
 								</div>
 							</div>

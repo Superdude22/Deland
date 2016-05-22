@@ -6240,6 +6240,20 @@ HEADER STYLES
   }
 }
 
+@media screen and (min-width: 64em) {
+  .tandems .intro-large h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (min-width: 120em) {
+  .tandems .intro-large h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
 .intro-small {
   background-color: rgba(0, 0, 0, 0.3);
   padding-top: 3rem;
@@ -6576,10 +6590,27 @@ a:hover img.discipline {
   /* IE6-9 */
 }
 
+.about h1 {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 39.9375em) {
   .about h1 {
     padding-top: 1rem;
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .about h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .about h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 }
 
@@ -6630,6 +6661,10 @@ a:hover img.discipline {
 
 .about .words {
   padding-bottom: 2em;
+}
+
+.tandems .intro-large {
+  font-size: 1.2rem;
 }
 
 .contact {

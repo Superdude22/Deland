@@ -101,14 +101,14 @@
 						//echo $thumbnail;
 					?>
 
-					<section id="intro" class="homeSlide">
+					<section id="intro" class="homeSlide tandems">
 			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
 											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Great Deal only $189</h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
@@ -121,8 +121,8 @@
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left">
-										<div class="medium-8 column text-left intro-large">
-											<h1><?php the_field('intro_main'); ?><br><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+										<div class="medium-10 large-8 column text-left intro-large">
+											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Great Deal only $189</h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
