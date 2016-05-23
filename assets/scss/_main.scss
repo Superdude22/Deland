@@ -127,13 +127,14 @@ p.blockquote{
 
 .font-test{
 
-	.titillium{
-		font-family: $Titillium;
-	}
-	.exo{
-		font-family: $Exo;
+	p{
+		padding-top:1rem;
 	}
 
+}
+
+.slabtext{
+	display:block;
 }
 
 /*********************
@@ -231,7 +232,18 @@ HEADER STYLES
 	//background-image:url(../images/tandem_cloud.jpg);
 }
 
-
+.extra_image {
+	position: relative;
+	z-index: 2;
+	max-height: 30rem;
+	overflow: hidden;
+	padding:0;
+	img{
+		width:100%;
+		object-fit: cover;
+	}
+	
+}
 
 
 	
@@ -433,6 +445,36 @@ POSTS & CONTENT STYLES
 	@include button;
 }
 
+.ready_set{
+	position: relative;
+	z-index: 20;
+	font-size: 2rem;
+	@include breakpoint(medium){
+		font-size: 3rem;
+	}
+	.ready{
+		color: $medium-gray;
+	}
+	.set{
+		font-size: 3.8rem;
+		@include breakpoint(medium up){
+		font-size:6rem;
+		line-height: 5rem;
+
+	}
+	}
+	.highlight{
+		font-size: 5rem;
+		@include breakpoint(medium up){
+		font-size: 10rem;
+		line-height: 6rem;
+	}
+	}
+
+
+
+}
+
 /*********************
 Section STYLES
 *********************/
@@ -591,6 +633,8 @@ Section STYLES
 		padding-bottom:2em;
 	}
 }
+
+
 .tandems{
 	.intro-large{
 		font-size: 1.2rem;
@@ -598,9 +642,59 @@ Section STYLES
   
 }
 
+.prices{
+	.bg-test{
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		height: 10rem;
+		width:100%;
+
+		.inner{
+			position: absolute;
+			bottom:0;
+			width: 80%;
+			background-color: rgba(186, 151, 15, 0.5);
+			padding-left:1em;
+		}
+		h2{
+			position: relative;
+			z-index: 2;
+			color:$white;
+		}	
+		img{
+			width: 100%;
+			height: auto;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0.3;
+			object-fit:cover;
+		}
+
+		@include breakpoint(medium){
+			height: 30rem;
+			img{
+				height: 30rem;
+			}
+		}
+		@include breakpoint(medium only){
+			background-position: right bottom;
+		}
+
+
+	}
+
+	thead{
+		font-size: 1.2rem;
+	}
+
+}
+
+
 .contact{
 	background-color: $dk-blue;
-	height:30rem;
+	//height:30rem;
 	overflow:hidden;
 	h1{
 		color:$white;
@@ -647,6 +741,8 @@ Section STYLES
 	}
 	
 }
+
+
 
 .some-content{
 	.words{
@@ -696,47 +792,70 @@ Section STYLES
 		}
 
 		ul {
-		  margin: 2em 0;
+		  margin: 1.2em 0;
 		}
 
 		li {
 		  margin: 1em;
-		  margin-left: 3em;
+		  margin-left: 2em;
 		}
 	.event, .question{
 		h1{
-			font-size: 1.5rem;
+			font-size: 1.2rem;
+			@include breakpoint(large up){
+				font-size: 1.4rem;
+			}
 			&:before {
-				content: '\f006';
-				font-family: 'FontAwesome';
+				content: 'Q:';
+				//font-family: 'FontAwesome';
 				float: left;
 				margin-left: -1.5em;
 				color: #0074D9;
 			}
 		}
+	
 		.date{
 			p{
 			display: inline-block;
 			}
 		}
 	}
+	.event{
+		h1{
+			&:before {
+				content: 'B:';
+				//font-family: 'FontAwesome';
+			}
+		}
+	}
+
 }
+
 
 .faq{
 
 	h1{
+		@include breakpoint(medium only){
+			font-size: 1.8rem;
+		}
 		letter-spacing: 0.2rem;
 		@include stroke(2px, $dk-blue);
 		color: $dk-yellow;
 	}
+	.requirements{
+		padding-right: $global-padding;
+	}
 
 	.question{
 		h1{
+			font-family: $Titillium;
+			font-weight: 400;
 			letter-spacing: 0rem;
 			@include stroke(0px, $dk-blue);
 			color: $dk-blue;
 		}
 	}
+
 }
 
 

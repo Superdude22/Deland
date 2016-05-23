@@ -91,7 +91,7 @@
 				    </section>
 
 					<div id="all-wrap" class="all-wrap">
-					<?php }elseif ( is_page('tandems')){ ?>
+					<?php }elseif ( is_page() ){ ?>
 					
 					<?php $post_image_id = get_post_thumbnail_id($post->ID);
 						if ($post_image_id) {
@@ -101,7 +101,7 @@
 						//echo $thumbnail;
 					?>
 
-					<section id="intro" class="homeSlide tandems">
+					<section id="intro" class="homeSlide <?php the_slug();?>">
 			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
@@ -184,6 +184,11 @@
 					<div id="all-wrap" class="all-wrap">
 
 					<?php }else{ ?>
+
+
+
+
+
 					<?php } ?>
 
 					 <?php get_template_part( 'parts/nav', 'topbar' ); ?>

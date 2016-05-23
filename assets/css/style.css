@@ -6203,12 +6203,12 @@ p.blockquote:before {
   vertical-align: -0.4em;
 }
 
-.font-test .titillium {
-  font-family: "Titillium Web", sans-serif;
+.font-test p {
+  padding-top: 1rem;
 }
 
-.font-test .exo {
-  font-family: "Exo 2", sans-serif;
+.slabtext {
+  display: block;
 }
 
 /*********************
@@ -6303,6 +6303,19 @@ HEADER STYLES
 }
 
 /* Intro */
+.extra_image {
+  position: relative;
+  z-index: 2;
+  max-height: 30rem;
+  overflow: hidden;
+  padding: 0;
+}
+
+.extra_image img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -6495,6 +6508,44 @@ POSTS & CONTENT STYLES
   color: #fefefe;
 }
 
+.ready_set {
+  position: relative;
+  z-index: 20;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 40em) {
+  .ready_set {
+    font-size: 3rem;
+  }
+}
+
+.ready_set .ready {
+  color: #cacaca;
+}
+
+.ready_set .set {
+  font-size: 3.8rem;
+}
+
+@media screen and (min-width: 40em) {
+  .ready_set .set {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+}
+
+.ready_set .highlight {
+  font-size: 5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .ready_set .highlight {
+    font-size: 10rem;
+    line-height: 6rem;
+  }
+}
+
 /*********************
 Section STYLES
 *********************/
@@ -6667,9 +6718,59 @@ a:hover img.discipline {
   font-size: 1.2rem;
 }
 
+.prices .bg-test {
+  position: relative;
+  overflow: hidden;
+  padding: 0 !important;
+  height: 10rem;
+  width: 100%;
+}
+
+.prices .bg-test .inner {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  background-color: rgba(186, 151, 15, 0.5);
+  padding-left: 1em;
+}
+
+.prices .bg-test h2 {
+  position: relative;
+  z-index: 2;
+  color: #fefefe;
+}
+
+.prices .bg-test img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 40em) {
+  .prices .bg-test {
+    height: 30rem;
+  }
+  .prices .bg-test img {
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .prices .bg-test {
+    background-position: right bottom;
+  }
+}
+
+.prices thead {
+  font-size: 1.2rem;
+}
+
 .contact {
   background-color: #000b4f;
-  height: 30rem;
   overflow: hidden;
 }
 
@@ -6765,21 +6866,26 @@ a:hover img.discipline {
 }
 
 .events-list ul, .faq-list ul {
-  margin: 2em 0;
+  margin: 1.2em 0;
 }
 
 .events-list li, .faq-list li {
   margin: 1em;
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 .events-list .event h1, .events-list .question h1, .faq-list .event h1, .faq-list .question h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 64em) {
+  .events-list .event h1, .events-list .question h1, .faq-list .event h1, .faq-list .question h1 {
+    font-size: 1.4rem;
+  }
 }
 
 .events-list .event h1:before, .events-list .question h1:before, .faq-list .event h1:before, .faq-list .question h1:before {
-  content: '\f006';
-  font-family: 'FontAwesome';
+  content: 'Q:';
   float: left;
   margin-left: -1.5em;
   color: #0074D9;
@@ -6789,13 +6895,29 @@ a:hover img.discipline {
   display: inline-block;
 }
 
+.events-list .event h1:before, .faq-list .event h1:before {
+  content: 'B:';
+}
+
 .faq h1 {
   letter-spacing: 0.2rem;
   text-shadow: 0 0 0 transparent, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, -2px -2px 0 #000b4f, -1px -2px 0 #000b4f, 0px -2px 0 #000b4f, 1px -2px 0 #000b4f, 2px -2px 0 #000b4f, -2px -1px 0 #000b4f, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, 2px -1px 0 #000b4f, -2px 0px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, 2px 0px 0 #000b4f, -2px 1px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, 2px 1px 0 #000b4f, -2px 2px 0 #000b4f, -1px 2px 0 #000b4f, 0px 2px 0 #000b4f, 1px 2px 0 #000b4f, 2px 2px 0 #000b4f;
   color: #ba970f;
 }
 
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .faq h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.faq .requirements {
+  padding-right: 1rem;
+}
+
 .faq .question h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
   letter-spacing: 0rem;
   text-shadow: 0 0 0 transparent;
   color: #000b4f;

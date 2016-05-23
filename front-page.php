@@ -100,7 +100,7 @@
 					<div class="medium-1 column show-for-medium">
 						</div>
 					<div class="row expanded small-11 columns">
-						<h1>Contact Deland / Map</h1>
+						<h1>Contact:</h1>
 						<div class="row small-12 expanded columns">
 							<div class="small-12 large-5 columns contact-links align-middle">
 								<ul class="no-bullet">

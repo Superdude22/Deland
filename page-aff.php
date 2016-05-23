@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php $site_data_post = 1864; ?>
 	
-	<div id="content tandems">
+	<div id="content aff">
 	
 		<div id="inner-content" class="row expanded">
 	
@@ -12,10 +12,11 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns small-11 medium-6 words">
-								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">Tandem Skydiving</h1>
-								<p>The <strong>Tandem Skydive</strong> is currently used world wide and is the most popular way for first-time jumpers to experience the <em>thrill of the sport of skydiving.</em></p>
-								<p class="blockquote">The method of tandem skydive and the equipment was conceived and developed here in DeLand, Florida.</p>
-								<p>Through the tandem program you will jump with one of Skydive DeLand’s highly experienced instructors using a parachute system specially built for two. Your harness is connected to your instructor’s from start to finish.</p>
+								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">AFF</h1>
+								<h2><strong>A</strong>ccelerated <strong>F</strong>ree <strong>F</strong>all</h2>
+
+								<p class="blockquote">AFF IS A SEVEN-STEP PROGRESSION PROGRAM DESIGNED TO TEACH YOU TO BECOME A SKYDIVER.</p>
+								<p>Through the AFF program you will jump with some of Skydive DeLand’s highly experienced instructors using a parachute system specially built for students.</p>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
@@ -84,56 +85,53 @@
 									<thead>
 										<tr>
 											<th width="200">
-												Tandem Skydive
+												Level:
 											</th>
 											<th width="100">
 												Price:
+											</th>
+											<th width="100">
+												Objective:
 											</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>1 - 3 people</td>
-											<td>$189 each</td>
+											<td>1</td>
+											<td>$361</td>
+											<td>Relax have fun and show ground, altitude and instructor awareness and the ability to pull on your own and on time</td>
 										</tr>
 										<tr>
-											<td>Video and Stills Package</td>
-											<td>+$90 each</td>
+											<td>2</td>
+											<td>$204</td>
+											<td>Introduces the student to freefall turns (jump with two Instructors.</td>
 										</tr>
 										<tr>
-											<td>4 - 6 people</td>
-											<td>$165 each</td>
+											<td>3</td>
+											<td>$204</td>
+											<td>Jump with two Instructors, learn forward movement and then fly 'solo' for the rest of the skydive</td>
 										</tr>
 										<tr>
-											<td>Video and Stills Package</td>
-											<td>+$90 each</td>
+											<td>4</td>
+											<td>$174</td>
+											<td>One Instructor, teaches 360 turns in freefall</td>
 										</tr>
 										<tr>
-											<td>7 or more people</td>
-											<td>$155 each</td>
+											<td>5</td>
+											<td>$174</td>
+											<td>Move to forward motion and docking on your Instructor</td>
 										</tr>
 										<tr>
-											<td>Video and Stills Package</td>
-											<td>+$90 each</td>
+											<td>6</td>
+											<td>$174</td>
+											<td>Solo exit from the airplane, backloops and recovery, tracking before pull.</td>
 										</tr>
 										<tr>
-											<td>
-												Steston, ERAU, FCU, and UCF students call for student discount price: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a>
-											</td>
-											<td></td>
+											<td>7</td>
+											<td>$174</td>
+											<td>The Graduation Dive! Diving solo exit, frontloops, backloops, turns, docking- just about anything you want to show off, after all it's your graduation</td>
 										</tr>
-										<tr>
-											<td>
-												*All our advertised prices reflect a 5% cash and debit discount. Visa and Mastercard payments do not qualify for the cash discount.
-											</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>
-												*Prices subject to change without notice.
-											</td>
-											<td></td>									
-										</tr>
+										
 									</tbody>
 								</table>
 							</div>
