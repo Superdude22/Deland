@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php 
-	$site_data_post = 1864;
+	$site_data_post = site_data();
 ?>	
 	
 	<div id="content">
@@ -41,7 +41,9 @@
 					</div>
 					
 					<div class="row expanded medium-unstack align-middle collapse">
-						<?php $pages = get_pages( array( 'include' => '1846, 1828, 1855' ) ); ?> 
+						<?php 
+							$nav_array = nav_array();
+						$pages = get_pages( array( 'include' => $nav_array ) ); ?> 
 						    <?php foreach ( $pages as $page ) : ?>
 							<div class="columns">
 								<?php	

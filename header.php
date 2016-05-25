@@ -45,7 +45,7 @@
 				
 				<div class="off-canvas-content" data-off-canvas-content>
 					<?php 
-					$site_data_post = 1864;
+					$site_data_post = site_data();
 					?>
 				
 					<?php if ( is_front_page() ) { ?>
@@ -56,6 +56,7 @@
 						}
 						//echo $thumbnail;
 					?>
+					<div id="skrollr-body">
 					<section id="intro" class="homeSlide">
 			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
 				        	<div class="hsContainer">				    	
@@ -90,7 +91,9 @@
 			        	</div>
 				    </section>
 
+
 					<div id="all-wrap" class="all-wrap">
+
 					<?php }elseif ( is_page() ){ ?>
 					
 					<?php $post_image_id = get_post_thumbnail_id($post->ID);

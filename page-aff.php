@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php $site_data_post = 1864; ?>
+<?php $site_data_post = site_data(); ?>
 	
 	<div id="content aff">
 	

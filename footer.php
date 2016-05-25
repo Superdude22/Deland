@@ -10,7 +10,11 @@
 							</div>
 						</div> <!-- end #inner-footer -->
 					</footer> <!-- end .footer -->
+					
+
 					</div>  <!-- end .all-wrap -->
+					</div>  <!-- end #skrollr-body -->
+
 				</div>  <!-- end .main-content -->
 			</div> <!-- end .off-canvas-wrapper-inner -->
 		</div> <!-- end .off-canvas-wrapper -->

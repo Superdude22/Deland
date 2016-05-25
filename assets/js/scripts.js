@@ -29,7 +29,7 @@ Main Functions
 	$body = $('body');
 	
     //FadeIn all sections   
-	$body.imagesLoaded( function() {
+	$slide.imagesLoaded( function() {
 		setTimeout(function() {
 		      
 		      // Resize sections
@@ -51,6 +51,10 @@ Main Functions
 		        //console.log(data.curTop);
 		    }
 		});
+		
+		if (s.isMobile()) {
+    		s.destroy();
+		}
 		
 		// Get window size
 	    winH = $window.height();
