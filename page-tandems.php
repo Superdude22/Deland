@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php $site_data_post = site_data(); ?>
+<?php $another = get_field('another'); ?>
 	
 	<div id="content tandems">
 	
@@ -16,8 +17,10 @@
 								<p>The <strong>Tandem Skydive</strong> is currently used world wide and is the most popular way for first-time jumpers to experience the <em>thrill of the sport of skydiving.</em></p>
 								<p class="blockquote">The method of tandem skydive and the equipment was conceived and developed here in DeLand, Florida.</p>
 								<p>Through the tandem program you will jump with one of Skydive DeLand’s highly experienced instructors using a parachute system specially built for two. Your harness is connected to your instructor’s from start to finish.</p>
+								<?php the_field('slideshow'); ?>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
+
 								<a href="<?php 	the_field('promo_link'); ?>">
 								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
 								<div class="inner">
@@ -201,13 +204,10 @@
 				</section>
 				<section class="photostream">
 					<h1>Photostream</h1>
-					<p>Should this be instagram or hosted images? Videos?</p>
 					<div class="row expanded small-collapse">
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						<div class="small-12 columns">
+							<?php echo $another; ?>
+						</div>
 					</div>
 					
 					
