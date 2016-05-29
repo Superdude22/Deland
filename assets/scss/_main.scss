@@ -605,7 +605,7 @@ Section STYLES
 	
 	.columns{
 		overflow: hidden;
-
+		position: relative;
 
 		@include breakpoint(small only) {
 		height:10rem;
@@ -618,11 +618,13 @@ Section STYLES
 	}
 
 	h3{
+		//display: none;
 		margin-top: 2*$global-padding;
 		padding-left: $global-padding;
 		font-weight: 700;
-		position: relative;
-		z-index: 1;
+		position: absolute;
+		top:0;
+		z-index: 2;
 		color: $light-gray;
 		width:80%;
 		line-height: 1rem;
@@ -641,25 +643,36 @@ Section STYLES
 		}
 	}
 
+	.discipline{
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 0;
+		background-size:cover !important;
+		background-repeat: no-repeat !important;
+		background-position: 50% 50% !important;
+		@include modernizr(no-objectfit) { background-color:blue; }
+	img{
+			display:none;
+			@include modernizr(no-objectfit) { display:none; }
+			@include breakpoint(medium up) {
 
-	img.discipline{
-		position: relative;
-		top:-6rem;
-		height: 30rem;
-		overflow: hidden;
-		z-index:0;
-		object-fit: cover;
-		@include breakpoint(medium up) {
+				-webkit-filter: blur(2px) grayscale(0.9);
+			}
+		 
 
-			-webkit-filter: blur(2px) grayscale(0.9);
 		}
-	 
 
 	}
+
+	
 	a{
 		&:hover{
-		 	img.discipline{
-			-webkit-filter: none;
+		 	.discipline{
+		 		img{
+					-webkit-filter: none;
+				}
 			}
 	}
 }
@@ -701,7 +714,12 @@ Section STYLES
 		position: relative;
 		//overflow: hidden;
 		padding: 0 !important;
-		height: 10rem;
+		height: 15rem;
+
+		.img_div{
+			height:100%;
+			opacity: 0.4;
+		}
 
 		.inner{
 			position: absolute;
@@ -725,9 +743,6 @@ Section STYLES
 
 		@include breakpoint(medium){
 			height: 30rem;
-			img{
-				height: 30rem;
-			}
 		}
 		@include breakpoint(medium only){
 			background-position: right bottom;
@@ -968,6 +983,13 @@ Section STYLES
 /*********************
 IMAGE GALLERY STYLES
 *********************/
+.cover{
+		background-size:cover !important;
+		background-repeat: no-repeat !important;
+		background-position: 50% 50% !important;
+}
+
+
 .photostream{
 	overflow:hidden;
 	height:30rem;

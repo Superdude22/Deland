@@ -77,13 +77,14 @@
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right">
+											<div class="medium-1 column show-for-medium">
+										</div>
 										<div class="medium-10 columns text-right intro-large">
 											<h1>Are You Ready<br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
-										<div class="medium-1 column show-for-medium">
-										</div>
+									
 									</div>
 									
 					    		</div>

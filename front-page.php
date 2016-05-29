@@ -20,7 +20,7 @@
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
-								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
+								<div class="img_div cover" style="background: url(<?php the_field('promo_image'); ?>);">	</div>
 								<div class="inner">
 									<h2><?php the_field('promo_lang'); ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
@@ -52,8 +52,12 @@
 								
 
 								<a href="<?php echo get_page_link( $page->ID ); ?>">
+									
 									<h3><?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?><hr></h3>
-									<img class="discipline" src="<?php echo $img_url; ?>" alt="<?php echo apply_filters( 'the_title', $page->post_title, $page->ID ); ?>">
+									<div class="discipline cover" style="background: url(<?php echo $img_url; ?>);">
+					
+										
+									</div>									
 								</a>
 							</div>
 							<?php endforeach; ?>
@@ -64,11 +68,11 @@
 					<div class="inner expanded row">
 						<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="row column small-10">
+						<div class="row columns small-10">
 							<div class="row expanded">
 								<h1>Something Promotional</h1>
 							</div>
-							<div class="row expanded">
+							<div class="row expanded ">
 								<div class="small-12 medium-8 columns words">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
 									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
@@ -105,6 +109,7 @@
 						<h1>Contact:</h1>
 						<div class="row small-12 expanded columns">
 							<div class="small-12 large-5 columns contact-links align-middle">
+								<h2 class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></h2>
 								<ul class="no-bullet">
 									<li>
 										<a href="/"><i class="fa fa-facebook-square fa-fw"></i><br class=show-for-small-only>&nbsp;Facebook</a>

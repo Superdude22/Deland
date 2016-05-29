@@ -19,6 +19,7 @@ TOOLS
 }
 
 
+
 /*********************
 COLORS
 *********************/
@@ -124,5 +125,16 @@ CSS3 GRADIENTS.
       $dk-blue 3rem
     );
     opacity:1;
+}
+
+
+/*********************
+IE Fixing
+*********************/
+
+@mixin modernizr($test) {
+    html.#{$test} & {
+        @content;
+    }
 }
 
