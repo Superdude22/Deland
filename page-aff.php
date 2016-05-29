@@ -15,8 +15,8 @@
 								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">AFF</h1>
 								<h2><strong>A</strong>ccelerated <strong>F</strong>ree <strong>F</strong>all</h2>
 
-								<p class="blockquote">AFF IS A SEVEN-STEP PROGRESSION PROGRAM DESIGNED TO TEACH YOU TO BECOME A SKYDIVER.</p>
-								<p>Through the AFF program you will jump with some of Skydive DeLand’s highly experienced instructors using a parachute system specially built for students.</p>
+								<p class="blockquote">The Accelerated Freefall Program was first developed and implemented in DeLand Florida. The instructional program is designed to teach beginners to become skydivers.</p>
+								<p>The Accelerated Freefall ( AFF) is a seven level progression program designed to progress you to the point where you can skydive safely by yourself. Skydive DeLand’s full time professional instructors will provide personalized training during the AFF course.</p>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
@@ -36,7 +36,7 @@
 						</div>
 						<div class="row column small-11 medium-10">
 							<div class="row expanded small-12 columns">
-								<h1 class="ready_set"><span class='ready'>Ready,</span><br><span class='set'>Set,</span><br><span class='highlight'>Go!</span></h1>
+								<h1 class="ready_set"><span class='set'>Learn To</span> <span class='highlight'> Skydive!</span></h1>
 							</div>
 							<div class="row expanded small-12 columns">
 								<div class="columns expanded words font-test">

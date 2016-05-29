@@ -11,7 +11,7 @@
 					<div class="weather small-10 medium-2 column">
 							<div class="row align-bottom">
 								<a href="<?php echo home_url();?>">
-									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 								</a>
 							</div>
 					</div>
@@ -39,7 +39,7 @@
 						</div>
 					<div class="medium-2 column show-for-medium">
 						<a href="<?php echo home_url();?>">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+							<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 						</a>
 					</div>
 					<div class="column">

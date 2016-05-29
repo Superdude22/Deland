@@ -34,7 +34,7 @@
 						<div class="small-1 column otter-stripe show-for-medium">
 						</div>
 						<div class="column shrink">
-							<h1>Skydiving Info</h1>
+							<h1>Skydiver Info</h1>
 						</div>
 						<div class="column otter-stripe">
 						</div>
@@ -69,7 +69,7 @@
 								<h1>Something Promotional</h1>
 							</div>
 							<div class="row expanded">
-								<div class="column words">
+								<div class="small-12 medium-8 columns words">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
 									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
 									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
@@ -82,8 +82,8 @@
 									</ul>
 
 								</div>
-								<div class="column picture">
-									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tandem cutout.jpg" alt="">							
+								<div class="small-12 medium-4 columns picture">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/tandem cutout.jpg" alt="">							
 									<img src="http://lorempixel.com/400/200/animals/3" alt="">
 
 

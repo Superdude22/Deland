@@ -5198,6 +5198,100 @@ html, body, .off-canvas-wrap, .off-canvas-wrapper-inner, .off-canvas-content, .a
   font-family: "Titillium Web", sans-serif; }
 
 /*********************
+WP Core
+*********************/
+.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+a img.alignnone {
+  margin: 5px 20px 20px 0; }
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center; }
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px; }
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto; }
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
+
+/*********************
 LINK STYLES
 *********************/
 a, a:visited {
@@ -5615,11 +5709,9 @@ a:hover img.discipline {
       z-index: 2;
       color: #fefefe; }
     .about .bg-test img {
-      width: auto;
-      height: 10rem;
-      position: absolute;
-      left: 0;
-      top: 0;
+      display: block;
+      height: 100% !important;
+      width: auto !important;
       opacity: 0.3;
       object-fit: cover; }
     @media screen and (min-width: 40em) {
@@ -5653,18 +5745,17 @@ a:hover img.discipline {
     z-index: 2;
     color: #fefefe; }
   .prices .bg-test img {
-    width: 100%;
-    height: auto;
+    display: block;
+    width: 100% !important;
+    height: auto !important;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -50%;
     opacity: 0.3;
     object-fit: cover; }
   @media screen and (min-width: 40em) {
     .prices .bg-test {
-      height: 30rem; }
-      .prices .bg-test img {
-        height: 30rem; } }
+      height: 30rem; } }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .prices .bg-test {
       background-position: right bottom; } }

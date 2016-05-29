@@ -3,6 +3,9 @@ jQuery(document).foundation();
 Main Functions
 */
 
+
+
+
 /*	Skrollr */
 
 /*! viewportSize | Author: Tyson Matanich, 2013 | License: MIT */
@@ -45,12 +48,14 @@ Main Functions
 		
 		// Init Skrollr
 		var s = skrollr.init({
+			smoothScrolling: false,
 		    render: function(data) {
 		    
 		        //Debugging - Log the current scroll position.
 		        //console.log(data.curTop);
 		    }
 		});
+		
 		
 		if (s.isMobile()) {
     		s.destroy();
@@ -106,6 +111,8 @@ Main Functions
         });
 
 } )( jQuery );
+
+
 
 
 

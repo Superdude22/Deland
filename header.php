@@ -63,8 +63,8 @@
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right align-middle">
 										<div class="small-10 column text-right align-right intro-small">
-											<img class="align-right" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
-											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
+											<img class="align-right" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
+											<h1><span>Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
@@ -78,7 +78,7 @@
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-right">
 										<div class="medium-10 columns text-right intro-large">
-											<h1><span class="slabtext">Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
+											<h1>Are You Ready<br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
@@ -110,9 +110,9 @@
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
-											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4>Great Deal only $189</h4>
+											<h4 id="result"><?php the_field('intro_sub_sub'); ?></h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 									</div>
@@ -126,7 +126,7 @@
 									<div class="row expanded align-left">
 										<div class="medium-10 large-8 column text-left intro-large">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4>Great Deal only $189</h4>
+											<h4><?php the_field('intro_sub_sub'); ?></h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
@@ -155,9 +155,9 @@
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
 									<div class="row expanded align-left align-middle">
 										<div class="small-10 column text-left align-left intro-small">
-											<img class="align-left" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/deland.png" alt="">
+											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4>Great Deal only $<?php echo $price; ?></h4>
+											<h4>Book Now, only $<?php echo $price; ?></h4>
 											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
 											<p><?php print_r($product);?></p>
 										</div>
@@ -172,7 +172,7 @@
 									<div class="row expanded align-left">
 										<div class="medium-8 column text-left intro-large">
 											<h1>Order Tandem Vouchers<span class="highlight"> Fly</span></h1><hr>
-											<h4>Great Deal only $<?php echo $price; ?></h4>
+											<h4>Book Now, only $<?php echo $price; ?></h4>
 											<p class="phone">Or, Call To Book:  <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
