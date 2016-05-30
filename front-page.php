@@ -441,9 +441,6 @@
 					
 					
 				</section>
-				<aside class="promo">
-					<p>Promo Banner</p>
-				</aside>
 									
 			</main> <!-- end #main -->
 			
