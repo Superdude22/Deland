@@ -313,7 +313,7 @@
 						
 					</div>
 				</section>
-				<section class="events row expanded hide-for-small-up">
+				<section class="events row expanded hide-for-small hide-for-medium-up">
 					<div class="medium-1 column show-for-medium">
 					</div>
 					<div class="row columns">

@@ -169,8 +169,8 @@
 			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
 				        	<div class="hsContainer">				    	
 					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
-									<div class="row expanded align-left">
-										<div class="medium-10 large-8 column text-right intro-large">
+									<div class="row expanded <?php if(is_page('tandems')){?>align-left <?php}else{ ?> align-right <?php } ?>">
+										<div class="medium-10 large-8 column <?php if(is_page('tandems')){?>text-left <?php}else{ ?> text-right <?php } ?> intro-large">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4><?php the_field('intro_sub_sub'); ?></h4>
 											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
