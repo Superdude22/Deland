@@ -71,7 +71,7 @@
 							</div>
 							<div class="row expanded ">
 								<div class="small-12 medium-8 columns words">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vel omnis explicabo corrupti quod repellendus, quam labore porro iure, hic expedita sequi! Doloribus impedit sit fuga laboriosam iusto, earum libero laudantium voluptates. Dolores suscipit obcaecati possimus exercitationem consectetur unde, nostrum commodi, distinctio, maiores tempora libero veritatis ad necessitatibus vel doloremque.</p>
+									<p>Latest Promo Ad Picture</p>
 									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
 									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
 									
@@ -84,10 +84,7 @@
 
 								</div>
 								<div class="small-12 medium-4 columns picture">
-									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/tandem cutout.jpg" alt="">							
-									<img src="http://lorempixel.com/400/200/animals/3" alt="">
-
-
+									Add Slideshow
 								</div>
 							</div>
 						<div class="cloud"></div>
@@ -316,7 +313,7 @@
 						
 					</div>
 				</section>
-				<section class="events row expanded show-for-large">
+				<section class="events row expanded hide-for-small-up">
 					<div class="medium-1 column show-for-medium">
 					</div>
 					<div class="row columns">
@@ -427,13 +424,8 @@
 				</section>
 				<section class="photostream">
 					<h1>Photostream</h1>
-					<p>Should this be instagram or hosted images? Videos?</p>
 					<div class="row expanded small-collapse">
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+						Add Slideshow
 					</div>
 					
 					

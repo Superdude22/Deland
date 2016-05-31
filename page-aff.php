@@ -176,7 +176,7 @@
 							
 							<div class="faq-list">
 								<?php 
-									query_posts('post_type=tandem_faq' );
+									query_posts('post_type=afffaq' );
 								?>
 								<ul class="accordion" data-accordion data-allow-all-closed="true">
 
@@ -199,20 +199,12 @@
 				</section>
 				<section class="photostream">
 					<h1>Photostream</h1>
-					<p>Should this be instagram or hosted images? Videos?</p>
 					<div class="row expanded small-collapse">
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
-						<div class="columns"><img src="http://lorempixel.com/400/400/nature" alt=""></div>
+
 					</div>
 					
 					
 				</section>
-				<aside class="promo">
-					<p>Promo Banner</p>
-				</aside>
 									
 			</main> <!-- end #main -->
 			

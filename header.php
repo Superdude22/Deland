@@ -92,52 +92,6 @@
 
 
 					<div id="all-wrap" class="all-wrap">
-
-					<?php }elseif ( is_page() ){ ?>
-					
-					<?php $post_image_id = get_post_thumbnail_id($post->ID);
-						if ($post_image_id) {
-							$thumbnail = wp_get_attachment_image_src( $post_image_id, 'full', false);
-							if ($thumbnail) (string)$thumbnail = $thumbnail[0];
-						}
-						//echo $thumbnail;
-					?>
-
-					<section id="intro" class="homeSlide <?php the_slug();?>">
-			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
-				        	<div class="hsContainer">				    	
-					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
-									<div class="row expanded align-left align-middle">
-										<div class="small-10 column text-left align-left intro-small">
-											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
-											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4 id="result"><?php the_field('intro_sub_sub'); ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
-										</div>
-									</div>
-									
-					    		</div>
-				        	</div>
-			        	</div>
-			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
-				        	<div class="hsContainer">				    	
-					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
-									<div class="row expanded align-left">
-										<div class="medium-10 large-8 column text-left intro-large">
-											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
-											<h4><?php the_field('intro_sub_sub'); ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
-										</div>
-										<div class="medium-1 column show-for-medium">
-										</div>
-									</div>
-									
-					    		</div>
-				        	</div>
-			        	</div>
-				    </section>
-
-					<div id="all-wrap" class="all-wrap">
 					<?php }elseif ( is_woocommerce()){ ?>
 						<?php 
 					    	$product_id = get_the_ID();
@@ -185,6 +139,51 @@
 
 					<div id="all-wrap" class="all-wrap">
 
+
+					<?php }elseif ( is_page() ){ ?>
+					
+					<?php $post_image_id = get_post_thumbnail_id($post->ID);
+						if ($post_image_id) {
+							$thumbnail = wp_get_attachment_image_src( $post_image_id, 'full', false);
+							if ($thumbnail) (string)$thumbnail = $thumbnail[0];
+						}
+						//echo $thumbnail;
+					?>
+
+					<section id="intro" class="homeSlide <?php the_slug();?>">
+			        	<div class="bcg show-for-small-only" data-center="background-position: 30% 0px;" data-top-bottom="background-position: 30% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
+				        	<div class="hsContainer">				    	
+					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
+									<div class="row expanded align-left align-middle">
+										<div class="small-10 column text-left align-left intro-small">
+											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
+											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4 id="result"><?php the_field('intro_sub_sub'); ?></h4>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
+										</div>
+									</div>
+									
+					    		</div>
+				        	</div>
+			        	</div>
+			        	<div class="bcg show-for-medium" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#intro" style="background-image: url(<?php echo $thumbnail;?>);">
+				        	<div class="hsContainer">				    	
+					    		<div class="hsContent" data-start="opacity: 0.8" data-100-start="opacity: 0.2" data-anchor-target="#intro h1">
+									<div class="row expanded align-left">
+										<div class="medium-10 large-8 column text-right intro-large">
+											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
+											<h4><?php the_field('intro_sub_sub'); ?></h4>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
+										</div>
+									</div>
+									
+					    		</div>
+				        	</div>
+			        	</div>
+				    </section>
+
+					<div id="all-wrap" class="all-wrap">
+					
 					<?php }else{ ?>
 
 
