@@ -44,9 +44,7 @@
 				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 				
 				<div class="off-canvas-content" data-off-canvas-content>
-					<?php 
-					$site_data_post = site_data();
-					?>
+					
 				
 					<?php if ( is_front_page() ) { ?>
 					<?php $post_image_id = get_post_thumbnail_id($post->ID);
@@ -66,7 +64,7 @@
 											<img class="align-right" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 											<h1><span>Are You Ready</span><br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
 										</div>
 									</div>
 									
@@ -82,7 +80,7 @@
 										<div class="medium-10 columns text-right intro-large">
 											<h1>Are You Ready<br><span class="highlight slabtext">To FLY!</span></h1><hr>
 											<h4>Home of Such and such</h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
 										</div>
 									
 									</div>
@@ -114,7 +112,7 @@
 											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4 id="result"><?php the_field('intro_sub_sub'); ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
 										</div>
 									</div>
 									
@@ -128,7 +126,7 @@
 										<div class="medium-10 large-8 column text-left intro-large">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4><?php the_field('intro_sub_sub'); ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>
@@ -159,7 +157,7 @@
 											<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 											<?php the_field('intro_main'); ?><br><h1><span class="highlight"><?php the_field('intro_sub'); ?></span></h1><hr>
 											<h4>Book Now, only $<?php echo $price; ?></h4>
-											<p class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>
 											<p><?php print_r($product);?></p>
 										</div>
 									</div>
@@ -174,7 +172,7 @@
 										<div class="medium-8 column text-left intro-large">
 											<h1>Order Tandem Vouchers<span class="highlight"> Fly</span></h1><hr>
 											<h4>Book Now, only $<?php echo $price; ?></h4>
-											<p class="phone">Or, Call To Book:  <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></p>
+											<p class="phone">Or, Call To Book:  <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></p>
 										</div>
 										<div class="medium-1 column show-for-medium">
 										</div>

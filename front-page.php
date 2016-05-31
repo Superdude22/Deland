@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-<?php 
-	$site_data_post = site_data();
-?>	
 	
 	<div id="content">
 	
@@ -109,7 +106,7 @@
 						<h1>Contact:</h1>
 						<div class="row small-12 expanded columns">
 							<div class="small-12 large-5 columns contact-links align-middle">
-								<h2 class="phone"><a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', $site_data_post); ?></a></h2>
+								<h2 class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
 								<ul class="no-bullet">
 									<li>
 										<a href="/"><i class="fa fa-facebook-square fa-fw"></i><br class=show-for-small-only>&nbsp;Facebook</a>
@@ -307,7 +304,7 @@
 							</script>
 									<?php 
 
-										$location = get_field('map', $site_data_post);
+										$location = get_field('map', site_data());
 										if( !empty($location) ):
 									?>
 										<div class="acf-map" id="<?php echo $location['lat']; ?>" >

@@ -1310,9 +1310,52 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 	background-color: $dark-gray;
-	height:10rem;
+	color:$light-gray;
+
+	.columns{
+		h3{
+			width: 80%;
+		}
+		hr{
+			border-color:$light-gray;
+		}
+		img{
+			max-height: 10rem;
+			width: auto;
+		}
+		.phone{
+			a{
+			color: $dk-blue;
+			&:hover{
+				opacity: 0.4;
+			}
+			}
+			opacity: 0.8;
+		}
+	}
+
+	ul{
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		li{
+			font-size: 3rem;
+			opacity: 0.8;
+			a{
+				color: $dk-blue;
+				&:hover{
+				opacity: 0.4;
+				}
+			}
+		}
+	}
+
 }
+
+
 	
 /*********************
 FOUNDATION STYLES
