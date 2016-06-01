@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php $slideshow = get_field('slideshow'); ?>
 	
 	<div id="content">
 	
@@ -313,123 +314,17 @@
 						
 					</div>
 				</section>
-				<section class="events row expanded hide-for-small hide-for-medium-up">
-					<div class="medium-1 column show-for-medium">
-					</div>
-					<div class="row columns">
-					<div class="small-11 columns">	
-						<h1>Upcoming Events</h1>
-					</div>
-					<div class="row small-11 columns">
-						<div class="events-list small-4 columns">
-								<ul class="accordion" data-accordion data-allow-all-closed="true">
-							<li class="event accordion-item" data-accordion-item>
-								<a href="#" class="accordion-title">
-									<h1>Lorem ipsum dolor.</h1>
-									<div class="date">
-											<p class="start"><span class="time">8:45am</span> 4/15 - </p><p>4/17</p>
-									</div>
-								</a>
-								<div class="accordion-content" data-tab-content>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-								</div>
-							</li>
-							<li class="event accordion-item" data-accordion-item>
-								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-								<div class="accordion-content" data-tab-content>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-								</div>
-							</li>
-							<li class="event accordion-item" data-accordion-item>
-								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-								<div class="accordion-content" data-tab-content>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-								</div>
-							</li>
-							<li class="event accordion-item" data-accordion-item>
-								<a href="#" class="accordion-title"><h1>Lorem ipsum dolor.</h1></a>
-								<div class="accordion-content" data-tab-content>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptatem.</p>
-								</div>
-							</li>
-						</ul>
-						<div class="load-more">	
-							load more
-						</div>	
-						</div>	
-						<div class="calendar small-7 columns">	
-							<h2>Other Info</h2>
-							<li class="row day-header small-unstack">
-							<div class="columns day"><span class="show-for-medium-up">Lorem ipsum.</span><span class="show-for-small-only">Lorem.</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Recusandae, eos.</span><span class="show-for-small-only">Inventore!</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Officiis, facilis.</span><span class="show-for-small-only">Odit.</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Repellat, labore!</span><span class="show-for-small-only">Voluptate.</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Quas, eveniet.</span><span class="show-for-small-only">Doloremque.</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Officiis, saepe.</span><span class="show-for-small-only">Harum.</span></div>
-							<div class="small-1 day"><span class="show-for-medium-up">Totam, atque!</span><span class="show-for-small-only">Sint.</span></div>
-						</li>
-						<li class="week row small-unstack">
-							<div class="columns day previous-month">1</div>
-							<div class="columns day">2</div>
-							<div class="columns day">3</div>
-							<div class="columns day">4</div>
-							<div class="columns day">5</div>
-							<div class="columns day">6</div>
-							<div class="columns day">7</div>
-						</li>
-						<li class="week row small-unstack">
-							<div class="columns day">3</div>
-							<div class="columns day">3</div>
-							<div class="columns day today">3</div>
-							<div class="columns day">3</div>
-							<div class="columns day">3</div>
-							<div class="columns day">3</div>
-							<div class="columns day">3</div>
-						</li>
-						<li class="week row small-unstack">
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-							<div class="columns day">12</div>
-						</li>
-						<li class="week row small-unstack">
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-							<div class="columns day">13</div>
-						</li>
-						<li class="week row small-unstack">
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-							<div class="columns day">5</div>
-						</li>
-						</div>	
-					</div>
-							
-					</div>
-					
-					
-									
-					
-				</section>
-				<section class="photostream">
+				
+				<?php if( get_field('slideshow') ): ?>	
+					<section class="photostream">
 					<h1>Photostream</h1>
 					<div class="row expanded small-collapse">
-						Add Slideshow
-					</div>
-					
-					
-				</section>
+						
+							<?php echo $slideshow; ?>
+						
+					</div>								
+					</section>
+				<?php endif; ?>
 									
 			</main> <!-- end #main -->
 			
