@@ -765,6 +765,9 @@ Section STYLES
 }
 
 .prices{
+	table{
+		padding-left: 3rem;
+	}
 	.bg-test{
 		position: relative;
 		overflow: hidden;
@@ -790,7 +793,7 @@ Section STYLES
 			height: auto !important;
 			position: absolute;
 			left: 0;
-			top: -50%;
+			top: -30%;
 			opacity: 0.3;
 			object-fit:cover;
 		}
@@ -804,9 +807,19 @@ Section STYLES
 
 
 	}
+	.no-pic{
+		height:5rem;
+		margin-bottom:1rem;
+	}
+	p{
+		font-size: 1.4rem;
+	}
 
 	thead{
-		font-size: 1.2rem;
+		font-size: 1.5rem;
+	}
+	h2{
+		color: $light-gray;
 	}
 
 }

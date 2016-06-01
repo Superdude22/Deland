@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php $site_data_post = site_data(); ?>
+<?php $slideshow = get_field('slideshow'); ?>
 	
 	<div id="content fun-jumper">
 	
@@ -129,7 +129,7 @@
 							<ul>
 								<li>Must be at least 18 years of age, no exceptions.</li>
 								<li>You must provide a valid government issued photo ID.</li>
-								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></li>
+								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></li>
 								<li>Absolutely no alcohol or drugs consumption prior to skydiving!</li>
 								<li>Please allow three to four hours to complete the experience with us.</li>
 								<li>Safety is our number one priority and there may be some physical limitations that will require an evaluation from a Skydive DeLand Instructor.</li>
@@ -169,14 +169,16 @@
 						
 					
 				</section>
-				<section class="photostream">
+				<?php if( get_field('slideshow') ): ?>	
+					<section class="photostream">
 					<h1>Photostream</h1>
 					<div class="row expanded small-collapse">
-						Add Slideshow
-					</div>
-					
-					
+						
+							<?php echo $slideshow; ?>
+						
+					</div>								
 				</section>
+				<?php endif; ?>	
 												
 			</main> <!-- end #main -->
 			

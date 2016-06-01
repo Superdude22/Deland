@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php $site_data_post = site_data(); ?>
+<?php $slideshow = get_field('slideshow'); ?>
 	
 	<div id="content aff">
 	
@@ -41,24 +41,15 @@
 							<div class="row expanded small-12 columns">
 								<div class="columns expanded words font-test">
 									<div class="extra_image small-12 columns collapse">
-											<img class="" src="<?php the_field('image_1'); ?>" alt="">
-										</div>
-
+										<img class="" src="<?php the_field('image_1'); ?>" alt="">
+									</div>
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-										
-	
 
 									
 			    					<?php the_content(); ?>
 			    
 			    					<?php endwhile; endif; ?>
-									
-																
-
-
-
-								</div>
+		    					</div>
 							</div>
 					</div>
 						<div class="medium-1 column show-for-medium">
@@ -69,7 +60,7 @@
 					<div class="medium-1 column show-for-medium">
 						</div>
 					<div class="row expanded small-11 columns prices">
-						<h1>Prices:</h1>
+						<h1>The Course:</h1>
 						<div class="row small-12 expanded columns collapse">
 							<div class="small-12 medium-10 columns">
 							<div class="bg-test">
@@ -84,13 +75,11 @@
 								<table class="hover">
 									<thead>
 										<tr>
-											<th width="200">
+											<th width="100">
 												Level:
 											</th>
-											<th width="100">
-												Price:
-											</th>
-											<th width="100">
+						
+											<th width="300">
 												Objective:
 											</th>
 										</tr>
@@ -98,42 +87,116 @@
 									<tbody>
 										<tr>
 											<td>1</td>
-											<td>$361</td>
+											
 											<td>Relax have fun and show ground, altitude and instructor awareness and the ability to pull on your own and on time</td>
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>$204</td>
+										
 											<td>Introduces the student to freefall turns (jump with two Instructors.</td>
 										</tr>
 										<tr>
 											<td>3</td>
-											<td>$204</td>
+										
 											<td>Jump with two Instructors, learn forward movement and then fly 'solo' for the rest of the skydive</td>
 										</tr>
 										<tr>
 											<td>4</td>
-											<td>$174</td>
+										
 											<td>One Instructor, teaches 360 turns in freefall</td>
 										</tr>
 										<tr>
 											<td>5</td>
-											<td>$174</td>
+										
 											<td>Move to forward motion and docking on your Instructor</td>
 										</tr>
 										<tr>
 											<td>6</td>
-											<td>$174</td>
+											
 											<td>Solo exit from the airplane, backloops and recovery, tracking before pull.</td>
 										</tr>
 										<tr>
 											<td>7</td>
-											<td>$174</td>
+										
 											<td>The Graduation Dive! Diving solo exit, frontloops, backloops, turns, docking- just about anything you want to show off, after all it's your graduation</td>
 										</tr>
 										
 									</tbody>
 								</table>
+
+								<h2>7 Jump AFF Package</h2>
+
+								<table class="hover prepay">
+									<thead>
+										<tr>
+											<th width="300">
+												Skydive DeLand offers a seven jump prepay special that includes the ground school for the AFF program, all the instruction and gear for seven jumps.
+											</th>
+											<th width="100">Price:</th>
+						
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>7 Jump Special</td>
+											
+											<td>$1299.00</td>
+										</tr>
+										<tr>
+											<td>Additional jumps needed to complete the AFF program charged at the pay as you go rate.</td>
+											<td></td>
+										</tr>
+										
+									</tbody>
+								</table>
+
+								<h2>Or: Pay as you go</h2>
+
+								<table class="hover payas">
+									<thead>
+										<tr>
+											<th width="300">
+												Jump:
+											</th>
+						
+											<th width="100">
+												Price:
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Ground School & Level 1</td>
+											
+											<td>$361.00</td>
+										</tr>
+										<tr>
+											<td>Levels 2 & 3</td>
+										
+											<td>$204.00 each</td>
+										</tr>
+										<tr>
+											<td>Levels 4 to 7</td>
+										
+											<td>$174.00 each</td>
+										</tr>
+										<tr>
+											<td>Instructor freefall video only is provided on all AFF jumps.</td>
+											<td></td>
+										</tr>
+																			
+									</tbody>
+								</table>
+
+								<div class="bg-test no-pic">
+								<a href="<?php 	the_field('promo_link'); ?>">
+								<div class="inner">
+									<h2><?php the_field('promo_lang'); ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
+								</div>
+								</a>
+								</div>
+
+
 							</div>
 						</div>
 						
@@ -155,11 +218,12 @@
 						<div class="small-11 medium-5 small-offset-1 columns requirements">
 							<h3>Requirements:</h3>
 							<ul>
-								<li>Must be at least 18 years of age, no exceptions.</li>
-								<li>You must provide a valid government issued photo ID.</li>
-								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></li>
+								<li>Must be at least 18 years of age, no exceptions. Anyone over the age of 60 must be evaluated and have no medical infirmities. Please call Skydive DeLand at <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a> for additional information.</li>
+								<li>Weigh no more than 230 pounds and be in good physical shape.</li>
+								<li>Provide a valid government issued photo ID.</li>
 								<li>Absolutely no alcohol or drugs consumption prior to skydiving!</li>
-								<li>Please allow three to four hours to complete the experience with us.</li>
+								<li>Reservation to attend the AFF ground special must be at least 24 hours in advance.</li>
+								<li>Please allow all day to complete the AFF ground school and first skydive.</li>
 								<li>Safety is our number one priority and there may be some physical limitations that will require an evaluation from a Skydive DeLand Instructor.</li>
 							</ul>
 
@@ -197,15 +261,16 @@
 						
 					
 				</section>
-				<section class="photostream">
+				<?php if( get_field('slideshow') ): ?>	
+					<section class="photostream">
 					<h1>Photostream</h1>
 					<div class="row expanded small-collapse">
-
-					</div>
-					
-					
+						
+							<?php echo $slideshow; ?>
+						
+					</div>								
 				</section>
-									
+				<?php endif; ?>					
 			</main> <!-- end #main -->
 			
 		</div> <!-- end #inner-content -->

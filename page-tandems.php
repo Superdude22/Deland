@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<?php $site_data_post = site_data(); ?>
-<?php $another = get_field('another'); ?>
+<?php $slideshow = get_field('slideshow'); ?>
 	
 	<div id="content tandems">
 	
@@ -17,7 +16,6 @@
 								<p>The <strong>Tandem Skydive</strong> is currently used world wide and is the most popular way for first-time jumpers to experience the <em>thrill of the sport of skydiving.</em></p>
 								<p class="blockquote">The method of tandem skydive and the equipment was conceived and developed here in DeLand, Florida.</p>
 								<p>Through the tandem program you will jump with one of Skydive DeLand’s highly experienced instructors using a parachute system specially built for two. Your harness is connected to your instructor’s from start to finish.</p>
-								<?php the_field('slideshow'); ?>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 
@@ -44,22 +42,15 @@
 								<div class="columns expanded words font-test">
 									<div class="extra_image small-12 columns collapse">
 											<img class="" src="<?php the_field('image_1'); ?>" alt="">
-										</div>
+									</div>
 
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-										
-	
-
-									
 			    					<?php the_content(); ?>
 			    
 			    					<?php endwhile; endif; ?>
 									
-																
-
-
-
+			
 								</div>
 							</div>
 					</div>
@@ -121,7 +112,7 @@
 										</tr>
 										<tr>
 											<td>
-												Steston, ERAU, FCU, and UCF students call for student discount price: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a>
+												Steston, ERAU, FCU, and UCF students call for student discount price: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a>
 											</td>
 											<td></td>
 										</tr>
@@ -162,7 +153,7 @@
 							<ul>
 								<li>Must be at least 18 years of age, no exceptions.</li>
 								<li>You must provide a valid government issued photo ID.</li>
-								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', $site_data_post); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', $site_data_post); ?></a></li>
+								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></li>
 								<li>Absolutely no alcohol or drugs consumption prior to skydiving!</li>
 								<li>Please allow three to four hours to complete the experience with us.</li>
 								<li>Safety is our number one priority and there may be some physical limitations that will require an evaluation from a Skydive DeLand Instructor.</li>
@@ -202,19 +193,16 @@
 						
 					
 				</section>
-				<section class="photostream">
+				<?php if( get_field('slideshow') ): ?>	
+					<section class="photostream">
 					<h1>Photostream</h1>
 					<div class="row expanded small-collapse">
-						<div class="small-12 columns">
-							<?php echo $another; ?>
-						</div>
-					</div>
-					
-					
+						
+							<?php echo $slideshow; ?>
+						
+					</div>								
 				</section>
-				<aside class="promo">
-					<p>Promo Banner</p>
-				</aside>
+				<?php endif; ?>	
 									
 			</main> <!-- end #main -->
 			
