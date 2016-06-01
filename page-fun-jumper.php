@@ -79,30 +79,32 @@
 					<div class="inner expanded row">
 						<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="row column small-11 medium-10">
+						<div class="row column small-11 medium-10 coaching">
 							<div class="row expanded small-12 columns">
 								<h1 class="ready_set"><span class='ready'>Get,</span><br><span class='set'>Some,</span><br><span class='highlight'>Coaching!</span></h1>
 							</div>
 							<div class="row expanded small-12 columns">
 								<div class="columns expanded words font-test">
 									<div class="extra_image small-12 columns collapse">
-											<img class="" src="<?php the_field('image_1'); ?>" alt="">
-										</div>
-
-									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-										
-	
-
+										<img class="" src="<?php the_field('image_1'); ?>" alt="">
+									</div>
 									
-			    					<?php the_content(); ?>
-			    
-			    					<?php endwhile; endif; ?>
-									
+									<a href="http://www.flyteskool.ws">
+									<div class="small-12 medium-6 columns float-left coach">
+										<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt=""><h1>FLYTESKOOL WINGSUIT TRAINING FACILITY</h1><hr><p>FlyteSkool offers our customers a world-class training destination for wingsuit pilots; with training programs created in-house for everyone from 100 jump wonders to BASE Proximity pilots trying to refine their skills, we have what it takes to make you a top notch pilot.  With over 100 new various model Squirrel Wingsuits for national rental & sales, we can get you up and flying safely before you know it!   Same & next day rigging services available as well.  Come check us out at www.flyteskool.ws !</p>
+									</div>
+									</a>
+
+									<div class="small-12 medium-6 columns float-left coach">
+										<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt=""><h1>Team Name</h1><hr><p>Random Info About the Coaching Etc.</p>
+									</div>
+									<div class="small-12 medium-6 columns float-left coach">
+										<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt=""><h1>Team Name</h1><hr><p>Random Info About the Coaching Etc.</p>
+									</div>
+									<div class="small-12 medium-6 columns float-left coach">
+										<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt=""><h1>Team Name</h1><hr><p>Random Info About the Coaching Etc.</p>
+									</div>
 																
-
-
-
 								</div>
 							</div>
 					</div>
@@ -113,7 +115,7 @@
 				
 				
 				
-				<section class="faq row expanded">
+				<section class="faq row expanded hide">
 					<div class="row expanded align-middle pos-adjust small-12 columns">
 						<div class="show-for-medium small-1 column otter-stripe">
 						</div>
