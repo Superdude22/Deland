@@ -44,22 +44,9 @@
 					</div>
 					<div class="column">
 						</div>
-					<div class="weather small-10 medium-5 large-3 column text-right">
+					<div class="weather small-8 medium-5 large-2 column text-right">
 						<h3>Current Weather</h3>
-						<p>We're Jumping!!</p>
-							<div class="row align-bottom ">
-								<div class="weather-icon columns align-right">
-									<i class="fa fa-sun-o fa-fw"></i>
-								</div>
-								<div class="shrink columns">
-									<div class="temp">
-										<p>77</p>
-									</div>
-									<div class="wind">
-										<p>27</p>
-									</div>
-								</div>
-							</div>
+						<?php echo do_shortcode('[awesome-weather location="Deland" units="F" owm_city_id="4152890" size="wide" locale="en"]' ); ?>
 					</div>
 					<div class="medium-1 column show-for-medium">
 					</div>					

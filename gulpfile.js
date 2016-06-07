@@ -141,3 +141,10 @@ gulp.task('watch', function() {
 gulp.task('default', function() {
   gulp.start('styles', 'site-js', 'foundation-js');
 });
+
+gulp.task('icons', function() { 
+    return gulp.src('./bower_components/weather-icons/font/**.*') 
+        .pipe(gulp.dest('./assets/font')); 
+});
+
+

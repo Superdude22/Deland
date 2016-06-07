@@ -1458,41 +1458,63 @@ PLANE STYLES
 Weather STYLES
 *********************/
 .weather{
-	display:hidden;
+	//display:none;
 	h3{
 		line-height: 0.8rem;
 	}
-	p{
-		margin:0;
-		line-height: 1rem;
-		//color: $dk-yellow;
-		font-weight: 700;
+}
 
+.awesome-weather-wrap.temp1 { background: none; }
+.awesome-weather-wrap.temp2 { background: none; }
+.awesome-weather-wrap.temp3 { background: none; }
+.awesome-weather-wrap.temp4 { background: none; }
+.awesome-weather-wrap.temp5 { background: none; }
+.awesome-weather-wrap.temp6 { background: none; }
+.awesome-weather-wrap.temp7 { background: none; }
+
+
+.awesome-weather-header {
+	display:none;
+}
+
+.awesome-weather-current-temp {
+	padding: 0.5rem;
+	width: 30%;
+	float: right;
+	@include breakpoint(small){
+		float:left;
 	}
-}
-.weather-icon{
-	font-size:3rem;
-	text-shadow:  3px 3px 0px rgba(186, 151, 15, 0.8), 9px 8px 0px rgba(0, 0, 0, 0.15);
-
-}
-.temp{	
-	p{
-		line-height: 0.8rem;
-		font-size: 1.2rem;
-		margin-bottom: 0.8rem;
+	font-size: 4rem;
+	line-height: 1em;
+	font-weight: 300;
+	white-space: nowrap;
+	sup{
 		&:after{
-			content:"\00b0 F";
+			content: "F";
 		}
 	}
 }
 
-.wind{
-	p{
-		line-height: 0.8rem;
-		font-size: 1.2rem;
-		margin-bottom: 0.8rem;
-		&:after{
-			content:"mph";
-		}
+.awesome-weather-todays-stats {
+	float: right;
+	text-align: right;
+	padding: 0.5rem;
+	line-height: 1.4em;
+	width: 50%;
+	div{
+		white-space: nowrap;
 	}
 }
+
+.awe_desc{
+	i{
+		font-size: 2rem;
+	}
+}
+
+.awesome-weather-forecast { 
+	display:none;
+}
+
+
+.awesome-weather-attribution { display:none;  }
