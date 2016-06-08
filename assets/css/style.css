@@ -6690,6 +6690,17 @@ POSTS & CONTENT STYLES
 }
 
 /*********************
+Product STYLES
+*********************/
+.voucher-fields label {
+  font-size: 1.2rem;
+}
+
+.voucher-fields td {
+  display: block;
+}
+
+/*********************
 Section STYLES
 *********************/
 .disciplines .pos-adjust {
