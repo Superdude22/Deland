@@ -63,7 +63,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			 */
 			do_action( 'woocommerce_single_product_summary' );
 		?>
-
+	<p>Stuff</p>
 	</div><!-- .summary -->
 
 	<?php

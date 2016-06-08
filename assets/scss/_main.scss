@@ -277,6 +277,25 @@ HEADER STYLES
 
   }
 
+  .cartSlide{
+		h1{ 
+			font-size: 1rem;
+		@include breakpoint(large){
+			font-size: 5rem;
+			line-height: 6rem;
+		}
+
+		@include breakpoint(xxlarge){
+			font-size: 8rem;
+			line-height: 8.5rem;
+		}
+
+
+
+
+		}
+	}
+
  .tandems{
  	.intro-large{
  		h1{
@@ -379,6 +398,9 @@ NAVIGATION STYLES
 	top:0; 
 	width:100%;
 	z-index:20;
+	@include breakpoint(small){
+		position:fixed;
+	}
 
 }
 
@@ -832,6 +854,11 @@ Section STYLES
 	h1{
 		color:$white;
 		@include text-shadow( 4px, 3px, 0px, $dk-yellow );
+	}
+	.columns{
+		@include breakpoint(small){
+			padding-left:1rem;
+		}
 	}
 
 	.contact-links{
@@ -1344,6 +1371,9 @@ FOOTER STYLES
 	color:$light-gray;
 
 	.columns{
+		@include breakpoint(small){
+			padding-left:1rem;
+		}
 		h3{
 			width: 80%;
 		}
@@ -1462,9 +1492,9 @@ Weather STYLES
 	h3{
 		line-height: 0.8rem;
 	}
-}
 
-.awesome-weather-wrap.temp1 { background: none; }
+
+.awesome-weather-wrap.temp1 { background: none !important; }
 .awesome-weather-wrap.temp2 { background: none; }
 .awesome-weather-wrap.temp3 { background: none; }
 .awesome-weather-wrap.temp4 { background: none; }
@@ -1512,9 +1542,6 @@ Weather STYLES
 	}
 }
 
-.awesome-weather-forecast { 
-	display:none;
-}
-
-
+.awesome-weather-forecast { display:none ; }
 .awesome-weather-attribution { display:none;  }
+}

@@ -6364,6 +6364,24 @@ HEADER STYLES
   }
 }
 
+.cartSlide h1 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 64em) {
+  .cartSlide h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media screen and (min-width: 120em) {
+  .cartSlide h1 {
+    font-size: 8rem;
+    line-height: 8.5rem;
+  }
+}
+
 @media screen and (min-width: 64em) {
   .tandems .intro-large h1 {
     font-size: 3rem;
@@ -6460,6 +6478,7 @@ NAVIGATION STYLES
   top: 0;
   width: 100%;
   z-index: 20;
+  position: fixed;
 }
 
 .at-top {
@@ -6934,6 +6953,10 @@ a:hover .discipline img {
   text-shadow: 4px 3px 0px #ba970f;
 }
 
+.contact .columns {
+  padding-left: 1rem;
+}
+
 .contact .contact-links ul {
   -moz-column-count: 2;
   -webkit-column-count: 2;
@@ -7297,6 +7320,10 @@ FOOTER STYLES
   color: #e6e6e6;
 }
 
+.footer .columns {
+  padding-left: 1rem;
+}
+
 .footer .columns h3 {
   width: 80%;
 }
@@ -7420,39 +7447,39 @@ Weather STYLES
   line-height: 0.8rem;
 }
 
-.awesome-weather-wrap.temp1 {
+.weather .awesome-weather-wrap.temp1 {
+  background: none !important;
+}
+
+.weather .awesome-weather-wrap.temp2 {
   background: none;
 }
 
-.awesome-weather-wrap.temp2 {
+.weather .awesome-weather-wrap.temp3 {
   background: none;
 }
 
-.awesome-weather-wrap.temp3 {
+.weather .awesome-weather-wrap.temp4 {
   background: none;
 }
 
-.awesome-weather-wrap.temp4 {
+.weather .awesome-weather-wrap.temp5 {
   background: none;
 }
 
-.awesome-weather-wrap.temp5 {
+.weather .awesome-weather-wrap.temp6 {
   background: none;
 }
 
-.awesome-weather-wrap.temp6 {
+.weather .awesome-weather-wrap.temp7 {
   background: none;
 }
 
-.awesome-weather-wrap.temp7 {
-  background: none;
-}
-
-.awesome-weather-header {
+.weather .awesome-weather-header {
   display: none;
 }
 
-.awesome-weather-current-temp {
+.weather .awesome-weather-current-temp {
   padding: 0.5rem;
   width: 30%;
   float: right;
@@ -7463,11 +7490,11 @@ Weather STYLES
   white-space: nowrap;
 }
 
-.awesome-weather-current-temp sup:after {
+.weather .awesome-weather-current-temp sup:after {
   content: "F";
 }
 
-.awesome-weather-todays-stats {
+.weather .awesome-weather-todays-stats {
   float: right;
   text-align: right;
   padding: 0.5rem;
@@ -7475,19 +7502,19 @@ Weather STYLES
   width: 50%;
 }
 
-.awesome-weather-todays-stats div {
+.weather .awesome-weather-todays-stats div {
   white-space: nowrap;
 }
 
-.awe_desc i {
+.weather .awe_desc i {
   font-size: 2rem;
 }
 
-.awesome-weather-forecast {
+.weather .awesome-weather-forecast {
   display: none;
 }
 
-.awesome-weather-attribution {
+.weather .awesome-weather-attribution {
   display: none;
 }
 

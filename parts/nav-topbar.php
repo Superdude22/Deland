@@ -8,7 +8,7 @@
 					
 					<div class="column">
 						</div>
-					<div class="weather small-10 medium-2 column">
+					<div class="weather show-for-medium medium-2 column">
 							<div class="row align-bottom">
 								<a href="<?php echo home_url();?>">
 									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">

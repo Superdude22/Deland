@@ -16,4 +16,5 @@
 			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
 		</ul>
 	</div>
+	
 </div>
