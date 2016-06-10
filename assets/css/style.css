@@ -6478,7 +6478,6 @@ NAVIGATION STYLES
   top: 0;
   width: 100%;
   z-index: 20;
-  position: fixed;
 }
 
 .at-top {
@@ -6709,6 +6708,63 @@ Product STYLES
 
 .voucher-fields td {
   display: block;
+}
+
+/*********************
+Cart & Checkout STYLES
+*********************/
+.woocommerce-cart h1.page-title, .woocommerce-checkout h1.page-title {
+  display: none;
+}
+
+.woocommerce-cart .intro-small, .woocommerce-checkout .intro-small {
+  position: relative;
+  top: -5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.woocommerce-cart .intro-small img, .woocommerce-checkout .intro-small img {
+  position: relative;
+  top: 5rem;
+  width: 100%;
+}
+
+.woocommerce-cart .intro-small h1, .woocommerce-cart .intro-small hr, .woocommerce-cart .intro-small p, .woocommerce-checkout .intro-small h1, .woocommerce-checkout .intro-small hr, .woocommerce-checkout .intro-small p {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.woocommerce-cart #thingy, .woocommerce-checkout #thingy {
+  position: fixed;
+}
+
+@media screen and (min-width: 40em) {
+  .woocommerce-cart .woocommerce, .woocommerce-checkout .woocommerce {
+    padding-top: 1rem;
+  }
+}
+
+.woocommerce-cart p.phone, .woocommerce-checkout p.phone {
+  color: #8a8a8a;
+}
+
+.woocommerce #thingy {
+  position: fixed;
+}
+
+.woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt {
+  background-color: #ba970f;
+}
+
+.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover {
+  background: rgba(186, 151, 15, 0.7) !important;
+  background-color: rgba(186, 151, 15, 0.7) !important;
+}
+
+.woocommerce .woocommerce-message {
+  border-top-color: #ba970f;
 }
 
 /*********************

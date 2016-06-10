@@ -398,10 +398,6 @@ NAVIGATION STYLES
 	top:0; 
 	width:100%;
 	z-index:20;
-	@include breakpoint(small){
-		position:fixed;
-	}
-
 }
 
 .at-top{
@@ -633,6 +629,81 @@ Product STYLES
 }
 
 
+
+/*********************
+Cart & Checkout STYLES
+*********************/
+
+.woocommerce-cart, .woocommerce-checkout{
+	h1.page-title{
+			display: none;
+	}
+
+	.intro-small{
+		position:relative;
+		top:-5rem;
+		overflow: hidden;
+		width: 100%;
+		img{
+			position: relative;
+			top:5rem;
+			width: 100%;
+			//width: auto;
+		}
+		h1, hr, p{
+			width:100%;
+			position: relative;
+			//top:-5rem;
+			z-index: 2;
+		}
+	}
+
+	#thingy{
+		@include breakpoint(small){
+		position:fixed;
+		}
+	}
+	.woocommerce{
+		@include breakpoint(medium up){
+			padding-top: 1rem;
+		}
+	}
+
+	p.phone{
+		color: $dark-gray;
+	}
+
+
+}
+
+.woocommerce{
+	#thingy{
+		@include breakpoint(small){
+		position:fixed;
+		}
+	}	
+}
+
+
+
+.woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt {
+
+background-color: $dk-yellow;
+}
+
+.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover {
+background: $dk-yellow-o !important;
+
+background-color: $dk-yellow-o !important;
+
+
+}
+
+
+
+.woocommerce .woocommerce-message {
+    border-top-color: $dk-yellow;
+}
 
 
 /*********************
