@@ -94,5 +94,15 @@ function nav_array(){
 
 }
 
+function photo_credit( $attachment_id ) {
+
+	$attachment = get_post( $attachment_id );
+	$caption = $attachment->post_excerpt;
+	return array(
+		'description' => $attachment->post_content,
+		'caption' => $attachment->post_excerpt
+	);
+}
+
 
 

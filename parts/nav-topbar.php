@@ -29,10 +29,38 @@
 					</div>
 					<div class="medium-1 column show-for-medium">
 						</div>
+				</div>	
+				
+
+			<?php }elseif ( is_page('photo-credits') ) { ?>
+				<div class="row logo align-bottom expanded">
+									
+					<div class="column">
+						</div>
+					<div class="weather show-for-medium medium-2 column">
+							<div class="row align-bottom">
+								<a href="<?php echo home_url();?>">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
+								</a>
+							</div>
+					</div>
+					<div class="medium-1 column show-for-medium">
+					</div>	
+										
+				</div>
+				<div class="row expanded nav-bar">
+					<div class="medium-1 column show-for-medium">
+						</div>
+					<div class="columns">
+						<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+					</div>
+					<div class="medium-1 column show-for-medium">
+						</div>
 				</div>
 				
 
 			<?php }else{ ?>
+
 
 				<div class="row logo align-bottom expanded">
 					<div class="medium-1 column show-for-medium">

@@ -44,7 +44,7 @@
 
 										<img class="align-left" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 										<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
-										<p>Photos: Instagram Links?</p>
+										<p>Photos: Link to Credits Page</p>
 										<p>Website:</p>
 									</div>
 							

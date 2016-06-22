@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"dk",
+				"dk-yellow"
+			],
+			[
+				"da",
+				"dark-gray"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"intro",
+				"intro-small"
+			],
+			[
+				"page",
+				"page-title"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pro",
+				"product_name"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"o",
+				"op	opacity"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"f",
+				"fl	float"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"site_data",
+				"site_data_post"
+			],
+			[
 				"ob",
 				"object-position"
 			],
@@ -32,10 +108,6 @@
 				"query_posts"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"dk-",
 				"dk-blue"
 			],
@@ -48,10 +120,6 @@
 				"lh	line-height"
 			],
 			[
-				"pa",
-				"padding-bottom"
-			],
-			[
 				"pad",
 				"padding-left"
 			],
@@ -62,10 +130,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"back",
@@ -140,10 +204,6 @@
 				"clickclass"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"work",
 				"work_children"
 			],
@@ -184,10 +244,6 @@
 				"mr-a	margin-right: auto;"
 			],
 			[
-				"ma",
-				"m-a	margin: auto;"
-			],
-			[
 				"max-",
 				"max-width"
 			],
@@ -210,14 +266,6 @@
 			[
 				"bo",
 				"border-width"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"paddi",
@@ -308,34 +356,26 @@
 	"buffers":
 	[
 		{
-			"file": "header.php",
+			"file": "woocommerce.php",
 			"settings":
 			{
-				"buffer_size": 9675,
+				"buffer_size": 415,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/js/scripts/main.js",
+			"file": "parts/loop-product.php",
 			"settings":
 			{
-				"buffer_size": 3116,
+				"buffer_size": 32,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "page-tandems.php",
+			"file": "assets/scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 7620,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page-aff.php",
-			"settings":
-			{
-				"buffer_size": 7981,
+				"buffer_size": 23969,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,31 +383,23 @@
 			"file": "assets/scss/_mixins.scss",
 			"settings":
 			{
-				"buffer_size": 3281,
+				"buffer_size": 3760,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "parts/nav-topbar.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2197,
-				"line_ending": "Windows"
+				"buffer_size": 13108,
+				"line_ending": "CR"
 			}
 		},
 		{
-			"file": "front-page.php",
+			"file": "assets/js/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 15853,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 2249,
+				"buffer_size": 3116,
 				"line_ending": "Windows"
 			}
 		}
@@ -422,40 +454,69 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts"
+		"/C/wamp/www/test.com/wp-content/themes/Deland/bower_components/weather-icons/css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/bower_components/weather-icons/sass/mappings",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/emails/plain"
 	],
 	"file_history":
 	[
-		"/C/wamp/www/test.com/wp-content/themes/Deland/style.css",
-		"/C/wamp/www/test.com/wp-content/plugins/planes/planes.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/main.js",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-offcanvas-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/single-product/tabs/description.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/content-single-product.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-page.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/content-single-product.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/single.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-single.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-product.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-cart.php",
+		"/C/wamp/www/test.com/wp-content/plugins/awesome-weather/awesome-weather.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/style.scss",
+		"/C/Users/Mike/Downloads/Planes.svg",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/gulpfile.js",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/icons/header.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_weather-icons-master.zip/weather-icons-master/sass/mappings/wi-owm.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
+		"/C/wamp/www/test.com/wp-content/plugins/awesome-weather/awesome-weather-settings.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/bower_components/weather-icons/css/weather-icons.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
+		"/C/wamp/www/test.com/wp-content/plugins/New folder/aviation-weather-from-noaa/aviation-weather-from-noaa.php",
+		"/C/wamp/www/test.com/wp-content/plugins/awesome-weather/awesome-weather.css",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_weather-icons-master.zip/weather-icons-master/sass/weather-icons.scss",
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_weather-icons-master.zip/weather-icons-master/css/weather-icons.css",
+		"/C/Users/Mike/Downloads/weather_14.json.gz",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/package.json",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
+		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/aviation-weather-from-noaa.php",
+		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/views/widget.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-deland.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/footer.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-experienced.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/style.css",
+		"/C/wamp/www/test.com/wp-content/plugins/planes/planes.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-title-bar.php",
 		"/C/wamp/www/test.com/wp-content/plugins/40407d54ee00660413ba-01e5539872652a1fef9467bca532beb03a53c7e0/wooslider-slideshows-api-example.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/main.js",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-offcanvas-topbar.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions/enqueue-scripts.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/map.js",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/content-single-product.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_slab.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/single-product/title.php",
 		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/cart/cart.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-cart.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-cart.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/single-product/title.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/cart/cross-sells.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/content-single-product.php",
 		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/templates/content-single-product.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/.gitignore",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/single-product/up-sells.php",
@@ -463,7 +524,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/storefront/inc/init.php",
 		"/C/wamp/www/test.com/wp-content/themes/storefront/inc/structure/page.php",
 		"/C/wamp/www/test.com/wp-content/themes/storefront/inc/structure/hooks.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/storefront/inc/structure/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/storefront/inc/woocommerce/functions.php",
 		"/C/wamp/www/test.com/wp-content/themes/storefront/functions.php",
@@ -475,8 +535,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-shop.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_calendar.scss",
 		"/C/Users/Mike/Downloads/logo- circle.jpg",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/style.scss",
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_Custom_Calendar.zip/Custom_Calendar/custom_calendar.php",
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_Custom_Calendar.zip/Custom_Calendar/custom_calendar.css",
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_foundation.calendar.1.0.0.zip/css/foundation.calendar.css",
@@ -531,29 +589,7 @@
 		"/C/wamp/www/fly.com/test/index.html",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/orders.asp",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/order_Item.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/checkStatus.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateOrder.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/order_consolidated.asp",
-		"/C/wamp/www/aero/checkStatus.asp",
-		"/C/wamp/www/aero/new stuff/checkStatus.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/checkStatus.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/orders.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/updateOrder.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/updateItem.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/newTools.js",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/RC4.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/sql_citrus.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/urls.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/interpreter.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateOrder.asp-no",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/updateItem.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/page-resume.php",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/page-resume.php",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/main.css",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/resume.js",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/resume.css",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/footer.php",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/page.php"
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/checkStatus.asp"
 	],
 	"find":
 	{
@@ -572,6 +608,57 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"voucher",
+			"f082",
+			"facebook",
+			":hover",
+			".alt",
+			":hover",
+			"red",
+			"woo",
+			"woocommerce",
+			"thingy",
+			"small",
+			".cart",
+			"#thingy",
+			".thingy",
+			".top-bar",
+			".intro",
+			"contact",
+			" contact",
+			"footer",
+			"#629BE0",
+			"#43adff",
+			"jquery",
+			"what-",
+			"foundation-sites",
+			"awe_de",
+			"#E05465",
+			"weather",
+			"prices",
+			"10",
+			"></",
+			">	",
+			"$site_data_post",
+			"$site_data",
+			"31",
+			"bg-test",
+			"$site_data_post",
+			"site_data_post",
+			"bg-test",
+			"footer",
+			"column-c",
+			"footer",
+			"contact",
+			"hr{",
+			"<hr>",
+			"hr",
+			"$site_data_post",
+			"footer",
+			"&nbsp;",
+			"<br class=show-for-small-only>",
+			"<br class=show-for-small-only>&nbsp;",
+			"<br class=show-for-small-only>&nbsp;Facebook",
 			".cover",
 			"background-pos",
 			"bg-test",
@@ -648,58 +735,7 @@
 			"header",
 			"$header-color",
 			"$white",
-			"fefefe",
-			"top",
-			"11. Button",
-			"19. Forms",
-			"//  19. Forms",
-			".column:last-child:not(:first-child), .columns:last-child:not(:first-child)",
-			"phone",
-			"blue",
-			"before",
-			"promo",
-			"prom",
-			"h2",
-			"hsContent",
-			"top-bar",
-			"normal",
-			"blue",
-			"purchase_num",
-			"purchase_num__1",
-			"Serial Num",
-			"Serial",
-			"Order from stock",
-			"Order from",
-			"v5",
-			"v11",
-			"theStatus",
-			"hdist",
-			"v11",
-			"= \"pro",
-			"= \"vship",
-			"= \"vlab",
-			"= \"har",
-			"= \"cut\"",
-			"\"cut",
-			"\"vBOM\"",
-			"wdist",
-			"v4",
-			"validateItem",
-			"v1",
-			"v11",
-			"checkItemStatus",
-			"orders_line",
-			"checkItemStatus",
-			"senttohub",
-			"valid",
-			"checkItemStatus",
-			"hdist",
-			"checkItemStatus",
-			"senttohub",
-			"checkItemStatus",
-			"test",
-			"v11",
-			"v5"
+			"fefefe"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -707,6 +743,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/*!",
 			"resume"
 		],
 		"reverse": false,
@@ -718,110 +755,24 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "header.php",
+					"file": "woocommerce.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9675,
+						"buffer_size": 415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2879,
-								3053
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 351.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/js/scripts/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3116,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2015,
-								1998
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "page-tandems.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1083,
-								1083
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 145.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "page-aff.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1812,
-								1812
+								198,
+								198
 							]
 						],
 						"settings":
@@ -837,108 +788,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/scss/_mixins.scss",
+					"buffer": 1,
+					"file": "parts/loop-product.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3281,
+						"buffer_size": 32,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3280,
-								3280
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 1887.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "parts/nav-topbar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1217,
-								1217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 357.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15853,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4925,
-								5980
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1530.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1333,
-								1333
+								32,
+								32
 							]
 						],
 						"settings":
@@ -950,6 +813,123 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/scss/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10357,
+								10357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 12216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6584,
+								6585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/js/scripts/main.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2390,
+								2390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				}
@@ -958,7 +938,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1037,7 +1017,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 380.0,
+	"side_bar_width": 355.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
