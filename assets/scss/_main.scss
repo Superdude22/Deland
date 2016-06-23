@@ -414,9 +414,6 @@ NAVIGATION STYLES
 		height:1rem;
 		top:-1.5rem;
 		@include opacity(0.8);
-		a{
-			
-		}
 	}
 }
 
@@ -1043,15 +1040,38 @@ Section STYLES
 }
 
 .coaching{
+	a{
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+	.coach-list{
+		@include breakpoint(large){
+			-moz-column-count: 2;
+			-webkit-column-count: 2;
+			column-count: 2;
+		}
+	}
 	.coach{
-		width: 100%;
-		img{
-			max-height:20rem;
+		min-height: 30rem;
+		//background-color: blue;
+		
+		.coach-logo{
+			
+			width:100%;
+			height:20rem;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			-ms-background-size: contain;
+			-o-background-size: contain;
+			-moz-background-size: contain;
+			-webkit-background-size: contain;
+			background-size: contain;
 		}
 		h1{
-			background-color:green;
-			height:10rem;
-			vertical-align: bottom;
+			//background-color:green;
+			//padding-top: 3rem;
 		}
 
 	}
