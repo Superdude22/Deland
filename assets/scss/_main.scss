@@ -258,26 +258,42 @@ HEADER STYLES
 /*********************
 HEADER STYLES
 *********************/
-
 .intro-large{
 	h1{
 		font-size: 3rem;
 		@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
 		@include breakpoint(large){
-			font-size: 5rem;
-			line-height: 6rem;
+			font-size: 3rem;
+			line-height: 3rem;
 		}
 
 		@include breakpoint(xxlarge){
-			font-size: 10rem;
-			line-height: 8.5rem;
+			font-size: 5rem;
+			line-height: 5rem;
 		}
-		
 	}
+}
 
-  }
+.home{
+	.intro-large{
+		h1{
+			
+			@include breakpoint(large){
+				font-size: 5rem;
+				line-height: 6rem;
+			}
 
-  .cartSlide{
+			@include breakpoint(xxlarge){
+				font-size: 10rem;
+				line-height: 8.5rem;
+			}
+			
+		}
+
+	  }
+ }
+
+ .cartSlide{
 		h1{ 
 			font-size: 1rem;
 		@include breakpoint(large){
@@ -289,28 +305,12 @@ HEADER STYLES
 			font-size: 8rem;
 			line-height: 8.5rem;
 		}
-
-
-
-
 		}
-	}
+}
 
- .tandems{
- 	.intro-large{
- 		h1{
- 			@include breakpoint(large){
-			font-size: 3rem;
-			line-height: 3rem;
-		}
 
-		@include breakpoint(xxlarge){
-			font-size: 5rem;
-			line-height: 5rem;
-		}
- 		}
- 	}
- }
+
+
 
 
 .intro-small{

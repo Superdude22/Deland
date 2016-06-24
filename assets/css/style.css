@@ -6352,13 +6352,27 @@ HEADER STYLES
 
 @media screen and (min-width: 64em) {
   .intro-large h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (min-width: 120em) {
+  .intro-large h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .home .intro-large h1 {
     font-size: 5rem;
     line-height: 6rem;
   }
 }
 
 @media screen and (min-width: 120em) {
-  .intro-large h1 {
+  .home .intro-large h1 {
     font-size: 10rem;
     line-height: 8.5rem;
   }
@@ -6379,20 +6393,6 @@ HEADER STYLES
   .cartSlide h1 {
     font-size: 8rem;
     line-height: 8.5rem;
-  }
-}
-
-@media screen and (min-width: 64em) {
-  .tandems .intro-large h1 {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-}
-
-@media screen and (min-width: 120em) {
-  .tandems .intro-large h1 {
-    font-size: 5rem;
-    line-height: 5rem;
   }
 }
 

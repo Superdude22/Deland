@@ -64,12 +64,10 @@
 								<p>A Little Bit more information about the Image.</p>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
-								<a href="<?php 	the_field('promo_link'); ?>">
 								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
 								<div class="inner">
 									<h2>Slideshow&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
-								</a>
 						</div>
 						<div class="medium-1 column show-for-medium">
 						</div>					
