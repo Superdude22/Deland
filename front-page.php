@@ -11,10 +11,10 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns medium-6 words">
-								<h1><span class="sm-dec">About</span> Deland</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
-								<p class="blockquote">Incidunt voluptatem veritatis quidem natus quaerat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatum sapiente quam debitis ut modi alias quae perferendis ratione, nihil fugiat, ab veniam neque. Incidunt voluptatem veritatis quidem natus quaerat.</p>
+								<h1><span class="sm-dec">About</span>Skydive Deland</h1>
+								<p><strong>Skydive Deland</strong> is a world-class skydiving facility.  Since 1982, we have been introducing, teaching, and enjoying the sport of skydiving with new and experienced jumpers alike.  We offer Tandem Skydiving, AFF training programs, and modern facilities for our experienced jumpers.</p>
+								
+								<p>Weather permitting, we fly every day.</p>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
