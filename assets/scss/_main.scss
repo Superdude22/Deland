@@ -160,6 +160,7 @@ h1, .h1 {
 		font-size: 1.6rem;
 		line-height: 2.3rem;
 		opacity: 0.8;
+		margin-right: 0.5rem;
 		&:after{
 			position: absolute;
 			left:0;
@@ -290,8 +291,8 @@ HEADER STYLES
 			
 		}
 
-	  }
- }
+	}
+}
 
  .cartSlide{
 		h1{ 
@@ -356,19 +357,34 @@ HEADER STYLES
 	width: 100%;
 }
 /* Intro */
-#intro .bcg {
-	//background-image:url(../images/tandem_cloud.jpg);
-}
 
 .extra_image {
 	position: relative;
 	z-index: 2;
-	max-height: 30rem;
+	height: 15rem;
 	overflow: hidden;
 	padding:0;
 	img{
 		width:100%;
+		height:40vh;
 		object-fit: cover;
+	}
+	@include breakpoint(medium){
+	height: 25rem;
+	img{
+		width:100%;
+		height:70vh;
+		object-fit: cover;
+	}
+	}
+	@include breakpoint(large up){
+	height: 30rem;
+	img{
+		width:100%;
+		height:60vh;
+		object-fit: cover;
+		
+	}
 	}
 	
 }
@@ -870,7 +886,7 @@ Section STYLES
 			object-fit:cover;
 		}
 
-		@include breakpoint(medium){
+		@include breakpoint(large){
 			height: 30rem;
 		}
 		@include breakpoint(medium only){
@@ -923,15 +939,22 @@ Section STYLES
 			position: absolute;
 			left: 0;
 			top: -30%;
+			@include breakpoint(medium){
+			top: 0;
+			}
 			opacity: 0.3;
 			object-fit:cover;
 		}
 
 		@include breakpoint(medium){
-			height: 30rem;
+			height: 20rem;
 		}
 		@include breakpoint(medium only){
 			background-position: right bottom;
+		}
+
+		@include breakpoint(large){
+			height: 30rem;
 		}
 
 
@@ -1674,4 +1697,9 @@ Weather STYLES
 
 .awesome-weather-forecast { display:none ; }
 .awesome-weather-attribution { display:none;  }
+}
+
+.epyt-gallery{
+	position: relative;
+	z-index:3;
 }

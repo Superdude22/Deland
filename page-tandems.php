@@ -36,7 +36,7 @@
 						</div>
 						<div class="row column small-11 medium-10">
 							<div class="row expanded small-12 columns">
-								<h1 class="ready_set"><span class='ready'>Ready,</span><br><span class='set'>Set,</span><br><span class='highlight'>Go!</span></h1>
+								<h1 class="ready_set"><span class='ready'>Ready,</span><br><span class='set'>Set,</span><br><a href="<?php 	the_field('promo_link'); ?>" class='highlight'>Go!</a></h1>
 							</div>
 							<div class="row expanded small-12 columns">
 								<div class="columns expanded words font-test">
@@ -52,6 +52,9 @@
 									
 			
 								</div>
+							</div>
+							<div class="row expanded small-12 columns">
+								<h1 class="ready_set"><span class='ready'>Jump.</span><br><span class='set'>Fly.</span><br><a href="/aff/" class='highlight'>Repeat.</a></h1>
 							</div>
 					</div>
 						<div class="medium-1 column show-for-medium">
