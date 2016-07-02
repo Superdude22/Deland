@@ -5109,7 +5109,10 @@ NAVIGATION STYLES
     top: -1.5rem;
     opacity: 0.8;
     filter: alpha(opacity=80); }
+    .logo-bar .logo a {
+      position: relative; }
     .logo-bar .logo img {
+      position: relative;
       display: block; }
 
 .nav-bar {
