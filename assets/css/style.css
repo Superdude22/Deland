@@ -5109,6 +5109,8 @@ NAVIGATION STYLES
     top: -1.5rem;
     opacity: 0.8;
     filter: alpha(opacity=80); }
+    .logo-bar .logo img {
+      display: block; }
 
 .nav-bar {
   background-color: #e6e6e6;
@@ -5870,6 +5872,7 @@ PLANE STYLES
 Weather STYLES
 *********************/
 .weather h3 {
+  white-space: nowrap;
   line-height: 0.8rem; }
 
 .weather .awesome-weather-wrap.temp1 {
@@ -5897,10 +5900,11 @@ Weather STYLES
   display: none; }
 
 .weather .awesome-weather-current-temp {
+  position: relative;
   padding: 0.5rem;
+  margin-right: 0.5rem;
   width: 30%;
   float: right;
-  float: left;
   font-size: 4rem;
   line-height: 1em;
   font-weight: 300;

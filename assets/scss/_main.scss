@@ -430,6 +430,9 @@ NAVIGATION STYLES
 		height:1rem;
 		top:-1.5rem;
 		@include opacity(0.8);
+		img{
+			display: block;
+		}
 	}
 }
 
@@ -1643,6 +1646,7 @@ Weather STYLES
 .weather{
 	//display:none;
 	h3{
+		white-space: nowrap;
 		line-height: 0.8rem;
 	}
 
@@ -1661,12 +1665,11 @@ Weather STYLES
 }
 
 .awesome-weather-current-temp {
+	position: relative;
 	padding: 0.5rem;
+	margin-right: 0.5rem;
 	width: 30%;
 	float: right;
-	@include breakpoint(small){
-		float:left;
-	}
 	font-size: 4rem;
 	line-height: 1em;
 	font-weight: 300;
