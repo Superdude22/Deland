@@ -5527,7 +5527,8 @@ html.no-objectfit .tandems .about .bg-test img {
   width: 100% !important;
   height: auto !important;
   opacity: 0.9;
-  object-fit: cover; }
+  object-fit: cover;
+  background-color: green; }
 
 .image_2 {
   height: 10rem;
