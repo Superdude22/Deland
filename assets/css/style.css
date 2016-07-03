@@ -5064,20 +5064,29 @@ HEADER STYLES
     width: 100%;
     height: 40vh;
     object-fit: cover; }
+    html.no-objectfit .extra_image img {
+      width: 100% !important;
+      height: auto !important; }
   @media screen and (min-width: 40em) {
     .extra_image {
       height: 25rem; }
       .extra_image img {
         width: 100%;
         height: 70vh;
-        object-fit: cover; } }
+        object-fit: cover; }
+        html.no-objectfit .extra_image img {
+          width: 100% !important;
+          height: auto !important; } }
   @media screen and (min-width: 64em) {
     .extra_image {
       height: 30rem; }
       .extra_image img {
         width: 100%;
         height: 60vh;
-        object-fit: cover; } }
+        object-fit: cover; }
+        html.no-objectfit .extra_image img {
+          width: 100% !important;
+          height: auto !important; } }
 
 /*********************
 NAVIGATION STYLES
@@ -5434,6 +5443,9 @@ a:hover .discipline img {
       width: auto !important;
       opacity: 0.3;
       object-fit: cover; }
+      html.no-objectfit .about .bg-test img {
+        height: 80% !important;
+        width: auto !important; }
     @media screen and (min-width: 64em) {
       .about .bg-test {
         height: 30rem; } }
@@ -5445,6 +5457,14 @@ a:hover .discipline img {
 
 .tandems .intro-large {
   font-size: 1.2rem; }
+
+html.no-objectfit .tandems .bg-test .inner {
+  position: relative;
+  width: 100%; }
+
+html.no-objectfit .tandems .bg-test img {
+  width: 100% !important;
+  height: auto !important; }
 
 .prices table {
   padding-left: 3rem; }

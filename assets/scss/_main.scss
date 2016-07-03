@@ -368,6 +368,10 @@ HEADER STYLES
 		width:100%;
 		height:40vh;
 		object-fit: cover;
+		@include modernizr(no-objectfit) { 
+			width: 100% !important;
+			height: auto !important;
+		}
 	}
 	@include breakpoint(medium){
 	height: 25rem;
@@ -375,6 +379,10 @@ HEADER STYLES
 		width:100%;
 		height:70vh;
 		object-fit: cover;
+		@include modernizr(no-objectfit) { 
+			width: 100% !important;
+			height: auto !important;
+		}
 	}
 	}
 	@include breakpoint(large up){
@@ -383,6 +391,10 @@ HEADER STYLES
 		width:100%;
 		height:60vh;
 		object-fit: cover;
+		@include modernizr(no-objectfit) { 
+			width: 100% !important;
+			height: auto !important;
+		}
 		
 	}
 	}
@@ -883,6 +895,7 @@ Section STYLES
 			width: 80%;
 			background-color: rgba(186, 151, 15, 0.5);
 			padding-left:1em;
+
 		}
 		h2{
 			position: relative;
@@ -895,6 +908,11 @@ Section STYLES
 			width: auto !important;			
 			opacity: 0.3;
 			object-fit:cover;
+			@include modernizr(no-objectfit) { 
+			height: 80% !important;
+			width: auto !important;
+
+			}
 		}
 
 		@include breakpoint(large){
@@ -917,6 +935,28 @@ Section STYLES
 	.intro-large{
 		font-size: 1.2rem;
 	}
+
+	.bg-test{	
+
+		.inner{
+			@include modernizr(no-objectfit) { 
+			position: relative;
+			width: 100%;
+			}
+		}
+		
+		img{
+			
+			@include modernizr(no-objectfit) { 
+			width: 100% !important;
+			height: auto !important;
+
+			}
+		}
+
+
+	}
+
   
 }
 
