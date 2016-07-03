@@ -5109,6 +5109,9 @@ NAVIGATION STYLES
     top: -1.5rem;
     opacity: 0.8;
     filter: alpha(opacity=80); }
+    .logo-bar .logo .adj {
+      position: absolute;
+      bottom: 0; }
     .logo-bar .logo a {
       position: relative; }
     .logo-bar .logo img {

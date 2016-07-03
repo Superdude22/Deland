@@ -62,17 +62,17 @@
 			<?php }else{ ?>
 
 
-				<div class="row logo align-bottom expanded">
+				<div class="row logo expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
-					<div class="medium-2 columns show-for-medium">
+					<div class="adj medium-2 columns show-for-medium">
 						<a href="<?php echo home_url();?>">
 							<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 						</a>
 					</div>
-					<div class="column">
+					<div class="medium-5 large-8 column">
 						</div>
-					<div class="weather small-8 medium-5 large-2 columns text-right">
+					<div class="adj weather small-8 medium-5 large-2 columns text-right">
 						<h3>Current Weather</h3>
 						<?php echo do_shortcode('[awesome-weather location="Deland" units="F" owm_city_id="4152890" size="wide" locale="en"]' ); ?>
 					</div>
