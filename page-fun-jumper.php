@@ -52,7 +52,7 @@
 					</div>
 				</section>
 				<section class="row expanded image_2">
-					<img class="" src="<?php the_field('image_1'); ?>" alt="">					
+					<img class="" src="<?php the_field('image_2'); ?>" alt="">					
 				</section>
 
 				<section class="about row expanded " id="about">
