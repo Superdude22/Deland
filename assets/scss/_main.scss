@@ -1031,6 +1031,21 @@ Section STYLES
 	}
 
 }
+.image_2{
+	height:10rem;
+	overflow: hidden;
+	@include breakpoint(medium){
+		height: 20rem;
+	}
+	@include breakpoint(large){
+		height: 30rem;
+	}
+	img{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
 
 
 .contact{

@@ -5523,6 +5523,20 @@ html.no-objectfit .tandems .about .bg-test img {
 .prices h2 {
   color: #e6e6e6; }
 
+.image_2 {
+  height: 10rem;
+  overflow: hidden; }
+  @media screen and (min-width: 40em) {
+    .image_2 {
+      height: 20rem; } }
+  @media screen and (min-width: 64em) {
+    .image_2 {
+      height: 30rem; } }
+  .image_2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+
 .contact {
   background-color: #000b4f;
   overflow: hidden; }

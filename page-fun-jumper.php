@@ -51,24 +51,28 @@
 						
 					</div>
 				</section>
-
+				<section class="row expanded image_2">
+					<img class="" src="<?php the_field('image_1'); ?>" alt="">					
+				</section>
 
 				<section class="about row expanded " id="about">
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="columns small-11 medium-6 words">
 								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">Our Facilites</h1>
-								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-			    				<?php the_content(); ?>
-			    
-			    				
-			    				<?php endwhile; endif; ?>
+								<h3>Full Gear Store</h3>
+								<h3>Packing Hangar</h3>
+								<p>With a Full Staff of Professional Packers!</p>								
+								<h3>A/C Team Rooms and Packing</h3>
+								<br>
+								<h2>Open Daily</h2>
+								<h3>9:00 am - Sunset</h3>
+								<h3>If it's Jumpable, We're Flying!</h3S>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
-								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
+								<img class="" src="<?php the_field('image_3'); ?>" alt="">
 								<div class="inner">
-									<h2>Slideshow&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
+									<h2>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
 						</div>
 						<div class="medium-1 column show-for-medium">
@@ -118,55 +122,36 @@
 				
 				
 				
-				<section class="faq row expanded hide">
+				<section class="faq row expanded spot" id="spot">
 					<div class="row expanded align-middle pos-adjust small-12 columns">
 						<div class="show-for-medium small-1 column otter-stripe">
 						</div>
 						<div class="column shrink">
-							<h1>Events Calendar</h1>
+							<h1>The Perfect Spot</h1>
 						</div>
 						<div class="columns otter-stripe">
 						</div>
 					</div>
 					<div class="row small-12 columns medium-unstack">
-						<div class="small-11 medium-4 small-offset-1 columns requirements">
-							<h3>Events List:</h3>
+						<div class="small-11 medium-5 small-offset-1 columns requirements">
+							<h3>Full Service Restaurant and Bar</h3>
 							<ul>
-								<li>Must be at least 18 years of age, no exceptions.</li>
-								<li>You must provide a valid government issued photo ID.</li>
-								<li>Weigh no more than 225 pounds. There are weight exceptions based on height and weight proportions. For further details please call: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></li>
-								<li>Absolutely no alcohol or drugs consumption prior to skydiving!</li>
-								<li>Please allow three to four hours to complete the experience with us.</li>
-								<li>Safety is our number one priority and there may be some physical limitations that will require an evaluation from a Skydive DeLand Instructor.</li>
+								<li>Open every day. Laid back atmosphere.</li>
+								<li>Great Food, Great Service, Great View!</li>
+								<li>Come Watch The Jumpers Land!</li>							
 							</ul>
 
-							<h3>What to Wear:</h3>
-							<ul>
-								<li>Comfortable clothing according to the weather</li>
-								<li>Sneakers or tennis shoes</li>
-								<li>Long hair should be put in a pony tail</li>
-								<li>We recommend that you do not wear dangling jewelry, or anything valuable</li>
-							</ul>
-						</div>
-						<div class="small-12 medium-6 columns hide-for-small-up">
-							<h3>Calendar:</h3>
+							<h3>Sunday - Thursday:</h3>
+							<p>8:00 am - 9:00 pm</p>
+							<h3>Friday - Saturday:</h3>
+							<p>8:00 am - 10:00 pm</p>
 							
-							<div class="faq-list">
-								<?php 
-									query_posts('post_type=tandem_faq' );
-								?>
-								<ul class="accordion" data-accordion data-allow-all-closed="true">
+							<h2><a href="tel://1-386-734-0088"><i class="fa fa-phone fa-fw"></i>&nbsp; (386) 734-0088</a></h2>
 
-									<?php while (have_posts()) : the_post(); ?>
-										<li class="question accordion-item" data-accordion-item>
-											<a href="#" class="accordion-title"><h1><?php the_field('question'); ?></h1></a>
-											<div class="accordion-content" data-tab-content>
-												<?php the_field('answer'); ?>
-											</div>
-										</li>						
-									<?php endwhile;?>
-								</ul>
-							</div>
+							<h3>Link to Menu(coming soon)</h3>
+						</div>
+						<div class="small-12 medium-5 columns">
+							<h3>Photos: (Coming Soon)</h3>					
 						</div>
 						
 					</div>
@@ -174,14 +159,6 @@
 						
 					
 				</section>
-				<section class="photostream">
-					<h1>Photostream</h1>
-					<div class="row expanded small-collapse">
-						
-							<?php echo $slideshow; ?>
-						
-					</div>								
-					</section>
 				<?php if( get_field('slideshow') ): ?>	
 					<section class="photostream">
 					<h1>Photostream</h1>
