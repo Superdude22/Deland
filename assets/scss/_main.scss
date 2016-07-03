@@ -895,6 +895,10 @@ Section STYLES
 			width: 80%;
 			background-color: rgba(186, 151, 15, 0.5);
 			padding-left:1em;
+			@include modernizr(no-objectfit) { 
+				position: relative;
+				width: 100%;
+			}
 
 		}
 		h2{
@@ -908,6 +912,10 @@ Section STYLES
 			width: auto !important;			
 			opacity: 0.3;
 			object-fit:cover;
+			@include modernizr(no-objectfit) { 
+			width: 100% !important;
+			height: auto !important;
+			}
 			
 		}
 
@@ -931,26 +939,26 @@ Section STYLES
 	.intro-large{
 		font-size: 1.2rem;
 	}
+	.about{
+		.bg-test{	
 
-	.bg-test{	
-
-		.inner{
-			@include modernizr(no-objectfit) { 
-			position: relative;
-			width: 100%;
+			.inner{
+				@include modernizr(no-objectfit) { 
+				position: relative;
+				width: 100%;
+				}
 			}
-		}
-		
-		img{
 			
-			@include modernizr(no-objectfit) { 
-			width: 100% !important;
-			height: auto !important;
-
+			img{
+				
+				@include modernizr(no-objectfit) { 
+				width: 100% !important;
+				height: auto !important;
+				}
 			}
+
+
 		}
-
-
 	}
 
   

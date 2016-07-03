@@ -5433,6 +5433,9 @@ a:hover .discipline img {
       width: 80%;
       background-color: rgba(186, 151, 15, 0.5);
       padding-left: 1em; }
+      html.no-objectfit .about .bg-test .inner {
+        position: relative;
+        width: 100%; }
     .about .bg-test h2 {
       position: relative;
       z-index: 2;
@@ -5443,6 +5446,9 @@ a:hover .discipline img {
       width: auto !important;
       opacity: 0.3;
       object-fit: cover; }
+      html.no-objectfit .about .bg-test img {
+        width: 100% !important;
+        height: auto !important; }
     @media screen and (min-width: 64em) {
       .about .bg-test {
         height: 30rem; } }
@@ -5455,11 +5461,11 @@ a:hover .discipline img {
 .tandems .intro-large {
   font-size: 1.2rem; }
 
-html.no-objectfit .tandems .bg-test .inner {
+html.no-objectfit .tandems .about .bg-test .inner {
   position: relative;
   width: 100%; }
 
-html.no-objectfit .tandems .bg-test img {
+html.no-objectfit .tandems .about .bg-test img {
   width: 100% !important;
   height: auto !important; }
 
