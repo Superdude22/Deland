@@ -204,7 +204,7 @@
 							<?php echo $slideshow; ?>
 						
 					</div>								
-				</section>
+					</section>
 				<?php endif; ?>	
 									
 			</main> <!-- end #main -->

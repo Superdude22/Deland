@@ -58,10 +58,12 @@
 						</div>
 						<div class="columns small-11 medium-6 words">
 								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">Our Facilites</h1>
-								<h2>Title Of Image</h2>
+								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-								<p class="blockquote">Something relating to the image</p>
-								<p>A Little Bit more information about the Image.</p>
+			    				<?php the_content(); ?>
+			    
+			    				
+			    				<?php endwhile; endif; ?>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<img class="" src="<?php the_field('promo_image'); ?>" alt="">
@@ -172,6 +174,14 @@
 						
 					
 				</section>
+				<section class="photostream">
+					<h1>Photostream</h1>
+					<div class="row expanded small-collapse">
+						
+							<?php echo $slideshow; ?>
+						
+					</div>								
+					</section>
 				<?php if( get_field('slideshow') ): ?>	
 					<section class="photostream">
 					<h1>Photostream</h1>

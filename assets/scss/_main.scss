@@ -964,6 +964,7 @@ Section STYLES
   
 }
 
+
 .prices{
 	table{
 		padding-left: 3rem;
@@ -997,7 +998,7 @@ Section STYLES
 			@include breakpoint(medium){
 			top: 0;
 			}
-			opacity: 0.3;
+			opacity: 0.7;
 			object-fit:cover;
 		}
 
