@@ -69,19 +69,18 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="row columns small-10">
-							<div class="row expanded">
+							<div class="row expanded small-10">
 								<h1>Our New Website</h1>
 							</div>
 							<div class="row expanded ">
 								<div class="small-12 medium-8 columns words">
-									<p>Coming Soon: Special Events and Photos</p>
+									<h2>Coming Soon: Special Events and Photos</h2>
 									
 								</div>
 								<div class="small-12 medium-4 columns picture">
-									Slideshow
+									
 								</div>
 							</div>
-						<div class="cloud"></div>
 
 
 						</div>
