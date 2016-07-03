@@ -998,7 +998,7 @@ Section STYLES
 			@include breakpoint(medium){
 			top: 0;
 			}
-			opacity: 0.7;
+			opacity: 0.8;
 			object-fit:cover;
 		}
 
@@ -1030,6 +1030,15 @@ Section STYLES
 		color: $light-gray;
 	}
 
+}
+
+.fun-jumper{
+	.about .bg-test img{
+		width: 100% !important;
+		height: auto !important;
+		opacity: 0.9;
+		object-fit: cover;
+	}
 }
 .image_2{
 	height:10rem;

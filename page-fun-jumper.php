@@ -58,7 +58,7 @@
 				<section class="about row expanded " id="about">
 						<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="columns small-11 medium-6 words">
+						<div class="columns small-11 medium-4 words">
 								<h1><span class="sm-dec">About</span> <br class="hide-for-large-up">Our Facilites</h1>
 								<h3>Full Gear Store</h3>
 								<h3>Packing Hangar</h3>
@@ -69,7 +69,7 @@
 								<h3>9:00 am - Sunset</h3>
 								<h3>If it's Jumpable, We're Flying!</h3S>
 						</div>
-						<div class="columns small-12 medium-4 bg-test">
+						<div class="columns small-12 medium-6 bg-test">
 								<img class="" src="<?php the_field('image_3'); ?>" alt="">
 								<div class="inner">
 									<h2>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>

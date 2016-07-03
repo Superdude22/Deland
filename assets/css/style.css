@@ -5495,7 +5495,7 @@ html.no-objectfit .tandems .about .bg-test img {
     position: absolute;
     left: 0;
     top: -30%;
-    opacity: 0.7;
+    opacity: 0.8;
     object-fit: cover; }
     @media screen and (min-width: 40em) {
       .prices .bg-test img {
@@ -5522,6 +5522,12 @@ html.no-objectfit .tandems .about .bg-test img {
 
 .prices h2 {
   color: #e6e6e6; }
+
+.fun-jumper .about .bg-test img {
+  width: 100% !important;
+  height: auto !important;
+  opacity: 0.9;
+  object-fit: cover; }
 
 .image_2 {
   height: 10rem;
