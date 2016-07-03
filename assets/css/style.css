@@ -5443,9 +5443,6 @@ a:hover .discipline img {
       width: auto !important;
       opacity: 0.3;
       object-fit: cover; }
-      html.no-objectfit .about .bg-test img {
-        height: 80% !important;
-        width: auto !important; }
     @media screen and (min-width: 64em) {
       .about .bg-test {
         height: 30rem; } }

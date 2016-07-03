@@ -908,11 +908,7 @@ Section STYLES
 			width: auto !important;			
 			opacity: 0.3;
 			object-fit:cover;
-			@include modernizr(no-objectfit) { 
-			height: 80% !important;
-			width: auto !important;
-
-			}
+			
 		}
 
 		@include breakpoint(large){
