@@ -70,24 +70,15 @@
 						</div>
 						<div class="row columns small-10">
 							<div class="row expanded">
-								<h1>Something Promotional</h1>
+								<h1>Our New Website</h1>
 							</div>
 							<div class="row expanded ">
 								<div class="small-12 medium-8 columns words">
-									<p>Latest Promo Ad Picture</p>
-									<p class="pullquote">Quasi doloribus blanditiis porro molestias quam commodi eligendi ea maiores magnam, in dolorem expedita culpa dolore autem fugit repellendus numquam tempore quia sequi ipsa nesciunt maxime adipisci vero tempora!</p>
-									<p>Hic voluptate beatae at, earum, ducimus, accusamus repellendus harum quo nulla unde reiciendis autem assumenda veritatis culpa provident quisquam ut voluptas iure quas architecto. Quia nihil, quod accusantium ut tempora ad a officiis temporibus adipisci cupiditate cumque ea hic corporis, deleniti voluptatem nam, exercitationem velit eius voluptates. Quo, mollitia. Quod!</p>
+									<p>Coming Soon: Special Events and Photos</p>
 									
-
-									<ul>
-										<li>Lorem ipsum dolor sit.</li>
-										<li>Tempore dolore sit molestias?</li>
-										<li>Earum vitae quod veritatis!</li>
-									</ul>
-
 								</div>
 								<div class="small-12 medium-4 columns picture">
-									Add Slideshow
+									Slideshow
 								</div>
 							</div>
 						<div class="cloud"></div>
