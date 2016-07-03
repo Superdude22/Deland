@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php $slideshow = get_field('slideshow'); ?>
 	
-	<div id="content fun-jumper">
+	<div id="content fun-jumper" class="fun-jumper">
 	
 		<div id="inner-content" class="row expanded">
 	
