@@ -72,7 +72,7 @@
 							<div class="row expanded small-10">
 								<h1>Our New Website</h1>
 							</div>
-							<div class="row expanded ">
+							<div class="row expanded small-10">
 								<div class="small-12 medium-8 columns words">
 									<h2>Coming Soon: Special Events and Photos</h2>
 									
