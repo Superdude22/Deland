@@ -69,7 +69,7 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="row columns small-10">
-							<div class="row expanded small-10">
+							<div class="row expanded small-12">
 								<h1>Our New Website</h1>
 							</div>
 							<div class="row expanded small-10">

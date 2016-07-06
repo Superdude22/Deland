@@ -5051,7 +5051,9 @@ HEADER STYLES
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  max-height: 30rem;
+  width: auto; }
 
 /* Intro */
 .extra_image {
