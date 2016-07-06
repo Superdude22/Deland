@@ -355,7 +355,7 @@ HEADER STYLES
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	@include breakpoint(small) {
+	@include breakpoint(small only) {
 		max-height:30rem;
 		width: auto;
 	}
