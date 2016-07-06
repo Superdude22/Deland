@@ -352,12 +352,11 @@ HEADER STYLES
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	//background-size: cover;
 	height: 100%;
 	width: 100%;
-	@include breakpoint(small only) {
-		background-size:auto 30rem;
-}
+	@include breakpoint(medium up) {
+		background-size: cover;
 /* Intro */
 
 .extra_image {
