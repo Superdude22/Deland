@@ -356,9 +356,7 @@ HEADER STYLES
 	height: 100%;
 	width: 100%;
 	@include breakpoint(small only) {
-		max-height:30rem;
-		width: auto;
-	}
+		background-size:auto;
 }
 /* Intro */
 
