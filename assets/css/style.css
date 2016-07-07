@@ -5263,16 +5263,16 @@ POSTS & CONTENT STYLES
       .ready_set .go {
         font-size: 10rem;
         line-height: 6rem; } }
-    .ready_set .go .coached {
-      font-size: 3.5rem; }
-      @media screen and (min-width: 40em) {
-        .ready_set .go .coached {
-          font-size: 6rem;
-          line-height: 6rem; } }
-      @media screen and (min-width: 64em) {
-        .ready_set .go .coached {
-          font-size: 10rem;
-          line-height: 6rem; } }
+  .ready_set .coached {
+    font-size: 3.5rem; }
+    @media screen and (min-width: 40em) {
+      .ready_set .coached {
+        font-size: 6rem;
+        line-height: 6rem; } }
+    @media screen and (min-width: 64em) {
+      .ready_set .coached {
+        font-size: 10rem;
+        line-height: 6rem; } }
 
 /*********************
 Product STYLES

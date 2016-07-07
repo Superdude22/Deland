@@ -634,6 +634,7 @@ POSTS & CONTENT STYLES
 		@include breakpoint(medium up){
 		font-size: 10rem;
 		line-height: 6rem;
+		}
 	}
 	.coached{
 		font-size: 3.5rem;
@@ -645,7 +646,6 @@ POSTS & CONTENT STYLES
 		font-size: 10rem;
 		line-height: 6rem;
 		}
-	}
 	}
 
 }
