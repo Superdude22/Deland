@@ -5566,7 +5566,6 @@ html.no-objectfit .tandems .about .bg-test img {
     padding-left: 1rem; }
   .contact .contact-links ul {
     -moz-column-count: 2;
-    -webkit-column-count: 2;
     column-count: 2;
     height: 20rem; }
     .contact .contact-links ul li {
@@ -5622,7 +5621,6 @@ html.no-objectfit .tandems .about .bg-test img {
 @media screen and (min-width: 64em) {
   .coaching .coach-list {
     -moz-column-count: 2;
-    -webkit-column-count: 2;
     column-count: 2; } }
 
 .coaching .coach {
@@ -5861,7 +5859,6 @@ FOOTER STYLES
           opacity: 0.4; }
   .footer ul {
     -moz-column-count: 2;
-    -webkit-column-count: 2;
     column-count: 2; }
     .footer ul li {
       font-size: 3rem;

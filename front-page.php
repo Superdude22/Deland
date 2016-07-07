@@ -83,9 +83,6 @@
 							    foreach ( $postslist as $post ) :
 							        setup_postdata( $post );
 							 ?>
-						        <div class="row expanded small-12 columns">						         
-						            <h2><?php the_title(); ?></h2>
-						        </div>
 						            <div class="row expanded small-12 medium-8 columns words latest">  
 						            <?php the_content(); ?>
 						            </div>
