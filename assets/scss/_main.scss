@@ -290,6 +290,9 @@ HEADER STYLES
 			}
 			
 		}
+		p.phone a{
+			color: $yellow;
+		}
 
 	}
 }
@@ -854,6 +857,19 @@ Section STYLES
 					-webkit-filter: none;
 				}
 			}
+	}
+}
+
+.gearstore{
+	h1{
+		letter-spacing: 0.2rem;
+		@include stroke(2px, $dk-blue);
+		color: $dk-yellow;
+	}
+	p{
+		@include breakpoint(medium up){
+		font-size: 2rem;
+		}
 	}
 }
 

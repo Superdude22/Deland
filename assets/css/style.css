@@ -5005,6 +5005,9 @@ HEADER STYLES
     font-size: 10rem;
     line-height: 8.5rem; } }
 
+.home .intro-large p.phone a {
+  color: #ffe300; }
+
 .cartSlide h1 {
   font-size: 1rem; }
   @media screen and (min-width: 64em) {
@@ -5406,6 +5409,15 @@ Section STYLES
 
 a:hover .discipline img {
   -webkit-filter: none; }
+
+.gearstore h1 {
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, -2px -2px 0 #000b4f, -1px -2px 0 #000b4f, 0px -2px 0 #000b4f, 1px -2px 0 #000b4f, 2px -2px 0 #000b4f, -2px -1px 0 #000b4f, -1px -1px 0 #000b4f, 0px -1px 0 #000b4f, 1px -1px 0 #000b4f, 2px -1px 0 #000b4f, -2px 0px 0 #000b4f, -1px 0px 0 #000b4f, 0px 0px 0 #000b4f, 1px 0px 0 #000b4f, 2px 0px 0 #000b4f, -2px 1px 0 #000b4f, -1px 1px 0 #000b4f, 0px 1px 0 #000b4f, 1px 1px 0 #000b4f, 2px 1px 0 #000b4f, -2px 2px 0 #000b4f, -1px 2px 0 #000b4f, 0px 2px 0 #000b4f, 1px 2px 0 #000b4f, 2px 2px 0 #000b4f;
+  color: #ba970f; }
+
+@media screen and (min-width: 40em) {
+  .gearstore p {
+    font-size: 2rem; } }
 
 .pac-wing .picture img {
   width: 100%; }

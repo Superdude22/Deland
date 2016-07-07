@@ -312,6 +312,31 @@
 						
 					</div>
 				</section>
+				<section class="gearstore " id="gearstore">
+					<div class="row expanded align-middle pos-adjust">
+						<div class="small-1 column otter-stripe show-for-medium"></div>
+						<div class="column shrink">
+							<h1>Gear Store</h1>
+						</div>
+						<div class="column otter-stripe"></div>
+					</div>
+					<div class="row expanded words">
+						<div class="medium-1 column show-for-medium">
+						</div>
+						<div class="small-10 columns">
+							<br>
+							<p class="highlight">Our online store is currently under construction. </p>
+							<br>
+							<h2>Skydive Deland has a full selection of New and Used Skydiving gear.</h2>
+							<p>We appreicate your patience and would be happy to answer any questions you may have.</p>
+							<br>
+							<p>Feel free to get in touch for more information.</p>
+							<br>
+							<p>Email us: <a href="mailto:info@skydivedeland.com">store@skydivedeland.com</a></p>
+							<h2 class="phone">Or Call:  <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
+						</div>
+					</div>					
+				</section>
 				
 				<?php if( get_field('slideshow') ): ?>	
 					<section class="photostream">
