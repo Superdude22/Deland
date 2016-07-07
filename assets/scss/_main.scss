@@ -908,7 +908,7 @@ Section STYLES
 			background-color: rgba(186, 151, 15, 0.5);
 			padding-left:1em;
 			@include modernizr(no-objectfit) { 
-				position: relative;
+				//position: relative;
 				width: 100%;
 			}
 

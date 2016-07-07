@@ -5446,7 +5446,6 @@ a:hover .discipline img {
       background-color: rgba(186, 151, 15, 0.5);
       padding-left: 1em; }
       html.no-objectfit .about .bg-test .inner {
-        position: relative;
         width: 100%; }
     .about .bg-test h2 {
       position: relative;
