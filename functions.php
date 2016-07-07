@@ -80,15 +80,15 @@ function the_slug($echo=true){
 }
 
 function site_data(){
-		//82
-	$data_post = 1864;
+		//1864
+	$data_post = 82;
 
 	return $data_post;
 }
 
 function nav_array(){
-//'9, 70, 1887'
- $string = '1846, 1828, 1855';
+//'1846, 1828, 1855'
+ $string = '9, 70, 1887';
 
  return $string;
 
