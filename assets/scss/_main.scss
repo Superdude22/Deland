@@ -292,6 +292,7 @@ HEADER STYLES
 		}
 		p.phone a{
 			color: $yellow;
+			@include text-shadow(2px, 2px, 7px, rgba(0,0,0,0.3));
 		}
 
 	}

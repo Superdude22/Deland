@@ -5006,7 +5006,8 @@ HEADER STYLES
     line-height: 8.5rem; } }
 
 .home .intro-large p.phone a {
-  color: #ffe300; }
+  color: #ffe300;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3); }
 
 .cartSlide h1 {
   font-size: 1rem; }
