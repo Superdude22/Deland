@@ -125,8 +125,9 @@
 							</div>
 							<div class="small-12 large-6 columns g-map">
 							
-							<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-							<script type="text/javascript">
+							
+							<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdZ2NCOKFP05xGwzq4ym_JAakyIbWJjPI&callback=initMap"
+  type="text/javascript">
 							(function($) {
 
 							/*
