@@ -5049,13 +5049,11 @@ HEADER STYLES
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
   height: 100%;
   width: 100%; }
-  @media screen and (max-width: 39.9375em) {
+  @media screen and (min-width: 40em) {
     .bcg {
-      max-height: 30rem;
-      width: auto; } }
+      background-size: cover; } }
 
 /* Intro */
 .extra_image {
@@ -5259,12 +5257,22 @@ POSTS & CONTENT STYLES
       .ready_set .set {
         font-size: 6rem;
         line-height: 5rem; } }
-  .ready_set .highlight {
+  .ready_set .go {
     font-size: 5rem; }
     @media screen and (min-width: 40em) {
-      .ready_set .highlight {
+      .ready_set .go {
         font-size: 10rem;
         line-height: 6rem; } }
+    .ready_set .go .coaching {
+      font-size: 3.5rem; }
+      @media screen and (min-width: 40em) {
+        .ready_set .go .coaching {
+          font-size: 6rem;
+          line-height: 6rem; } }
+      @media screen and (min-width: 64em) {
+        .ready_set .go .coaching {
+          font-size: 10rem;
+          line-height: 6rem; } }
 
 /*********************
 Product STYLES
@@ -5601,6 +5609,10 @@ html.no-objectfit .tandems .about .bg-test img {
     background-position: 50% 0;
     -ms-background-size: cover;
     background-size: cover; }
+
+.latest img {
+  position: relative;
+  z-index: 3; }
 
 .coaching a {
   position: relative;

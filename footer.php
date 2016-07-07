@@ -6,22 +6,22 @@
 										<h3>Social Media Links<hr></h3>
 										<ul class="no-bullet">
 											<li>
-												<a href="/"><i class="fa fa-facebook-square fa-fw"></i></a>
+												<a href="https://www.facebook.com/SkydiveDeLand/"><i class="fa fa-facebook-square fa-fw"></i></a>
 											</li>
 											<li>
 												<a href="/"><i class="fa fa-twitter-square fa-fw"></i></a>
 											</li>
 											<li>
-												<a href="/"><i class="fa fa-instagram fa-fw"></i></a>
+												<a href="https://www.instagram.com/skydivedeland/"><i class="fa fa-instagram fa-fw"></i></a>
 											</li>
 											<li>
-												<a href="/"><i class="fa fa-youtube-square fa-fw"></i></a>
+												<a href="https://www.youtube.com/channel/UCoKIn3K3VZYc8-IU7Zo-ncg"><i class="fa fa-youtube-square fa-fw"></i></a>
 											</li>
 											<li>
-												<a href="/"><i class="fa fa-envelope fa-fw"></i></a>
+												<a href="mailto:info@skydivedeland.com"><i class="fa fa-envelope fa-fw"></i></a>
 											</li>
 											<li>
-												<a href="/"><i class="fa fa-map-marker fa-fw"></i></a>
+												<a href="https://www.google.com/maps/place/Skydive+Deland+Inc/@29.063578,-81.2814677,17z/data=!3m1!4b1!4m5!3m4!1s0x88e71c68a19df02d:0x4cc6f111f38d39d2!8m2!3d29.063578!4d-81.279279"><i class="fa fa-map-marker fa-fw"></i></a>
 											</li>
 										</ul>
 							

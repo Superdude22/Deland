@@ -85,7 +85,7 @@
 						</div>
 						<div class="row column small-11 medium-10 coaching">						
 							<div class="row expanded small-12 columns">
-								<h1 class="ready_set"><span class='ready'>Get,</span><br><span class='set'>Some,</span><br><span class='highlight'>Coaching!</span></h1>
+								<h1 class="ready_set"><span class='ready'>Get,</span><br><span class='set'>Some,</span><br><span class='highlight coaching'>Coaching!</span></h1>
 							</div>
 
 							<div class="row expanded small-12 columns">

@@ -16,7 +16,7 @@
 
 			    					<?php the_content(); ?>
 			    
-			    				<?php endwhile; endif; ?>
+			    				<?php endwhile; endif; wp_reset_postdata(); ?>
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">
@@ -69,21 +69,29 @@
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="row columns small-10">
-							<div class="row expanded small-12">
-								<h1>Our New Website</h1>
-							</div>
-							<div class="row expanded small-10">
-								<div class="small-12 medium-8 columns words">
-									<h2>Coming Soon: Special Events and Photos</h2>
-									
-								</div>
-								<div class="small-12 medium-4 columns picture">
-									
-								</div>
-							</div>
-
-
-						</div>
+							<div class="row expanded small-12 columns">
+								<h1>Latest:</h1>
+							</div>									
+							<?php 
+								$postslist = get_posts( array(
+							    'posts_per_page' => 1,
+							    'order'          => 'ASC',
+							    'category_name'        => 'latest'
+							) );
+							 
+							if ( $postslist ) {
+							    foreach ( $postslist as $post ) :
+							        setup_postdata( $post );
+							 ?>
+						        <div class="row expanded small-12 columns">						         
+						            <h2><?php the_title(); ?></h2>
+						        </div>
+						            <div class="row expanded small-12 medium-8 columns words latest">  
+						            <?php the_content(); ?>
+						            </div>
+						    
+							<?php endforeach; wp_reset_postdata();	}?>
+							
 						<div class="medium-1 column show-for-medium">
 						</div>
 					</div>
@@ -99,22 +107,22 @@
 								<h2 class="phone"><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
 								<ul class="no-bullet">
 									<li>
-										<a href="/"><i class="fa fa-facebook-square fa-fw"></i><br class=show-for-small-only>&nbsp;Facebook</a>
+										<a href="https://www.facebook.com/SkydiveDeLand/"><i class="fa fa-facebook-square fa-fw"></i><br class=show-for-small-only>&nbsp;Facebook</a>
 									</li>
 									<li>
 										<a href="/"><i class="fa fa-twitter-square fa-fw"></i>&nbsp;<br class=show-for-small-only>Twitter</a>
 									</li>
 									<li>
-										<a href="/"><i class="fa fa-instagram fa-fw"></i>&nbsp;<br class=show-for-small-only>Instagram</a>
+										<a href="https://www.instagram.com/skydivedeland/"><i class="fa fa-instagram fa-fw"></i>&nbsp;<br class=show-for-small-only>Instagram</a>
 									</li>
 									<li>
-										<a href="/"><i class="fa fa-youtube-square fa-fw"></i>&nbsp;<br class=show-for-small-only>YouTube</a>
+										<a href="https://www.youtube.com/channel/UCoKIn3K3VZYc8-IU7Zo-ncg"><i class="fa fa-youtube-square fa-fw"></i>&nbsp;<br class=show-for-small-only>YouTube</a>
 									</li>
 									<li>
-										<a href="/"><i class="fa fa-envelope fa-fw"></i>&nbsp;<br class=show-for-small-only>Email</a>
+										<a href="mailto:info@skydivedeland.com"><i class="fa fa-envelope fa-fw"></i>&nbsp;<br class=show-for-small-only>Email</a>
 									</li>
 									<li>
-										<a href="/"><i class="fa fa-map-marker fa-fw"></i>&nbsp;<br class=show-for-small-only>Location</a>
+										<a href="https://www.google.com/maps/place/Skydive+Deland+Inc/@29.063578,-81.2814677,17z/data=!3m1!4b1!4m5!3m4!1s0x88e71c68a19df02d:0x4cc6f111f38d39d2!8m2!3d29.063578!4d-81.279279"><i class="fa fa-map-marker fa-fw"></i>&nbsp;<br class=show-for-small-only>Location</a>
 									</li>
 								</ul>
 							</div>

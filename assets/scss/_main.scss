@@ -357,6 +357,8 @@ HEADER STYLES
 	width: 100%;
 	@include breakpoint(medium up) {
 		background-size: cover;
+	}
+}
 /* Intro */
 
 .extra_image {
@@ -625,17 +627,26 @@ POSTS & CONTENT STYLES
 		font-size:6rem;
 		line-height: 5rem;
 
+		}
 	}
-	}
-	.highlight{
+	.go{
 		font-size: 5rem;
 		@include breakpoint(medium up){
 		font-size: 10rem;
 		line-height: 6rem;
 	}
+	.coaching{
+		font-size: 3.5rem;
+		@include breakpoint(medium){
+		font-size: 6rem;
+		line-height: 6rem;
+		}
+		@include breakpoint(large){
+		font-size: 10rem;
+		line-height: 6rem;
+		}
 	}
-
-
+	}
 
 }
 
@@ -1147,6 +1158,13 @@ Section STYLES
 		}
 	}
 	
+}
+
+.latest{
+	img{
+		position: relative;
+		z-index: 3;
+	}
 }
 
 .coaching{
