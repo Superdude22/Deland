@@ -76,6 +76,7 @@
 								$postslist = get_posts( array(
 							    'posts_per_page' => 1,
 							    'order'          => 'ASC',
+							    'orderby' => 'date',
 							    'category_name'        => 'latest'
 							) );
 							 
