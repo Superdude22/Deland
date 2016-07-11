@@ -363,15 +363,31 @@
 			"file": "assets/scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 26357,
+				"buffer_size": 26620,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Mike/AppData/Local/Temp/fz3temp-1/index.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 423,
+				"buffer_size": 13561,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 10652,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3760,
 				"line_ending": "Windows"
 			}
 		},
@@ -384,14 +400,6 @@
 			}
 		},
 		{
-			"file": "page-tandems.php",
-			"settings":
-			{
-				"buffer_size": 7705,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "page-fun-jumper.php",
 			"settings":
 			{
@@ -400,18 +408,10 @@
 			}
 		},
 		{
-			"file": "header.php",
+			"file": "assets/scss/_weather.scss",
 			"settings":
 			{
-				"buffer_size": 13594,
-				"line_ending": "CR"
-			}
-		},
-		{
-			"file": "parts/nav-topbar.php",
-			"settings":
-			{
-				"buffer_size": 2791,
+				"buffer_size": 30728,
 				"line_ending": "Windows"
 			}
 		}
@@ -461,19 +461,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/test.com/wp-content/themes/Deland"
+		"/C/wamp/www/test.com/wp-content/themes/Deland",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/input.min.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/awesome-weather.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/footer.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wppusher.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-product.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/main.js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-offcanvas-topbar.php",
@@ -503,7 +510,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
 		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/aviation-weather-from-noaa.php",
 		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/views/widget.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-deland.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
@@ -587,12 +593,7 @@
 		"/C/wamp/www/test.com/parallax/js/main.js",
 		"/C/wamp/www/test.com/parallax/js/_main.js",
 		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/css/style.css",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.min.js",
-		"/C/wamp/www/fly.com/Deland/index.html",
-		"/C/wamp/www/fly.com/index.html",
-		"/C/wamp/www/fly.com/test/index.html",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/orders.asp",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/order_Item.asp"
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.min.js"
 	],
 	"find":
 	{
@@ -611,6 +612,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".home",
+			"gear",
+			"disciplines",
+			"sensor",
+			".about",
+			".no-object",
+			".inner",
+			"logo",
 			"coaching",
 			"words",
 			".latest",
@@ -730,15 +739,7 @@
 			"My_Custom",
 			"set",
 			"extra_image",
-			"object-fit",
-			"slabtext",
-			"/************************************************",
-			"<a",
-			"p>",
-			"p",
-			"										<",
-			"contact",
-			"bg-test"
+			"object-fit"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -758,7 +759,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -767,15 +768,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26357,
+						"buffer_size": 26620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9147,
-								9147
+								4500,
+								4500
 							]
 						],
 						"settings":
@@ -784,42 +785,102 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12086.0,
+						"translation.y": 5463.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Mike/AppData/Local/Temp/fz3temp-1/index.php",
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 423,
+						"buffer_size": 13561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								422,
-								422
+								8904,
+								8904
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4177.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "front-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10061,
+								10061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "functions.php",
 					"semi_transient": false,
 					"settings":
@@ -840,43 +901,14 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1560.0,
+						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "page-tandems.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1907,
-								1907
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "page-fun-jumper.php",
 					"semi_transient": false,
 					"settings":
@@ -901,65 +933,37 @@
 						"translation.y": 1603.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4103,
-								4103
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1500.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "parts/nav-topbar.php",
+					"file": "assets/scss/_weather.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2791,
+						"buffer_size": 30728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2118,
-								2118
+								927,
+								925
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 920.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
