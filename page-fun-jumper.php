@@ -66,8 +66,8 @@
 								<h3>A/C Team Rooms and Packing</h3>
 								<br>
 								<h2>Open Daily</h2>
-								<h3>9:00 am - Sunset</h3>
-								<h3>If it's Jumpable, We're Flying!</h3S>
+								<h3>8:00 am - Sunset</h3>
+								<h3>If it's Jumpable, We're Flying!</h3>
 						</div>
 						<div class="columns small-12 medium-6 bg-test">
 								<img class="" src="<?php the_field('image_3'); ?>" alt="">
