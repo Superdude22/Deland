@@ -5025,6 +5025,10 @@ HEADER STYLES
       font-size: 8rem;
       line-height: 8.5rem; } }
 
+.cartSlide .intro-large p.phone a {
+  color: #ffe300;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5); }
+
 .intro-small {
   background-color: rgba(0, 0, 0, 0.3);
   padding-top: 3rem; }
@@ -5132,7 +5136,10 @@ NAVIGATION STYLES
     filter: alpha(opacity=80); }
     .logo-bar .logo .adj {
       position: absolute;
-      bottom: 0; }
+      bottom: 0;
+      left: 10%; }
+    .logo-bar .logo .adj.weather {
+      right: 10%; }
     .logo-bar .logo a {
       position: relative; }
     .logo-bar .logo img {
