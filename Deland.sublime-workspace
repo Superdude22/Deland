@@ -371,47 +371,15 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 13561,
+				"buffer_size": 15153,
 				"line_ending": "CR"
-			}
-		},
-		{
-			"file": "front-page.php",
-			"settings":
-			{
-				"buffer_size": 10652,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 3760,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 3227,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "page-fun-jumper.php",
 			"settings":
 			{
-				"buffer_size": 5615,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/_weather.scss",
-			"settings":
-			{
-				"buffer_size": 30728,
+				"buffer_size": 5614,
 				"line_ending": "Windows"
 			}
 		}
@@ -462,10 +430,17 @@
 	"expanded_folders":
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets"
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
+		"/C/Users/Mike/Downloads/skydived_DeLand2.sql",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/input.min.js",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
@@ -475,12 +450,9 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/footer.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wppusher.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-product.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/main.js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-offcanvas-topbar.php",
@@ -498,7 +470,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/gulpfile.js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/icons/header.php",
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_weather-icons-master.zip/weather-icons-master/sass/mappings/wi-owm.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
 		"/C/wamp/www/test.com/wp-content/plugins/awesome-weather/awesome-weather-settings.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/bower_components/weather-icons/css/weather-icons.css",
 		"/C/wamp/www/test.com/wp-content/plugins/New folder/aviation-weather-from-noaa/aviation-weather-from-noaa.php",
@@ -510,7 +481,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
 		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/aviation-weather-from-noaa.php",
 		"/C/wamp/www/test.com/wp-content/plugins/aviation-weather-from-noaa/views/widget.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-deland.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-experienced.php",
@@ -592,8 +562,7 @@
 		"/C/wamp/www/test.com/parallax/js/imagesloaded.js",
 		"/C/wamp/www/test.com/parallax/js/main.js",
 		"/C/wamp/www/test.com/parallax/js/_main.js",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/css/style.css",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.min.js"
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/css/style.css"
 	],
 	"find":
 	{
@@ -612,6 +581,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"skydivedeland.com",
+			"www.skydivedeland.com",
+			"skydivedeland",
 			".home",
 			"gear",
 			"disciplines",
@@ -736,10 +708,7 @@
 			"public",
 			"my-custom",
 			"My Custom",
-			"My_Custom",
-			"set",
-			"extra_image",
-			"object-fit"
+			"My_Custom"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -747,6 +716,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"181.224.138.84/~skydived",
 			"/*!",
 			"resume"
 		],
@@ -759,7 +729,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -788,7 +758,7 @@
 						"translation.y": 5463.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -797,15 +767,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13561,
+						"buffer_size": 15153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8904,
-								8904
+								10676,
+								10697
 							]
 						],
 						"settings":
@@ -814,156 +784,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4177.0,
+						"translation.y": 461.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "front-page.php",
+					"file": "page-fun-jumper.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10652,
+						"buffer_size": 5614,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10061,
-								10061
+								1999,
+								2101
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2733.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/scss/_mixins.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2925,
-								2925
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "page-fun-jumper.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5615,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2535,
-								2535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1603.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "assets/scss/_weather.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								927,
-								925
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1008,7 +861,7 @@
 	"project": "Deland.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
