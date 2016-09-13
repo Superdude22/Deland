@@ -5010,10 +5010,15 @@ HEADER STYLES
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5); }
 
 .cartSlide h1 {
-  font-size: 1rem; }
+  font-size: 2rem;
+  white-space: nowrap; }
+  @media screen and (min-width: 40em) {
+    .cartSlide h1 {
+      font-size: 3rem;
+      line-height: 6rem; } }
   @media screen and (min-width: 64em) {
     .cartSlide h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       line-height: 6rem; } }
   @media screen and (min-width: 120em) {
     .cartSlide h1 {
@@ -5027,7 +5032,8 @@ HEADER STYLES
     width: 40%;
     opacity: 0.5; }
   .intro-small h1 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    white-space: normal; }
 
 /* CSS */
 .hsContainer {

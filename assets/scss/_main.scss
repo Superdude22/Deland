@@ -300,9 +300,14 @@ HEADER STYLES
 
  .cartSlide{
 		h1{ 
-			font-size: 1rem;
+			font-size: 2rem;
+			white-space: nowrap;
+		@include breakpoint(medium){
+			font-size: 3rem;
+			line-height: 6rem;
+		}	
 		@include breakpoint(large){
-			font-size: 5rem;
+			font-size: 4rem;
 			line-height: 6rem;
 		}
 
@@ -327,6 +332,7 @@ HEADER STYLES
 		}
 		h1{
 			font-size: 2rem;
+			white-space: normal;
 		}
  }
 
