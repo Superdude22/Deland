@@ -5136,7 +5136,8 @@ NAVIGATION STYLES
     filter: alpha(opacity=80); }
     .logo-bar .logo .adj {
       position: absolute;
-      bottom: 0;
+      bottom: 0; }
+    .logo-bar .logo .adj.logo-left {
       left: 10%; }
     .logo-bar .logo .adj.weather {
       right: 10%; }

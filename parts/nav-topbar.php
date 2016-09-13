@@ -65,7 +65,7 @@
 				<div class="row logo expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
-					<div class="adj medium-2 columns show-for-medium">
+					<div class="adj logo-left medium-2 columns show-for-medium">
 						<a href="<?php echo home_url();?>">
 							<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png" alt="">
 						</a>
