@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backg",
+				"background-image"
+			],
+			[
+				"back",
+				"background_image"
+			],
+			[
 				"po",
 				"pos:r	position:relative"
 			],
@@ -145,10 +153,6 @@
 			],
 			[
 				"ba",
-				"background-color"
-			],
-			[
-				"back",
 				"background-color"
 			],
 			[
@@ -368,18 +372,47 @@
 			}
 		},
 		{
+			"contents": "<!doctype html>\n\n  <html class=\"no-js\"  <?php language_attributes(); ?>>\n\n	<head>\n		<meta charset=\"utf-8\">\n		\n		<!-- Force IE to use the latest rendering engine available -->\n		<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n		<!-- Mobile Meta -->\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n		<meta class=\"foundation-mq\">\n		\n		<!-- If Site Icon isn't set in customizer -->\n		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>\n\n			<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-57x57.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-60x60.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-72x72.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-76x76.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-114x114.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-120x120.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-144x144.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-152x152.png\">\n			<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/apple-touch-icon-180x180.png\">\n			<link rel=\"icon\" type=\"image/png\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/favicon-32x32.png\" sizes=\"32x32\">\n			<link rel=\"icon\" type=\"image/png\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/favicon-194x194.png\" sizes=\"194x194\">\n			<link rel=\"icon\" type=\"image/png\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/favicon-96x96.png\" sizes=\"96x96\">\n			<link rel=\"icon\" type=\"image/png\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/android-chrome-192x192.png\" sizes=\"192x192\">\n			<link rel=\"icon\" type=\"image/png\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/favicon-16x16.png\" sizes=\"16x16\">\n			<link rel=\"manifest\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/manifest.json\">\n			<link rel=\"mask-icon\" href=\"<?php echo get_template_directory_uri(); ?>/assets/icons/safari-pinned-tab.svg\" color=\"#5bbad5\">\n			<meta name=\"msapplication-TileColor\" content=\"#da532c\">\n			<meta name=\"msapplication-TileImage\" content=\"/mstile-144x144.png\">\n			<meta name=\"theme-color\" content=\"#ffffff\">\n\n	    <?php } ?>\n\n		<link rel=\"pingback\" href=\"<?php bloginfo('pingback_url'); ?>\">\n		\n		<?php wp_head(); ?>\n\n		<!-- Drop Google Analytics here -->\n		<!-- end analytics -->\n\n	</head>\n	\n	<!-- Uncomment this line if using the Off-Canvas Menu --> \n		\n	<body <?php body_class('loading'); ?>>\n		<div class=\"off-canvas-wrapper\">\n			\n			<div class=\"off-canvas-wrapper-inner\" data-off-canvas-wrapper>\n				\n				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>\n				\n				<div class=\"off-canvas-content\" data-off-canvas-content>\n					\n				\n					<?php if ( is_front_page() ) { ?>\n					<?php $post_image_id = get_post_thumbnail_id($post->ID);\n						if ($post_image_id) {\n							$thumbnail = wp_get_attachment_image_src( $post_image_id, 'full', false);\n							if ($thumbnail) (string)$thumbnail = $thumbnail[0];\n						}\n						//echo $thumbnail;\n					?>\n					<div id=\"skrollr-body\">\n					<section id=\"intro\" class=\"homeSlide\">\n			        	<div class=\"bcg show-for-small-only \" data-center=\"background-position: 30% 0px;\" data-top-bottom=\"background-position: 30% -100px;\" data-anchor-target=\"#intro\" style=\" background-image: url(<?php echo $thumbnail;?>);\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-right align-middle\">\n										<div class=\"small-10 column text-right align-right intro-small\">\n											<a href=\"<?php echo home_url();?>\">\n											<img class=\"align-left\" src=\"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png\" alt=\"\">\n										</a>\n											<h1><span>Are You Ready</span><br><span class=\"highlight slabtext\">To FLY!</span></h1><hr>\n											<h4>Jump. Fly. Repeat.</h4>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n			        	<div class=\"bcg show-for-medium\" data-center=\"background-position: 50% 0px;\" data-top-bottom=\"background-position: 50% -100px;\" data-anchor-target=\"#intro\" style=\"background-image: url(<?php echo $thumbnail;?>);\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-right\">\n											<div class=\"medium-1 column show-for-medium\">\n										</div>\n										<div class=\"medium-10 columns text-right intro-large\">\n											<h1>Are You Ready<br><span class=\"highlight slabtext\">To FLY!</span></h1><hr>\n											<h4>Jump. Fly. Repeat.</h4>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n									\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n				    </section>\n\n\n					<div id=\"all-wrap\" class=\"all-wrap\">\n					<?php }elseif ( is_product()||is_shop()){ ?>\n						<?php \n					    	$product_id = get_the_ID();\n					    	$product = new WC_product($product_id);\n							$image_id = $product->get_image_id();\n							$price = $product->price;\n							$product_name = $product->post_title;\n							// $image_id = 0 if a product image has not been set.\n							$image_loc = wp_get_attachment_image_src( $image_id, 'full') ;\n							$the_title = get_the_title(); \n							if(is_shop()){\n								$the_title = 'Shop';\n							}					\n					    ?>\n					\n					<section id=\"intro\" class=\"homeSlide cartSlide\">\n			        	<div class=\"bcg show-for-small-only\" data-center=\"background-position: 30% 0px;\" data-top-bottom=\"background-position: 30% -100px;\" data-anchor-target=\"#intro\" style=\"background-image: url('<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland_drone.jpg');\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-left align-middle\">\n										<div class=\"small-10 column text-left align-left intro-small\">\n										<a href=\"<?php echo home_url();?>\">\n											<img class=\"align-left\" src=\"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png\" alt=\"\">\n										</a>\n											<h1><?php echo $the_title; ?></h1><hr>\n											<h4>Buy Now</h4>\n											<h4>Or, Call:</h4>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>										\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n\n			        	<div class=\"bcg show-for-medium\" data-center=\"background-position: 50% 0px;\" data-top-bottom=\"background-position: 50% -100px;\" data-anchor-target=\"#intro\" style=\"background-image: url('<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland_drone.jpg'); background-position: 50% 70%;\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-left\">\n										<div class=\"medium-8 column text-left intro-large\">\n											<h1><?php echo $the_title; ?></h1><hr>\n											<h4>Book Now</h4>\n											<p class=\"phone\">Or, Call To Book:  <a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n										<div class=\"medium-1 column show-for-medium\">\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n				    </section>\n\n					<div id=\"all-wrap\" class=\"all-wrap\">\n\n					<?php }elseif ( is_woocommerce()|| is_cart() || is_checkout() || is_account_page() || is_page('photo-credits')){ ?>\n					\n					<section id=\"intro\" class=\"homeSlide cartSlide\">\n			        	<div class=\"bcg show-for-small-only\">\n				        	<div class=\"\">				    	\n					    		<div class=\"hsContent\">\n									<div class=\"row expanded align-left align-middle\">\n										<div class=\"small-10 column text-left align-left intro-small\" >\n											<a href=\"<?php echo home_url();?>\">\n											<img class=\"align-left\" src=\"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png\" alt=\"\">\n											</a>\n											<h1><?php the_title(); ?></h1><hr>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n														\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n\n			        	<div class=\"bcg show-for-medium\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-left\">\n										<div class=\"medium-1 column show-for-medium\">\n										</div>\n										<div class=\"medium-8 column text-left intro-large\">\n											<h1><?php the_title(); ?></h1><hr>						\n											<p class=\"phone\">Questions?  Call: <a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n										<div class=\"medium-1 column show-for-medium\">\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n				    </section>\n\n					<div id=\"all-wrap\" class=\"all-wrap\">\n\n\n					<?php }elseif ( is_page() ){ ?>\n					\n					<?php $post_image_id = get_post_thumbnail_id($post->ID);\n						if ($post_image_id) {\n							$thumbnail = wp_get_attachment_image_src( $post_image_id, 'full', false);\n							if ($thumbnail) (string)$thumbnail = $thumbnail[0]; ?>\n\n					<section id=\"intro\" class=\"homeSlide <?php the_slug();?>\">\n			        	<div class=\"bcg show-for-small-only\" data-center=\"background-position: 50% 0px;\" data-top-bottom=\"background-position: 50% -100px;\" data-anchor-target=\"#intro\" style=\"background-image: url(<?php echo $thumbnail;?>);\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-left align-middle\">\n										<div class=\"small-10 column text-left align-left intro-small\">\n											<a href=\"<?php echo home_url();?>\">\n											<img class=\"align-left\" src=\"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png\" alt=\"\">\n											</a>\n											<?php the_field('intro_main'); ?><br><h1><span class=\"highlight\"><?php the_field('intro_sub'); ?></span></h1><hr>\n											<h4 id=\"result\"><?php the_field('intro_sub_sub'); ?></h4>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n			        	<div class=\"bcg show-for-medium\" data-center=\"background-position: 50% 0px;\" data-top-bottom=\"background-position: 50% -100px;\" data-anchor-target=\"#intro\" style=\"background-image: url(<?php echo $thumbnail;?>);\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded <?php if(is_page('tandems')){ echo 'align-left'; }else{ echo 'align-right'; } ?> \">\n										<div class=\"medium-10 large-8 column <?php if(is_page('tandems')){ echo 'text-left'; }else{ echo 'text-right'; } ?> intro-large\">\n											<?php the_field('intro_main'); ?><br><h1><span class=\"highlight\"><?php the_field('intro_sub'); ?></span></h1><hr>\n											<h4><?php $photo_credit = photo_credit($post_image_id); echo $photo_credit['description'];?></h4>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n				    </section>\n				    <?php }else{ ?>\n				    <section id=\"intro\" class=\"homeSlide cartSlide\">\n			        	<div class=\"bcg show-for-small-only\">\n				        	<div class=\"\">				    	\n					    		<div class=\"hsContent\">\n									<div class=\"row expanded align-left align-middle\">\n										<div class=\"small-10 column text-left align-left intro-small\" >\n											<a href=\"<?php echo home_url();?>\">\n											<img class=\"align-left\" src=\"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/deland.png\" alt=\"\">\n											</a>\n											<h1><?php the_title(); ?></h1><hr>\n											<p class=\"phone\"><a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></p>\n														\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n\n			        	<div class=\"bcg show-for-medium\">\n				        	<div class=\"hsContainer\">				    	\n					    		<div class=\"hsContent\" data-start=\"opacity: 0.8\" data-100-start=\"opacity: 0.2\" data-anchor-target=\"#intro h1\">\n									<div class=\"row expanded align-left\">\n										<div class=\"medium-1 column show-for-medium\">\n										</div>\n										<div class=\"medium-8 column text-left intro-large\">\n											<h1><?php the_title(); ?></h1><hr>						\n											<p class=\"phone\">Questions?  Call: <a href=\"<?php the_field('phone_link', site_data()); ?>\"><i class=\"fa fa-phone fa-fw\"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a></p>\n										</div>\n										<div class=\"medium-1 column show-for-medium\">\n										</div>\n									</div>\n									\n					    		</div>\n				        	</div>\n			        	</div>\n				    </section>\n\n\n\n\n\n				    <?php }?>\n\n\n\n\n\n\n					<div id=\"all-wrap\" class=\"all-wrap\">\n					\n\n					<?php } ?>\n\n					 <?php get_template_part( 'parts/nav', 'topbar' ); ?>",
 			"file": "header.php",
+			"file_size": 15271,
+			"file_write_time": 131182052362987156,
 			"settings":
 			{
-				"buffer_size": 15153,
+				"buffer_size": 15301,
 				"line_ending": "CR"
 			}
 		},
 		{
-			"file": "page-fun-jumper.php",
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n\n\nPackage Control:\n---------------\n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
 			"settings":
 			{
-				"buffer_size": 5614,
+				"buffer_size": 6673,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "woocommerce/content-single-product.php",
+			"settings":
+			{
+				"buffer_size": 2444,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "parts/loop-single.php",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "parts/nav-topbar.php",
+			"settings":
+			{
+				"buffer_size": 2791,
 				"line_ending": "Windows"
 			}
 		}
@@ -431,16 +464,19 @@
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/images",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/vendor",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
+		"/C/Users/Mike/Downloads/deland_drone.jpg",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/Users/Mike/Downloads/skydived_DeLand2.sql",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/input.min.js",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
@@ -561,8 +597,7 @@
 		"/C/wamp/www/test.com/parallax/img/ico_loading.gif",
 		"/C/wamp/www/test.com/parallax/js/imagesloaded.js",
 		"/C/wamp/www/test.com/parallax/js/main.js",
-		"/C/wamp/www/test.com/parallax/js/_main.js",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/css/style.css"
+		"/C/wamp/www/test.com/parallax/js/_main.js"
 	],
 	"find":
 	{
@@ -729,7 +764,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -758,7 +793,7 @@
 						"translation.y": 5463.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -767,15 +802,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15153,
+						"buffer_size": 15301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10676,
-								10697
+								8063,
+								8063
 							]
 						],
 						"settings":
@@ -784,27 +819,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 461.0,
+						"translation.y": 2961.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "page-fun-jumper.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5614,
+						"buffer_size": 6673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1999,
-								2101
+								6673,
+								6673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "woocommerce/content-single-product.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1959,
+								1959
 							]
 						],
 						"settings":
@@ -813,10 +878,68 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "parts/loop-single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "parts/nav-topbar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
