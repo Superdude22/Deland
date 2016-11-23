@@ -1,5 +1,4 @@
 
-.tribe-events-tooltip{
-	background-color:green;
-	z-index:600;
+.recurring-info-tooltip, .tribe-events-calendar .tribe-events-tooltip, .tribe-events-shortcode.view-week .tribe-events-tooltip, .tribe-events-week .tribe-events-tooltip{
+	z-index: 600;
 }
