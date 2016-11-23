@@ -1,3 +1,5 @@
-.tribe-events-calendar .tribe-events-tooltip{
+
+.tribe-events-tooltip{
+	background-color:green;
 	z-index:600;
 }
