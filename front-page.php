@@ -346,8 +346,8 @@
 							<h2>&nbsp;</h2>
 							<br>
 							<p>Please contact for more information on our gear selection.</p>
-							<p>Email us: <a href="mailto:info@skydivedeland.com">store@skydivedeland.com</a></p>
-							<h2 class="phone">Or Call:  <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
+							<p>Email us:<br><a href="mailto:info@skydivedeland.com">store@skydivedeland.com</a></p>
+							<h2 class="phone">Or Call:<br><a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
 														
 						</div>
 						
