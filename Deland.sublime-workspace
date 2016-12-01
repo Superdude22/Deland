@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"z",
+				"z-index"
+			],
+			[
 				"backg",
 				"background-image"
 			],
@@ -364,10 +368,10 @@
 	"buffers":
 	[
 		{
-			"file": "functions.php",
+			"file": "tribe-events/tribe-events.css",
 			"settings":
 			{
-				"buffer_size": 3591,
+				"buffer_size": 188,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -418,10 +422,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/test.com/wp-content/themes/Deland"
+		"/C/wamp/www/test.com/wp-content/themes/Deland",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/tribe-events.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events/tribe-events.css",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/Users/Mike/Desktop/Rock Gym v2.0/Survey Data/best_gym.svg",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
@@ -437,7 +446,6 @@
 		"/C/Users/Mike/Downloads/skydived_DeLand2.sql",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/input.min.js",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
@@ -547,9 +555,7 @@
 		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/style.scss",
 		"/C/Users/Mike/AppData/Local/Temp/Temp2_slabText-master.zip/slabText-master/css/slabtext.css",
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_slabText-master.zip/slabText-master/css/slabtext.css",
-		"/C/wamp/www/test.com/skrollr-master/examples/fixed-positioning.css",
-		"/C/wamp/www/test.com/skrollr-master/index.html",
-		"/C/wamp/www/test.com/parallax/index.html"
+		"/C/wamp/www/test.com/skrollr-master/examples/fixed-positioning.css"
 	],
 	"find":
 	{
@@ -721,27 +727,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "functions.php",
+					"file": "tribe-events/tribe-events.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3591,
+						"buffer_size": 188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2722,
-								2722
+								188,
+								188
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 434.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

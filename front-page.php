@@ -321,24 +321,49 @@
 						</div>
 						<div class="column otter-stripe"></div>
 					</div>
-					<div class="row expanded words">
+					<div class="row expanded words medium-unstack">						
 						<div class="medium-1 column show-for-medium">
 						</div>
 						<div class="small-10 columns">
+							<h2>Skydive Deland has a full selection of New and Used Skydiving Gear.</h2>
+						</div>						
+						<div class="medium-1 column show-for-medium">
+						</div>
+					</div>
+					<div class="row expanded words medium-unstack">
+						
+						<div class="medium-1 column show-for-medium">
+						</div>
+						<div class="columns small-10 medium-6">
 							<br>
-							<p class="highlight">Our online store is currently under construction. </p>
+								<h2>In Store Promotion:</h2>
+								<br>
+								<img src="<?php the_field('image_3'); ?>" alt="">
+								
+						</div>
+						<div class="small-10 medium-4 columns">
 							<br>
-							<h2>Skydive Deland has a full selection of New and Used Skydiving gear.</h2>
-							<p>We appreicate your patience and would be happy to answer any questions you may have.</p>
+							<h2>&nbsp;</h2>
 							<br>
-							<p>Feel free to get in touch for more information.</p>
-							<br>
+							<p>Please contact for more information on our gear selection.</p>
 							<p>Email us: <a href="mailto:info@skydivedeland.com">store@skydivedeland.com</a></p>
 							<h2 class="phone">Or Call:  <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp;<?php the_field('phone_num', site_data()); ?></a></h2>
+														
+						</div>
+						
+					</div>
+					<div class="row expanded words medium-unstack">						
+						<div class="medium-1 column show-for-medium">
+						</div>
+						<div class="small-10 columns">
+							<p > <span class="highlight">Our online gear store is currently under construction.</span><br>We appreicate your patience and would be happy to answer any questions you may have.</p>
+						</div>						
+						<div class="medium-1 column show-for-medium">
 						</div>
 					</div>					
 				</section>
-				
+
+								
 				<?php if( get_field('slideshow') ): ?>	
 					<section class="photostream">
 					<h1>Photostream</h1>
