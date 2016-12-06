@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mediu",
+				"medium-unstack"
+			],
+			[
 				"z",
 				"z-index"
 			],
@@ -368,10 +372,10 @@
 	"buffers":
 	[
 		{
-			"file": "tribe-events/tribe-events.css",
+			"file": "front-page.php",
 			"settings":
 			{
-				"buffer_size": 188,
+				"buffer_size": 11469,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -423,13 +427,15 @@
 	"expanded_folders":
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/images",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
 	],
 	"file_history":
 	[
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/tribe-events.css",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events/tribe-events.css",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/tribe-events.css",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/Users/Mike/Desktop/Rock Gym v2.0/Survey Data/best_gym.svg",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
@@ -574,6 +580,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
 			"debug",
 			"bcg",
 			"adj",
@@ -700,8 +707,7 @@
 			"cover",
 			"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>",
 			"<?php bloginfo('stylesheet_directory'); ?>",
-			"stylesheet_",
-			"alignright"
+			"stylesheet_"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -727,27 +733,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tribe-events/tribe-events.css",
+					"file": "front-page.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 188,
+						"buffer_size": 11469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								188,
-								188
+								10656,
+								10656
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2301.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
