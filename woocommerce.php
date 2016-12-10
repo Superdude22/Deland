@@ -5,9 +5,10 @@
 		<div id="inner-content" class="row">
 	
 		    <main id="main" class="small-12 columns" role="main">
-		    
-		   
-		    	<h1 class="hide-for-small-only"><?php the_title(); ?></h1>
+		    	
+		    	<?php  if ( ! is_shop() ): ?>						
+					<h1 class="hide-for-small-only"><?php the_title(); ?></h1>
+				<?php endif; ?>	    	
 				
 				<?php woocommerce_content(); ?>							
 			    					

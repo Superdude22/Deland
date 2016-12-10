@@ -371,15 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "front-page.php",
-			"settings":
-			{
-				"buffer_size": 11469,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -428,12 +419,23 @@
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/images",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
+		"/C/wamp/www/test.com/wp-content/themes/Deland/parts",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/woocommerce-pdf-product-vouchers.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/global.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/all.js",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/footer 2.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/utf69.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/themes.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/product-voucher 2.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/product-voucher.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/single-wc_voucher.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events/tribe-events.css",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/tribe-events.css",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
@@ -448,7 +450,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/content-single-product.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-fun-jumper.php",
 		"/C/Users/Mike/Downloads/deland_drone.jpg",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/Users/Mike/Downloads/skydived_DeLand2.sql",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_weather.scss",
@@ -461,7 +462,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/footer.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wppusher.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-product.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/main.js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-offcanvas-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page.php",
@@ -551,17 +551,7 @@
 		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/page.php",
 		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/js/scripts.js",
 		"/C/wamp/www/test.com/wp-content/themes/jtest/parts/nav-offcanvas-topbar.php",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/parts/nav-offcanvas-topbar.php",
-		"/C/Users/Mike/Desktop/jtest/style.css",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_mixins.scss",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_settings.scss",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/functions/enqueue-scripts.php",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/parts/nav-topbar.php",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/_slab.scss",
-		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/assets/scss/style.scss",
-		"/C/Users/Mike/AppData/Local/Temp/Temp2_slabText-master.zip/slabText-master/css/slabtext.css",
-		"/C/Users/Mike/AppData/Local/Temp/Temp1_slabText-master.zip/slabText-master/css/slabtext.css",
-		"/C/wamp/www/test.com/skrollr-master/examples/fixed-positioning.css"
+		"/C/wamp/www/test.com/wp-content/themes/JointsWP-master/parts/nav-offcanvas-topbar.php"
 	],
 	"find":
 	{
@@ -580,6 +570,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"is_page",
+			"class=\"hide-for-small-only\"",
 			"url",
 			"debug",
 			"bcg",
@@ -705,9 +697,7 @@
 			" <",
 			"bg-test",
 			"cover",
-			"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>",
-			"<?php bloginfo('stylesheet_directory'); ?>",
-			"stylesheet_"
+			"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -728,38 +718,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10656,
-								10656
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2301.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
