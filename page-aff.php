@@ -36,7 +36,7 @@
 						</div>
 						<div class="row column small-11 medium-10">
 							<div class="row expanded small-12 columns">
-								<h1 class="ready_set"><span class='set'>Learn To</span> <span class='highlight'> Skydive!</span></h1>
+								<h1 class="ready_set"><span class='set'>Learn To</span><br><a href="<?php 	the_field('promo_link'); ?>" class='highlight go'>Skydive!</a></h1>
 							</div>
 							<div class="row expanded small-12 columns">
 								<div class="columns expanded words font-test">
