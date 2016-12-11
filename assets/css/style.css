@@ -5086,7 +5086,7 @@ HEADER STYLES
       height: auto !important; }
   @media screen and (min-width: 40em) {
     .extra_image {
-      height: 25rem; }
+      height: 20rem; }
       .extra_image img {
         width: 100%;
         height: 70vh;
@@ -5096,7 +5096,7 @@ HEADER STYLES
           height: auto !important; } }
   @media screen and (min-width: 64em) {
     .extra_image {
-      height: 30rem; }
+      height: 22rem; }
       .extra_image img {
         width: 100%;
         height: 60vh;

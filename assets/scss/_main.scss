@@ -395,7 +395,7 @@ HEADER STYLES
 		}
 	}
 	@include breakpoint(medium){
-	height: 25rem;
+	height: 20rem;
 	img{
 		width:100%;
 		height:70vh;
@@ -407,7 +407,7 @@ HEADER STYLES
 	}
 	}
 	@include breakpoint(large up){
-	height: 30rem;
+	height: 22rem;
 	img{
 		width:100%;
 		height:60vh;
