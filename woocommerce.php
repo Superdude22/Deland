@@ -8,10 +8,11 @@
 		    	
 		    	<?php  if ( ! is_shop() ): ?>						
 					<h1 class="hide-for-small-only"><?php the_title(); ?></h1>
-				<?php endif; ?>
-				<?php  if is_archive() ): ?>						
+				<?php endif; ?>	
+
+				<?php  if ( is_archive() ): ?>						
 					<h1 class="hide-for-small-only">Archive</h1>
-				<?php endif; ?>	    	
+				<?php endif; ?>    	
 				
 				<?php woocommerce_content(); ?>							
 			    					
