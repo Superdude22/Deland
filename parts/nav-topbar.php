@@ -1,7 +1,7 @@
 <div id="thingy">
 	<div class="logo-bar" id="logo-bar">
 
-			<?php if ( is_woocommerce() || is_cart() ) { ?>
+			<?php if ( is_woocommerce() || is_cart() || is_account_page() ) { ?>
 				<div class="row logo align-bottom expanded">
 				<?php if( is_woocommerce() ) { ?>
 
