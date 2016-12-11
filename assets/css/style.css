@@ -5313,31 +5313,31 @@ Product STYLES
 /*********************
 Cart & Checkout STYLES
 *********************/
-.woocommerce-cart h1.page-title, .woocommerce-checkout h1.page-title {
+.woocommerce-cart h1.page-title, .woocommerce-checkout h1.page-title, .woocommerce-account h1.page-title {
   display: none; }
 
-.woocommerce-cart .intro-small, .woocommerce-checkout .intro-small {
+.woocommerce-cart .intro-small, .woocommerce-checkout .intro-small, .woocommerce-account .intro-small {
   position: relative;
   top: -5rem;
   overflow: hidden;
   width: 100%; }
-  .woocommerce-cart .intro-small img, .woocommerce-checkout .intro-small img {
+  .woocommerce-cart .intro-small img, .woocommerce-checkout .intro-small img, .woocommerce-account .intro-small img {
     position: relative;
     top: 5rem;
     width: 100%; }
-  .woocommerce-cart .intro-small h1, .woocommerce-cart .intro-small hr, .woocommerce-cart .intro-small p, .woocommerce-checkout .intro-small h1, .woocommerce-checkout .intro-small hr, .woocommerce-checkout .intro-small p {
+  .woocommerce-cart .intro-small h1, .woocommerce-cart .intro-small hr, .woocommerce-cart .intro-small p, .woocommerce-checkout .intro-small h1, .woocommerce-checkout .intro-small hr, .woocommerce-checkout .intro-small p, .woocommerce-account .intro-small h1, .woocommerce-account .intro-small hr, .woocommerce-account .intro-small p {
     width: 100%;
     position: relative;
     z-index: 2; }
 
-.woocommerce-cart #thingy, .woocommerce-checkout #thingy {
+.woocommerce-cart #thingy, .woocommerce-checkout #thingy, .woocommerce-account #thingy {
   position: fixed; }
 
 @media screen and (min-width: 40em) {
-  .woocommerce-cart .woocommerce, .woocommerce-checkout .woocommerce {
+  .woocommerce-cart .woocommerce, .woocommerce-checkout .woocommerce, .woocommerce-account .woocommerce {
     padding-top: 1rem; } }
 
-.woocommerce-cart p.phone, .woocommerce-checkout p.phone {
+.woocommerce-cart p.phone, .woocommerce-checkout p.phone, .woocommerce-account p.phone {
   color: #8a8a8a; }
 
 .woocommerce #thingy {
