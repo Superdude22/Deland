@@ -371,6 +371,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "woocommerce.php",
+			"settings":
+			{
+				"buffer_size": 477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 15278,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -419,7 +437,6 @@
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/parts",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events"
 	],
 	"file_history":
@@ -570,6 +587,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"shop",
 			"is_page",
 			"class=\"hide-for-small-only\"",
 			"url",
@@ -696,8 +714,7 @@
 			" slab",
 			" <",
 			"bg-test",
-			"cover",
-			"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>"
+			"cover"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -718,8 +735,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "woocommerce.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6157,
+								6157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
