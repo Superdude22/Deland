@@ -1255,7 +1255,7 @@ Section STYLES
 	   max-width: inherit !important;
 	}
 
-.events-list, .faq-list{
+.faq-list{
 		ul,li {
 		  padding: 0;
 		  margin: 0;
@@ -1270,7 +1270,7 @@ Section STYLES
 		  margin: 1em;
 		  margin-left: 2em;
 		}
-	.event, .question{
+	.question{
 		h1{
 			font-size: 1.2rem;
 			@include breakpoint(large up){
@@ -1291,14 +1291,7 @@ Section STYLES
 			}
 		}
 	}
-	.event{
-		h1{
-			&:before {
-				content: 'B:';
-				//font-family: 'FontAwesome';
-			}
-		}
-	}
+	
 
 }
 
