@@ -165,11 +165,11 @@
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
+										<a href="/"><tr>
 											<td>Ground School & Level 1</td>
 											
 											<td>$361.00</td>
-										</tr>
+										</tr></a>
 										<tr>
 											<td>Levels 2 & 3</td>
 										
