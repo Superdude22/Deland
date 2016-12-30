@@ -138,7 +138,7 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>7 Jump Special</td>
+											<td><a href="/product/7-jump-aff-package/">7 Jump Special</a></td>
 											
 											<td>$1299.00</td>
 										</tr>
@@ -166,7 +166,7 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td><a href="/">Ground School & Level 1</a></td>
+											<td><a href="/product/first-jump-course/">Ground School & Level 1</a></td>
 											
 											<td>$361.00</td>
 										</tr>
