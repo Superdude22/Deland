@@ -376,22 +376,29 @@
 	"buffers":
 	[
 		{
-			"file": "woocommerce.php",
+			"file": "assets/scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 495,
+				"buffer_size": 26846,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.2 Release Notes\n  \n  This version of Package Control focuses on bug-fixes, with notable changes\n  including:\n  \n   - OS X TLS trust roots are exported using APIs to prevent the error message\n     displayed to some El Capitan users\n  \n   - Theme, syntax and color scheme upgrades have been improved and should result\n     in fewer popup messages when filenames change\n  \n   - Various bugs related to installing dependencies have been resolved\n  \n   - Windows and OS X trust roots are exported in a way that valid/invalid purpose\n     information is now communicated to the OpenSSL-based Python ssl module\n  \n   - Further improvements have been made to handling of git/hg package upgrades\n  \n   - The Windows WinINet downloader has improved compatibility with Windows 10\n  \n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 4146,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"scratch": true
+				"buffer_size": 15326,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 11469,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -442,14 +449,11 @@
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/images",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/tribe-events"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
@@ -463,7 +467,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/archive.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/loop-archive.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/woocommerce-pdf-product-vouchers.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/global.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/all.js",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/footer 2.php",
@@ -581,7 +584,7 @@
 	],
 	"find":
 	{
-		"height": 58.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -596,6 +599,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"events",
 			">\n",
 			".extra",
 			"go",
@@ -722,8 +726,7 @@
 			"<br class=show-for-small-only>&nbsp;Facebook",
 			".cover",
 			"background-pos",
-			"bg-test",
-			"disc"
+			"bg-test"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -749,19 +752,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "woocommerce.php",
+					"file": "assets/scss/_main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 495,
+						"buffer_size": 26846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								163,
-								163
+								19302,
+								19302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 25120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2777,
+								2777
 							]
 						],
 						"settings":
@@ -770,38 +802,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 735.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "front-page.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4146,
+						"buffer_size": 11469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4146,
-								4146
+								1816,
+								1816
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 861.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

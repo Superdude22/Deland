@@ -115,7 +115,7 @@
 										</tr>
 										<tr>
 											<td>
-												Steston, ERAU, FCU, and UCF students call for student discount price: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a>
+												ERAU, UF, UCF and Stetson students call for student discount price: <a href="<?php the_field('phone_link', site_data()); ?>"><i class="fa fa-phone fa-fw"></i>&nbsp; <?php the_field('phone_num', site_data()); ?></a>
 											</td>
 											<td></td>
 										</tr>
