@@ -37,7 +37,7 @@
 									<tbody>
 										<tr>
 											<td>5,000 ft. / 1500 m </td>
-											<td>$18</td>
+											<td>$19</td>
 										</tr>
 										<tr>
 											<td>13,500 ft. / 4100 m</td>
