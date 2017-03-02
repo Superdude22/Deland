@@ -701,6 +701,17 @@ Product STYLES
 		}
 }
 
+/*********************
+Cart & Checkout STYLES
+*********************/
+.woocommerce{
+	.store{
+		.content{
+			border-top: 3px grey;
+			padding-top: 1rem;
+		}
+	}
+}
 
 
 /*********************
@@ -1646,6 +1657,13 @@ SIDEBARS & ASIDES
 			ul {}
 
 		}
+	}
+}
+
+.storemenu-sm{
+	background-color: green;
+	.widgettitle{
+		color: white;
 	}
 }
 /*********************

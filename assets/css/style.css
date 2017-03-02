@@ -5313,6 +5313,13 @@ Product STYLES
 /*********************
 Cart & Checkout STYLES
 *********************/
+.woocommerce .store .content {
+  border-top: 3px grey;
+  padding-top: 1rem; }
+
+/*********************
+Cart & Checkout STYLES
+*********************/
 .woocommerce-cart h1.page-title, .woocommerce-checkout h1.page-title, .woocommerce-account h1.page-title {
   display: none; }
 
@@ -5855,6 +5862,11 @@ SIDEBARS & ASIDES
   margin: 0; }
   .widget ul li {
     list-style: none; }
+
+.storemenu-sm {
+  background-color: green; }
+  .storemenu-sm .widgettitle {
+    color: white; }
 
 /*********************
 FOOTER STYLES
