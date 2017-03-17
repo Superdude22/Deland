@@ -17,7 +17,12 @@
 			    					<?php the_content(); ?>
 			    
 			    				<?php endwhile; endif; wp_reset_postdata(); ?>
-			    				<?php $query = new WP_Query( 'post_type=status' ); ?>
+			    				<?php 
+			    				$rgs = array(
+			    					'post_type'   => 'status',
+			    					'posts_per_page'   => 1
+			    					);
+			    				$query = new WP_Query( $rgs ); ?>
  									<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 										<?php the_content(); ?>
  								<?php endwhile; endif; wp_reset_postdata(); ?>
