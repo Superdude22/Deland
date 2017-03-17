@@ -1,4 +1,9 @@
 <?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 // Theme support options
 require_once(get_template_directory().'/assets/functions/theme-support.php'); 
 
@@ -40,6 +45,9 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
+
+// Adds widget
+//require_once(get_template_directory().'/assets/functions/class-wc-widget-product-brand.php'); 
 
 //Post Thumbnails
 add_theme_support( 'post-thumbnails' ); 
@@ -124,6 +132,9 @@ function remove_cssjs_ver( $src ) {
 }
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
+
+
+
 
 
 

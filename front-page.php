@@ -17,6 +17,11 @@
 			    					<?php the_content(); ?>
 			    
 			    				<?php endwhile; endif; wp_reset_postdata(); ?>
+			    				<?php $query = new WP_Query( 'post_type=status' ); ?>
+ 									<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+										<?php the_content(); ?>
+ 								<?php endwhile; endif; wp_reset_postdata(); ?>
+
 						</div>
 						<div class="columns small-12 medium-4 bg-test">
 								<a href="<?php 	the_field('promo_link'); ?>">

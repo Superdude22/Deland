@@ -704,15 +704,79 @@ Product STYLES
 /*********************
 Cart & Checkout STYLES
 *********************/
-.woocommerce{
-	.store{
-		.content{
-			border-top: 3px grey;
-			padding-top: 1rem;
+.store, .prices{
+	.bg-test{
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		height: 10rem;
+		width:100%;
+
+		.inner{
+			position: absolute;
+			bottom:0;
+			width: 80%;
+			background-color: rgba(186, 151, 15, 0.5);
+			padding-left:1em;
 		}
+		h2{
+			position: relative;
+			z-index: 2;
+			color:$white;
+		}	
+		img{
+			display: block;
+			width: 100% !important;
+			height: auto !important;
+			position: absolute;
+			left: 0;
+			top: -30%;
+			@include breakpoint(medium){
+			top: 0;
+			}
+			opacity: 0.8;
+			object-fit:cover;
+		}
+
+		@include breakpoint(medium){
+			height: 20rem;
+		}
+		@include breakpoint(medium only){
+			background-position: right bottom;
+		}
+
+		@include breakpoint(large){
+			height: 30rem;
+		}
+
+
+	}
+
+}
+
+.store{
+	background-image: url(../images/logo-circle-op.png);
+			background-repeat: no-repeat;
+			background-position: 50% 0;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+
+	.promo{
+		padding-left: 2rem;
+		background: $cloud-color;
+		h2{
+			color: $dark-gray;
+		}
+	}
+	.page-description{
+		display: none;
 	}
 }
 
+	
 
 /*********************
 Cart & Checkout STYLES
@@ -1030,52 +1094,7 @@ Section STYLES
 	table{
 		padding-left: 3rem;
 	}
-	.bg-test{
-		position: relative;
-		overflow: hidden;
-		padding: 0 !important;
-		height: 10rem;
-		width:100%;
-
-		.inner{
-			position: absolute;
-			bottom:0;
-			width: 80%;
-			background-color: rgba(186, 151, 15, 0.5);
-			padding-left:1em;
-		}
-		h2{
-			position: relative;
-			z-index: 2;
-			color:$white;
-		}	
-		img{
-			display: block;
-			width: 100% !important;
-			height: auto !important;
-			position: absolute;
-			left: 0;
-			top: -30%;
-			@include breakpoint(medium){
-			top: 0;
-			}
-			opacity: 0.8;
-			object-fit:cover;
-		}
-
-		@include breakpoint(medium){
-			height: 20rem;
-		}
-		@include breakpoint(medium only){
-			background-position: right bottom;
-		}
-
-		@include breakpoint(large){
-			height: 30rem;
-		}
-
-
-	}
+	
 	.no-pic{
 		height:5rem;
 		margin-bottom:1rem;
@@ -1101,7 +1120,7 @@ Section STYLES
 				height: auto !important;
 				opacity: 0.9;
 				object-fit: cover;
-				background-color:green;
+				//background-color:green;
 			}
 		}
 	}  

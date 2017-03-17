@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"clou",
+				"cloud-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
 				"padding",
 				"padding-top"
 			],
@@ -92,10 +108,6 @@
 				"page-title"
 			],
 			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"pro",
 				"product_name"
 			],
@@ -174,10 +186,6 @@
 			[
 				"background",
 				"background-image"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"bl",
@@ -391,7 +399,7 @@
 			"file": "assets/scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 27084,
+				"buffer_size": 27438,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -400,53 +408,43 @@
 			"file": "woocommerce.php",
 			"settings":
 			{
-				"buffer_size": 1029,
+				"buffer_size": 2369,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "woocommerce/content-single-product.php",
+			"file": "/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-categories.php",
 			"settings":
 			{
-				"buffer_size": 2444,
-				"line_ending": "Windows"
+				"buffer_size": 7379,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sidebar.php",
+			"file": "functions.php",
 			"settings":
 			{
-				"buffer_size": 412,
+				"buffer_size": 4545,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/functions/sidebar.php",
+			"file": "assets/functions/class-wc-widget-product-brand.php",
 			"settings":
 			{
-				"buffer_size": 2164,
+				"buffer_size": 8198,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "page-tandems.php",
+			"file": "/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/walkers/class-product-cat-dropdown-walker.php",
 			"settings":
 			{
-				"buffer_size": 7703,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page-fun-jumper.php",
-			"settings":
-			{
-				"buffer_size": 5614,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 2911,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -498,23 +496,28 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/walkers/class-product-cat-list-walker.php",
+		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/walkers/class-product-cat-dropdown-walker.php",
+		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/wc-widget-functions.php",
+		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/woocommerce.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/class-wc-widget-product-brand.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/sidebar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions/sidebar.php",
+		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-aff.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-shop.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions/sidebar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-experienced.php",
 		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/templates/archive-product.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/Users/Mike/Desktop/Rock Gym v2.0/site/fonts/font.css",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/page-tandems.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions/enqueue-scripts.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/.htaccess",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/.htaccess 2",
@@ -585,7 +588,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/js/scripts/map.js",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_slab.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/single-product/title.php",
-		"/C/wamp/www/test.com/wp-content/plugins/woocommerce/woocommerce.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/cart/cart.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/page-cart.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/woocommerce/templates/single-product/title.php",
@@ -625,12 +627,7 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland1/parts/nav-offcanvas-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_settings.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/js/scripts.js",
-		"/C/Users/Mike/AppData/Local/Temp/Temp1_parallax-scroll-effect-1302.zip/parallax/js/main.js",
-		"/C/Users/Mike/AppData/Local/Temp/Temp1_parallax-scroll-effect-1302.zip/parallax/js/_main.js",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/parts/content-frontpage.php",
-		"/C/wamp/www/test.com/parallax/css/main.css",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_mixins.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/functions/enqueue-scripts.php"
+		"/C/Users/Mike/AppData/Local/Temp/Temp1_parallax-scroll-effect-1302.zip/parallax/js/main.js"
 	],
 	"find":
 	{
@@ -649,6 +646,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"widgettitle",
+			"widget",
+			"<select",
+			"select",
+			"Select",
+			"drop",
+			"walker",
+			"down-wal",
+			"Select A",
+			"Select",
+			"product_cat",
+			"product_cat\t",
+			"woocommerce_product_categories_widget_args",
+			"<ul",
+			"widget",
+			"store",
+			"black",
+			".promo",
+			"-gray",
+			"h2",
+			"store",
+			"gray",
+			"grey",
+			"ID",
+			"store",
+			"words",
+			"fun",
+			".fun",
+			".store",
+			"prices",
+			"store",
+			"prices",
+			"check",
+			"cart",
+			".check",
+			".store",
+			".prices",
+			".bg-test",
 			"woocommerce",
 			"store",
 			"shop",
@@ -738,45 +773,7 @@
 			"woo",
 			"woocommerce",
 			"thingy",
-			"small",
-			".cart",
-			"#thingy",
-			".thingy",
-			".top-bar",
-			".intro",
-			"contact",
-			" contact",
-			"footer",
-			"#629BE0",
-			"#43adff",
-			"jquery",
-			"what-",
-			"foundation-sites",
-			"awe_de",
-			"#E05465",
-			"weather",
-			"prices",
-			"10",
-			"></",
-			">\t",
-			"$site_data_post",
-			"$site_data",
-			"31",
-			"bg-test",
-			"$site_data_post",
-			"site_data_post",
-			"bg-test",
-			"footer",
-			"column-c",
-			"footer",
-			"contact",
-			"hr{",
-			"<hr>",
-			"hr",
-			"$site_data_post",
-			"footer",
-			"&nbsp;",
-			"<br class=show-for-small-only>"
+			"small"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -797,7 +794,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -806,15 +803,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27084,
+						"buffer_size": 27438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9978,
-								9978
+								11078,
+								11078
 							]
 						],
 						"settings":
@@ -823,10 +820,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13635.0,
+						"translation.y": 14920.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -835,15 +832,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1029,
+						"buffer_size": 2369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
+								1158,
+								1202
 							]
 						],
 						"settings":
@@ -852,19 +849,105 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "woocommerce/content-single-product.php",
-					"semi_transient": true,
+					"file": "/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-categories.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2444,
+						"buffer_size": 7379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								7379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4302,
+								4308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2721.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/functions/class-wc-widget-product-brand.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1956,
+								1962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp/www/test.com/wp-content/plugins/woocommerce/includes/walkers/class-product-cat-dropdown-walker.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2911,
 						"regions":
 						{
 						},
@@ -881,125 +964,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sidebar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								194,
-								194
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/functions/sidebar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2164,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1269,
-								1269
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "page-tandems.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4246,
-								4246
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "page-fun-jumper.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1023,
-								1023
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

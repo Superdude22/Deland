@@ -5313,9 +5313,57 @@ Product STYLES
 /*********************
 Cart & Checkout STYLES
 *********************/
-.woocommerce .store .content {
-  border-top: 3px grey;
-  padding-top: 1rem; }
+.store .bg-test, .prices .bg-test {
+  position: relative;
+  overflow: hidden;
+  padding: 0 !important;
+  height: 10rem;
+  width: 100%; }
+  .store .bg-test .inner, .prices .bg-test .inner {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    background-color: rgba(186, 151, 15, 0.5);
+    padding-left: 1em; }
+  .store .bg-test h2, .prices .bg-test h2 {
+    position: relative;
+    z-index: 2;
+    color: #fefefe; }
+  .store .bg-test img, .prices .bg-test img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    position: absolute;
+    left: 0;
+    top: -30%;
+    opacity: 0.8;
+    object-fit: cover; }
+    @media screen and (min-width: 40em) {
+      .store .bg-test img, .prices .bg-test img {
+        top: 0; } }
+  @media screen and (min-width: 40em) {
+    .store .bg-test, .prices .bg-test {
+      height: 20rem; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .store .bg-test, .prices .bg-test {
+      background-position: right bottom; } }
+  @media screen and (min-width: 64em) {
+    .store .bg-test, .prices .bg-test {
+      height: 30rem; } }
+
+.store {
+  background-image: url(../images/logo-circle-op.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  background-size: cover; }
+  .store .promo {
+    padding-left: 2rem;
+    background: #f2f2f2; }
+    .store .promo h2 {
+      color: #8a8a8a; }
+  .store .page-description {
+    display: none; }
 
 /*********************
 Cart & Checkout STYLES
@@ -5518,44 +5566,6 @@ html.no-objectfit .tandems .about .bg-test img {
 .prices table {
   padding-left: 3rem; }
 
-.prices .bg-test {
-  position: relative;
-  overflow: hidden;
-  padding: 0 !important;
-  height: 10rem;
-  width: 100%; }
-  .prices .bg-test .inner {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
-    background-color: rgba(186, 151, 15, 0.5);
-    padding-left: 1em; }
-  .prices .bg-test h2 {
-    position: relative;
-    z-index: 2;
-    color: #fefefe; }
-  .prices .bg-test img {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
-    position: absolute;
-    left: 0;
-    top: -30%;
-    opacity: 0.8;
-    object-fit: cover; }
-    @media screen and (min-width: 40em) {
-      .prices .bg-test img {
-        top: 0; } }
-  @media screen and (min-width: 40em) {
-    .prices .bg-test {
-      height: 20rem; } }
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    .prices .bg-test {
-      background-position: right bottom; } }
-  @media screen and (min-width: 64em) {
-    .prices .bg-test {
-      height: 30rem; } }
-
 .prices .no-pic {
   height: 5rem;
   margin-bottom: 1rem; }
@@ -5573,8 +5583,7 @@ html.no-objectfit .tandems .about .bg-test img {
   width: 100% !important;
   height: auto !important;
   opacity: 0.9;
-  object-fit: cover;
-  background-color: green; }
+  object-fit: cover; }
 
 .fun-jumper .image_2 {
   height: 10rem;
