@@ -77,6 +77,11 @@ function woocommerce_support() {
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 
+//remove sort thingy
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+//remove results count
+//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
+
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 
 function woo_remove_product_tabs( $tabs ) {
@@ -87,6 +92,12 @@ function woo_remove_product_tabs( $tabs ) {
 
     return $tabs;
 
+}
+
+function get_the_brand(){
+	global $post;
+	$term_list = wp_get_post_terms($post->ID, 'product_brand', array("fields" => "all"));
+	return $term_list[0]->name; 
 }
 
 

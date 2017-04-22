@@ -5303,12 +5303,12 @@ Product STYLES
   .product .images img {
     display: none; } }
 
-.voucher-fields label {
-  font-size: 1.2rem;
-  padding-left: 0.5rem; }
-
 .voucher-fields td {
   display: block; }
+
+.variations .label {
+  font-size: 1.2rem;
+  padding-left: 0.5rem; }
 
 /*********************
 Cart & Checkout STYLES

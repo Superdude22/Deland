@@ -5,7 +5,8 @@
 		<div id="inner-content" class="row expanded">
 	
 		    <main id="main" class="small-12 columns" role="main">
-
+				
+				<?php if(is_shop()): ?>
 				<section class="contact row expanded">
 					<div class="medium-1 column show-for-medium">
 						</div>
@@ -24,7 +25,6 @@
 								<img class="" src="<?php the_field('promo_image', $page->ID); ?>" alt="">
 								<div class="inner">
 									<h2><?php if (get_field('promo_lang', $page->ID)): ?>
-Some Words
 								<?php  endif;  ?>&nbsp;<i class="fa fa-plane fa-fw"></i></h2>
 								</div>
 								</a>
@@ -32,7 +32,6 @@ Some Words
 								<div class="promo">
 									<?php
 										echo apply_filters('the_content', get_post_field('post_content', $page->ID));
-										echo get_post_field('post_content', '1808'); 
 									?>
 								</div>								
 							</div>
@@ -40,6 +39,7 @@ Some Words
 						<?php  endif;  ?>
 					</div>
 				</section>
+				<?php endif; ?>
 				<section class="row expanded">
 			    	<?php if ( is_active_sidebar( 'storemenu-sm' ) ) : ?>
 			    	<div class="hide-for-medium storemenu-sm row small-12 columns align-center">
@@ -53,11 +53,23 @@ Some Words
 
 					<div class="medium-1 column show-for-medium">
 						</div>
-						<div class="columns small-10 medium-6 large-7">
+					<div class="columns small-10 medium-6 large-7">
+						<?php if(is_tax('product_brand')): ?>
+							<h2 class="hide-for-small-only">Brand:</h2>
+							
+						<?php endif; ?>
 						<?php if ( is_product_category() ) : ?>
-							<p>Showing Products:</p>
+							<h2 class="hide-for-small-only">Category:</h2>
 							<?php endif; ?>
+						<?php if (is_product()):?>
+							<h1 class="hide-for-small-only"><?php the_title(); ?></h1>
+						<?php endif; ?>	
+						<?php if (! is_user_logged_in() ) : ?>
+							<h1 class="page-title">Merchandise</h1>
+							<?php echo do_shortcode('[product_category category="shirts"]' ); ?>
+						<?php else: ?>
 						<?php woocommerce_content(); ?>
+						<?php endif; ?>
 					</div>
 
 					<?php if ( is_active_sidebar( 'storemenu' ) ) : ?>
