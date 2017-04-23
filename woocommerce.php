@@ -71,7 +71,7 @@
 							<?php if ( is_user_logged_in() ) : ?>							
 								<?php woocommerce_content(); ?>
 							<?php else: ?>
-								<h1 class="hide-for-small-only"><?php the_title(); ?></h1>							
+								<h1 class="hide-for-small-only">Vouchers</h1>							
 								<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
 							<?php endif; ?>
 						<?php endif; ?>	

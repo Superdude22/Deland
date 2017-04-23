@@ -5303,6 +5303,10 @@ Product STYLES
   .product .images img {
     display: none; } }
 
+.voucher-fields label {
+  font-size: 1.2rem;
+  padding-left: 0.5rem; }
+
 .voucher-fields td {
   display: block; }
 
@@ -5364,6 +5368,8 @@ Cart & Checkout STYLES
       color: #8a8a8a; }
   .store .page-description {
     display: none; }
+  .store .relate.products {
+    float: right; }
 
 /*********************
 Cart & Checkout STYLES
