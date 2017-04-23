@@ -5356,7 +5356,6 @@ Cart & Checkout STYLES
       height: 30rem; } }
 
 .store {
-  background-image: url(../images/logo-circle-op.png);
   background-repeat: no-repeat;
   background-position: 50% 0;
   -ms-background-size: cover;
@@ -5368,7 +5367,7 @@ Cart & Checkout STYLES
       color: #8a8a8a; }
   .store .page-description {
     display: none; }
-  .store .relate.products {
+  .store .related.products {
     float: right; }
 
 /*********************
