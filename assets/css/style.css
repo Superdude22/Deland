@@ -5401,8 +5401,11 @@ Cart & Checkout STYLES
   color: #8a8a8a; }
 
 .woocommerce-cart .cartSlide .intro-large p.phone a, .woocommerce-checkout .cartSlide .intro-large p.phone a, .woocommerce-account .cartSlide .intro-large p.phone a {
-  color: #0807d8;
+  color: #2199e8;
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); }
+
+.woocommerce-cart .woocommerce-additional-fields, .woocommerce-checkout .woocommerce-additional-fields, .woocommerce-account .woocommerce-additional-fields {
+  display: none; }
 
 .woocommerce #thingy {
   position: fixed; }

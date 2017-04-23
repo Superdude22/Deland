@@ -832,9 +832,13 @@ Cart & Checkout STYLES
 	}
 
 	.cartSlide .intro-large p.phone a{
-				color: $blue;
+				color: $lt-blue;
 				@include text-shadow(0px, 0px, 0px, rgba(0,0,0,0.5));
 			}
+
+	.woocommerce-additional-fields{
+		display: none;
+	}
 
 
 }
