@@ -5400,6 +5400,10 @@ Cart & Checkout STYLES
 .woocommerce-cart p.phone, .woocommerce-checkout p.phone, .woocommerce-account p.phone {
   color: #8a8a8a; }
 
+.woocommerce-cart p.phone a, .woocommerce-checkout p.phone a, .woocommerce-account p.phone a {
+  color: #0807d8;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); }
+
 .woocommerce #thingy {
   position: fixed; }
 
