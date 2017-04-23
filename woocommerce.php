@@ -55,21 +55,30 @@
 						</div>
 					<div class="columns small-10 medium-6 large-7">
 						<?php if(is_tax('product_brand')): ?>
-							<h2 class="hide-for-small-only">Brand:</h2>
-							
-						<?php endif; ?>
+							<h2 class="hide-for-small-only">Brand:</h2>	
+							<?php woocommerce_content(); ?>						
+						<?php endif; ?>						
 						<?php if ( is_product_category() ) : ?>
 							<h2 class="hide-for-small-only">Category:</h2>
+							<?php woocommerce_content(); ?>
 							<?php endif; ?>
 						<?php if (is_product()):?>
 							<h1 class="hide-for-small-only"><?php the_title(); ?></h1>
+							<?php woocommerce_content(); ?>
 						<?php endif; ?>	
-						<?php if (! is_user_logged_in() ) : ?>
-							<h1 class="page-title">Merchandise</h1>
-							<?php echo do_shortcode('[product_category category="shirts"]' ); ?>
-						<?php else: ?>
-						<?php woocommerce_content(); ?>
-						<?php endif; ?>
+
+						<?php if (is_shop()):?>
+							<?php if ( is_user_logged_in() ) : ?>							
+								<?php woocommerce_content(); ?>
+							<?php else: ?>
+								<h1 class="hide-for-small-only"><?php the_title(); ?></h1>							
+								<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
+							<?php endif; ?>
+						<?php endif; ?>	
+
+						
+
+
 					</div>
 
 					<?php if ( is_active_sidebar( 'storemenu' ) ) : ?>
