@@ -12,8 +12,8 @@
 						</div>
 					<div class="row expanded small-11 columns prices">
 						<?php 
-								$page = get_page_by_path( 'shop' );
-								//echo $page->ID;
+								$page = get_page_by_path( 'store' );
+								echo $page->ID;
 								if (get_field('promo_image', $page->ID)):
 							?>
 						<h1>Current Promotion:</h1>
