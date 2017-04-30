@@ -145,9 +145,9 @@ add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
 
-add_filter( 'woocommerce_product_single_add_to_cart_text', 'vouch_atc_button' );
-apply_filters( 'woocommerce_add_to_cart_redirect',  'vouch_atc_link' ); 
-
+//add_filter( 'woocommerce_product_single_add_to_cart_text', 'vouch_atc_button' );
+add_filter( 'woocommerce_add_to_cart_url',  'vouch_atc_link' ); 
+add_filter( 'woocommerce_product_add_to_cart_text', 'vouch_atc_button' );
 function vouch_atc_button( $text ) {
      global $post;
 
@@ -159,7 +159,7 @@ function vouch_atc_button( $text ) {
 
 function vouch_atc_link( $text ) {
      global $post;
-       $text =  'http://google.com';
+       $text = __( 'http://google.com', 'woocommerce' );
      return $text;
 }
 
