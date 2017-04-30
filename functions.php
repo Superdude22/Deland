@@ -151,9 +151,9 @@ apply_filters( 'woocommerce_add_to_cart_redirect',  'vouch_atc_link' );
 function vouch_atc_button( $text ) {
      global $post;
 
-     if ( has_term( 'vouchers', 'product_cat', $post ) ) {
+     
           $text = __( 'My Button Text', 'woocommerce' );
-     }
+
      return $text;
 }
 
