@@ -145,23 +145,22 @@ add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
 
-/** changing button for vouchers **/
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'vouch_atc_button' );
+apply_filters( 'woocommerce_add_to_cart_redirect',  '$wc_get_cart_url' ); 
 
-add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 );
+function vouch_atc_button( $text ) {
+     global $post;
 
- function remove_add_to_cart_buttons() {
-      if( is_product_category() || is_shop()) { 
-      	global $product;
+     if ( has_term( 'voucher', 'product_cat', $post ) ) {
+          $text = __( 'My Button Text', 'woocommerce' );
+     }
+     return $text;
+}
 
-      	$cat = $product->get_category_ids();
-      	echo $cat[0];
-
-      	if($cat[0] = '6'){
-      		remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );	
-      	}
-        
-      }
- }
-
+function vouch_atc_link( $text ) {
+     global $post;
+       $text = __( 'http://google.com', 'woocommerce' );
+     return $text;
+}
 
 
