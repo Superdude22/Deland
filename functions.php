@@ -164,7 +164,7 @@ function vouch_atc_link( $text ) {
      	$url = get_permalink( $product->get_id());
      	echo $product->get_id();
      	$search = $product->get_category_ids();
-     	$thishere = array_search( 6 , $search)
+     	$thishere = array_search( 6 , $search);
      	echo $thishere;
        $text = __( $url , 'woocommerce' );
      return $text;
