@@ -68,7 +68,7 @@
 						<?php endif; ?>	
 
 						<?php if (is_shop()):?>
-							<?php if ( current_user_can('edit_others_pages' ) ) : ?>							
+							<?php if ( ! current_user_can('edit_others_pages' ) ) : ?>							
 								<?php woocommerce_content(); ?>
 							<?php else: ?>
 								<h1 class="hide-for-small-only">Vouchers</h1>							
