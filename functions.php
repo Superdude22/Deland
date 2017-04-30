@@ -161,8 +161,8 @@ function vouch_atc_link( $text ) {
      global $post, $product;
 
      	//$here = $product->get_name();
-     	$url = get_permalink( $product);
-     	echo $product;
+     	$url = get_permalink( $product->id);
+     	echo $product->id;
        $text = __( $url , 'woocommerce' );
      return $text;
 }
