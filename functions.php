@@ -160,8 +160,9 @@ function vouch_atc_button( $text ) {
 function vouch_atc_link( $text ) {
      global $post, $product;
 
-     	$here = $product->get_name();
-       $text = __( '$here', 'woocommerce' );
+     	//$here = $product->get_name();
+     	$url = get_permalink( $product);
+       $text = __( $url , 'woocommerce' );
      return $text;
 }
 
