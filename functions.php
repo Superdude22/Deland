@@ -154,7 +154,7 @@ add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 
       	global $product;
 
       	$cat = $product->get_category_ids();
-      	print_r($cat);
+      	echo $cat[0];
 
       	if($cat[0] = '6'){
       		remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );	
