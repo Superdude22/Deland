@@ -56,11 +56,21 @@
 					<div class="columns small-10 medium-6 large-7">
 						<?php if(is_tax('product_brand')): ?>
 							<h2 class="hide-for-small-only">Brand:</h2>	
-							<?php woocommerce_content(); ?>						
+							<?php if ( ! current_user_can('edit_others_pages' ) ) : ?>							
+									<?php woocommerce_content(); ?>
+								<?php else: ?>
+									<h1 class="hide-for-small-only">Vouchers</h1>							
+									<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
+								<?php endif; ?>						
 						<?php endif; ?>						
 						<?php if ( is_product_category() ) : ?>
 							<h2 class="hide-for-small-only">Category:</h2>
-							<?php woocommerce_content(); ?>
+								<?php if ( ! current_user_can('edit_others_pages' ) ) : ?>							
+									<?php woocommerce_content(); ?>
+								<?php else: ?>
+									<h1 class="hide-for-small-only">Vouchers</h1>							
+									<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
+								<?php endif; ?>
 							<?php endif; ?>
 						<?php if (is_product()):?>
 							<h1 class="hide-for-small-only"><?php the_title(); ?></h1>

@@ -145,7 +145,19 @@ add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
 
+/** changing button for vouchers **/
 
+add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 );
+
+ function remove_add_to_cart_buttons() {
+      if( is_product_category() || is_shop()) { 
+      	global $product;
+
+      	$cat = $product->get_category_ids();
+      	echo $cat;
+        remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
+      }
+ }
 
 
 
