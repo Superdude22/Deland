@@ -13,7 +13,7 @@
 					<div class="row expanded small-11 columns prices">
 						<?php 
 								$page = get_page_by_path( 'store' );
-								echo $page->ID;
+								//echo $page->ID;
 								if (get_field('promo_image', $page->ID)):
 							?>
 						<h1>Current Promotion:</h1>
@@ -68,7 +68,7 @@
 						<?php endif; ?>	
 
 						<?php if (is_shop()):?>
-							<?php if ( is_user_logged_in() ) : ?>							
+							<?php if ( current_user_can('edit_others_pages' ); ) : ?>							
 								<?php woocommerce_content(); ?>
 							<?php else: ?>
 								<h1 class="hide-for-small-only">Vouchers</h1>							
