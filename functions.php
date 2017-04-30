@@ -158,8 +158,10 @@ function vouch_atc_button( $text ) {
 }
 
 function vouch_atc_link( $text ) {
-     global $post;
-       $text = __( 'http://google.com', 'woocommerce' );
+     global $post, $product;
+
+     	$here = $product->get_name();
+       $text = __( '$here', 'woocommerce' );
      return $text;
 }
 
