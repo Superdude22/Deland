@@ -153,7 +153,7 @@ add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 
       if( is_product_category() || is_shop()) { 
       	global $product;
 
-      	$cat = $product->get_category_ids();
+      	$cat = $product->get_name();
       	echo $cat;
         remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
       }
