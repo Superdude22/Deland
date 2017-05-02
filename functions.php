@@ -144,30 +144,25 @@ function remove_cssjs_ver( $src ) {
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
-
-//add_filter( 'woocommerce_product_single_add_to_cart_text', 'vouch_atc_button' );
 add_filter( 'woocommerce_product_add_to_cart_url',  'vouch_atc_link' ); 
-add_filter( 'woocommerce_product_add_to_cart_text', 'vouch_atc_button' );
-function vouch_atc_button( $text ) {
-     global $post;
-
-     
-          $text = __( 'My Button Text', 'woocommerce' );
-
-     return $text;
-}
 
 function vouch_atc_link( $text ) {
      global $post, $product;
 
      	//$here = $product->get_name();
      	$url = get_permalink( $product->get_id());
-     	echo $product->get_id();
+     	//echo $url;
+     	$product_id = $product->get_id();
+      $search = '';
      	$search = $product->get_category_ids();
-     	$thishere = array_search( 6 , $search);
-     	echo $thishere;
-       $text = __( $url , 'woocommerce' );
-     return $text;
+
+     	if($search[0] == '6' ){
+     		echo '<a href="'.  $url.'" class="button">Customize</a> ';
+
+        return;
+     	}else{
+       
+        return;
+      }      
+     
 }
-
-
