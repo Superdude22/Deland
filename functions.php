@@ -155,7 +155,7 @@ function vouch_atc_link( $text ) {
      	$product_id = $product->get_id();
       $search = '';
      	$search = $product->get_category_ids();
-
+     	
      	if($search[1] == '19' ){
      		echo '<a href="'.  $url.'" class="button">Customize</a> ';
 
