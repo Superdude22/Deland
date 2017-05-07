@@ -144,7 +144,7 @@ function remove_cssjs_ver( $src ) {
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
-//add_filter( 'woocommerce_product_add_to_cart_url',  'vouch_atc_link' ); 
+add_filter( 'woocommerce_product_add_to_cart_url',  'vouch_atc_link' ); 
 
 function vouch_atc_link( $text ) {
      global $post, $product;
@@ -157,8 +157,8 @@ function vouch_atc_link( $text ) {
      	$search = $product->get_category_ids();
      	
       //print_r($search);
-      $key = array_search('19', $search);
-      echo $key;
+      $v_cat = array_search('19', $search);
+      echo $v_cat;
      	if($search[1] == '19' ){
      		echo '<a href="'.  $url.'" class="button">Customize</a> ';
 
