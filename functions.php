@@ -176,5 +176,5 @@ add_filter('widget_title', 'do_shortcode');
 add_shortcode('fa-cart', 'shortcode_facart');
 
 function shortcode_facart( $attr ){
-  return '<i class="fa fa-cart"></i>';
+  return '<i class="fa fa-plane"></i>';
 }
