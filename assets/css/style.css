@@ -5303,6 +5303,9 @@ Product STYLES
   .product .images img {
     display: none; } }
 
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  background: green; }
+
 .voucher-fields label {
   font-size: 1.2rem;
   padding-left: 0.5rem; }
@@ -5885,6 +5888,7 @@ SIDEBARS & ASIDES
     list-style: none; }
 
 .widget_shopping_cart h4.widgettitle {
+  padding-top: 1rem;
   font-size: 2rem;
   border-bottom: 3px double #ebe9eb; }
 
