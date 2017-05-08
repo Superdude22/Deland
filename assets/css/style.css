@@ -5303,8 +5303,9 @@ Product STYLES
   .product .images img {
     display: none; } }
 
-.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
-  background: green; }
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    background: green; } }
 
 .voucher-fields label {
   font-size: 1.2rem;
