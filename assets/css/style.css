@@ -5884,11 +5884,9 @@ SIDEBARS & ASIDES
   .widget ul li {
     list-style: none; }
 
-.widget_shopping_cart {
-  background: green; }
-  .widget_shopping_cart h4.widgettitle {
-    font-size: 3rem;
-    border-bottom: 3px double #ebe9eb; }
+.widget_shopping_cart h4.widgettitle {
+  font-size: 2rem;
+  border-bottom: 3px double #ebe9eb; }
 
 .storemenu-sm {
   background-color: green; }
