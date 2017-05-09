@@ -693,7 +693,7 @@ Product STYLES
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
 	@include breakpoint(medium only){
-		background:green;
+		min-width: 46%;
 	}
 	
 }
