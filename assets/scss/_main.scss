@@ -713,7 +713,11 @@ Product STYLES
 .variations{
 	.label{
 		font-size: 1.2rem;
-		padding-left: 0.5rem;
+		padding-left: 0.5rem !important;
+		padding-top: 50% !important;
+		label{
+			font-size: 1.2rem !important;
+		}
 	}
 }
 
