@@ -411,7 +411,7 @@
 			"file": "assets/scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 27992,
+				"buffer_size": 28080,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -420,16 +420,8 @@
 			"file": "functions.php",
 			"settings":
 			{
-				"buffer_size": 5237,
+				"buffer_size": 5461,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/functions/enqueue-scripts.php",
-			"settings":
-			{
-				"buffer_size": 1657,
 				"line_ending": "Windows"
 			}
 		},
@@ -439,6 +431,14 @@
 			{
 				"buffer_size": 3592,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/functions/login.php",
+			"settings":
+			{
+				"buffer_size": 635,
 				"line_ending": "Windows"
 			}
 		}
@@ -490,17 +490,22 @@
 	[
 		"/C/wamp/www/test.com/wp-content/themes/Deland",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions",
-		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss"
+		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/.htaccess",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/wp-config.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/.htaccess 3",
+		"/C/Users/Mike/Downloads/diceware.wordlist.asc",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_mixins.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/front-page.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/header.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/functions.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/functions.php",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wp-config.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/error_log",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/single-custom_type.php",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/content-single-product.php",
@@ -525,7 +530,6 @@
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_main.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/scss/_settings.scss",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/assets/functions/enqueue-scripts.php",
-		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/.htaccess",
 		"/C/Users/Mike/AppData/Local/Temp/fz3temp-3/.htaccess 2",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/parts/nav-topbar.php",
 		"/C/wamp/www/test.com/wp-content/themes/Deland/archive.php",
@@ -617,12 +621,7 @@
 		"/C/Users/Mike/AppData/Local/Temp/Temp1_foundation.calendar.1.0.0.zip/css/foundation.calendar.css",
 		"/C/wamp/www/test.com/wp-content/themes/Deland1/style.css",
 		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/js/scripts/main.js",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_main.scss",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/front-page.php",
-		"/C/Users/Mike/Downloads/JointsWP-master/JointsWP-master/style.css",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/scraps.php",
-		"/C/Users/Mike/AppData/Local/Temp/Temp1_JointsWP-master.zip/JointsWP-master/template-full-width.php",
-		"/C/wamp/www/test.com/wp-content/themes/Deland1/footer.php"
+		"/C/wamp/www/test.com/wp-content/themes/Deland1/assets/scss/_main.scss"
 	],
 	"find":
 	{
@@ -641,6 +640,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"opacity",
+			"label",
 			"cart",
 			"h4.widgettitle",
 			"fa-plane",
@@ -766,9 +767,7 @@
 			"tandems",
 			"coach",
 			"column",
-			"columns",
-			"words",
-			"font-test"
+			"columns"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -798,15 +797,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27992,
+						"buffer_size": 28080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9884,
-								9884
+								16139,
+								16139
 							]
 						],
 						"settings":
@@ -815,7 +814,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14799.0,
+						"translation.y": 22671.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -827,15 +826,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5237,
+						"buffer_size": 5461,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5227,
-								5227
+								5442,
+								5442
 							]
 						],
 						"settings":
@@ -845,7 +844,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3630.0,
+						"translation.y": 3661.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -853,36 +852,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/functions/enqueue-scripts.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1602,
-								1602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "woocommerce.php",
 					"semi_transient": false,
 					"settings":
@@ -904,7 +873,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1192.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/functions/login.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

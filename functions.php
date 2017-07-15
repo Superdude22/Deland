@@ -46,9 +46,6 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
 
-// Adds widget
-//require_once(get_template_directory().'/assets/functions/class-wc-widget-product-brand.php'); 
-
 //Post Thumbnails
 add_theme_support( 'post-thumbnails' ); 
 
@@ -177,4 +174,14 @@ add_shortcode('fa-cart', 'shortcode_facart');
 
 function shortcode_facart( $attr ){
   return '<i class="fa fa-shopping-cart fa-fw"></i>';
+}
+
+//woo commerce pagination
+add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
+
+function new_loop_shop_per_page( $cols ) {
+  // $cols contains the current number of products per page based on the value stored on Options -> Reading
+  // Return the number of products you wanna show per page.
+  $cols = 15;
+  return $cols;
 }
