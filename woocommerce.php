@@ -114,6 +114,9 @@ if ( $count > 0 ){
         echo "<ul>";
         while ( $products->have_posts() ) {
             $products->the_post();
+            
+            wc_get_template_part( 'content', 'product' );
+
             ?>
                 <li>
                     <a href="<?php the_permalink(); ?>">
