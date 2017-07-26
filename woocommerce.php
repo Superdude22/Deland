@@ -78,15 +78,14 @@
 						<?php endif; ?>	
 
 						<?php if (is_shop()):?>
-							<?php if ( current_user_can('edit_others_pages' ) ) : ?>							
-								<?php woocommerce_content(); ?>
-							<?php else: ?>
+							
+
 								<h1 class="hide-for-small-only">Vouchers</h1>							
 								<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
 
 								<h1 class="hide-for-small-only">Merchandise</h1>							
 								<?php echo do_shortcode('[product_category category="merchandise"]' ); ?>
-							<?php endif; ?>
+
 <?
 							$args = array(
     'orderby'    => 'title',
