@@ -157,7 +157,7 @@ function vouch_atc_link( $text ) {
       $v_cat = array_search('19', $search);
       //echo $v_cat;
      	if($v_cat){
-     		echo '<a href="'.  $url.'" class="button">Customize</a> ';
+     		echo '<a href="'.  $url.'" class="button">Personalize</a> ';
 
         return;
      	}else{
