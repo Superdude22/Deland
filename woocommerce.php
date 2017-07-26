@@ -85,6 +85,7 @@
 
 								<h1 class="hide-for-small-only">Merchandise</h1>							
 								<?php echo do_shortcode('[product_category category="merchandise"]' ); ?>
+								<?php echo do_shortcode('[product_category category="canopies"]' ); ?>
 
 <?
 							$args = array(
