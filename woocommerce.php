@@ -80,12 +80,12 @@
 						<?php if (is_shop()):?>
 							
 
-								<h1 class="hide-for-small-only">Vouchers</h1>							
+								<h1 class="hide-for-small-only">Vouchers</h1>						
 								<?php echo do_shortcode('[product_category category="vouchers"]' ); ?>
 
 								<h1 class="hide-for-small-only">Merchandise</h1>					
 								<?php echo do_shortcode('[product_category category="merch"]' ); ?>
-								
+
 								<h1 class="hide-for-small-only">Canopies</h1>
 								<?php echo do_shortcode('[product_category category="canopies"]' ); ?>
 
