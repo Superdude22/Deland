@@ -89,7 +89,6 @@
 							<?php endif; ?>
 <?
 							$args = array(
-    'number'     => $number,
     'orderby'    => 'title',
     'order'      => 'ASC',
     'hide_empty' => $hide_empty,
