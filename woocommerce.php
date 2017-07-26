@@ -90,9 +90,7 @@
 <?
 							$args = array(
     'orderby'    => 'title',
-    'order'      => 'ASC',
-    'hide_empty' => $hide_empty,
-    'include'    => $ids
+    'order'      => 'ASC'
 );
 $product_categories = get_terms( 'product_cat', $args );
 $count = count($product_categories);
